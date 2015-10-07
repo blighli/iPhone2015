@@ -10,6 +10,9 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *messageLabel;
+- (IBAction)showAppleButton:(UIButton *)sender;
+
 @end
 
 @implementation ViewController
@@ -24,4 +27,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)showAppleButton:(UIButton *)sender {
+    switch([sender tag]){
+        case 0:
+            _messageLabel.text = @"Apple";
+            break;
+        case 1:
+            _messageLabel.text = @"Google";
+
+            break;
+    }
+//    _messageLabel.text = sender.titleLabel.text;
+}
 @end
