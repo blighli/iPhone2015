@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="显示文字" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kbh-9i-qNm">
+                                <rect key="frame" x="100" y="80" width="400" height="40"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.77678848570000003" green="1" blue="0.56488569799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="8G5-3g-nL9"/>
+                                    <constraint firstAttribute="height" constant="40" id="Bkw-gm-rbZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="raw-Qg-ph8">
+                                <rect key="frame" x="200" y="570" width="200" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="UKM-tZ-VH1"/>
+                                    <constraint firstAttribute="width" constant="200" id="nfV-Nf-yJ4"/>
+                                </constraints>
+                                <state key="normal" title="点击改变本按钮的显示文字">
+                                    <color key="titleColor" red="1" green="0.63520281349999996" blue="0.52254681650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Btn2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RIi-Nx-SeJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vaM-Lw-C9l">
+                                <rect key="frame" x="200" y="344" width="200" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="4Wj-LP-xvn"/>
+                                </constraints>
+                                <state key="normal" title="点击改变Label的显示文字">
+                                    <color key="titleColor" red="0.4244259071" green="0.87572995580000002" blue="0.61010384380000005" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Btn1" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tai-aa-wiH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Kbh-9i-qNm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="80" id="2eU-QT-TXd"/>
+                            <constraint firstItem="raw-Qg-ph8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ERj-I2-KQa"/>
+                            <constraint firstItem="vaM-Lw-C9l" firstAttribute="top" secondItem="Kbh-9i-qNm" secondAttribute="bottom" constant="224" id="Hbv-Da-XlU"/>
+                            <constraint firstItem="raw-Qg-ph8" firstAttribute="top" secondItem="vaM-Lw-C9l" secondAttribute="bottom" constant="200" id="Hth-4R-Itp"/>
+                            <constraint firstItem="Kbh-9i-qNm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NSw-g0-XIq"/>
+                            <constraint firstItem="vaM-Lw-C9l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XU3-B5-WAg"/>
+                            <constraint firstItem="Kbh-9i-qNm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="80" id="iiQ-Ql-Qc9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="TitleLabel" destination="Kbh-9i-qNm" id="Z51-ZO-eC2"/>
+                        <outlet property="button1" destination="vaM-Lw-C9l" id="xph-Fl-daI"/>
+                        <outlet property="button2" destination="raw-Qg-ph8" id="Pg3-ch-cXj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
