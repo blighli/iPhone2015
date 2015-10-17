@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这是一个Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jKL-yA-P14">
+                                <rect key="frame" x="50" y="30" width="500" height="170"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W0I-p9-iRT">
+                                <rect key="frame" x="50" y="210" width="120" height="45"/>
+                                <animations/>
+                                <state key="normal" title="点我改变文字内容"/>
+                                <connections>
+                                    <action selector="textBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lz3-sd-zAX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sqc-7f-k7y">
+                                <rect key="frame" x="430" y="210" width="120" height="45"/>
+                                <animations/>
+                                <state key="normal" title="点我改变字体颜色"/>
+                                <connections>
+                                    <action selector="colorBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SF3-P1-ar4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWF-Lo-Ytb" userLabel="点我改变Label背景颜色">
+                                <rect key="frame" x="50" y="250" width="500" height="41"/>
+                                <animations/>
+                                <state key="normal" title="点我改变Label背景颜色"/>
+                                <connections>
+                                    <action selector="backgroundBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kJC-xh-BdM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zWF-Lo-Ytb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="2Ub-9d-ADe"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Sqc-7f-k7y" secondAttribute="bottom" constant="345" id="60F-d1-O5K"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jKL-yA-P14" secondAttribute="bottom" constant="400" id="8xq-6l-ezE"/>
+                            <constraint firstItem="W0I-p9-iRT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="CSY-QP-TW3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jKL-yA-P14" secondAttribute="trailing" constant="30" id="FBO-d6-VIP"/>
+                            <constraint firstItem="W0I-p9-iRT" firstAttribute="top" secondItem="jKL-yA-P14" secondAttribute="bottom" constant="10" id="L4S-ob-OX6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="W0I-p9-iRT" secondAttribute="bottom" constant="345" id="PSQ-O8-07O"/>
+                            <constraint firstItem="zWF-Lo-Ytb" firstAttribute="top" secondItem="jKL-yA-P14" secondAttribute="bottom" constant="50" id="UEW-kQ-rvU"/>
+                            <constraint firstItem="jKL-yA-P14" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="Vq7-Uj-X1L"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zWF-Lo-Ytb" secondAttribute="trailing" constant="30" id="aBz-YQ-34h"/>
+                            <constraint firstItem="jKL-yA-P14" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="dW2-q8-4wr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zWF-Lo-Ytb" secondAttribute="bottom" constant="309" id="q3X-nZ-nAT"/>
+                            <constraint firstItem="Sqc-7f-k7y" firstAttribute="top" secondItem="jKL-yA-P14" secondAttribute="bottom" constant="10" id="q9n-ZA-mIf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Sqc-7f-k7y" secondAttribute="trailing" constant="30" id="qt4-D0-CwU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="labelText" destination="jKL-yA-P14" id="8rk-kX-Gng"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
