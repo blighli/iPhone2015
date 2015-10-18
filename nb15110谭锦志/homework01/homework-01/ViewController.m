@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *textShow;
 
 @end
 
@@ -25,6 +26,7 @@
 }
 - (IBAction)testBtn:(id)sender {
     NSLog(@"btn click!");
+    [_textShow setText:@"show test after click"];
 }
 
 @end
