@@ -9,10 +9,11 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (strong, nonatomic) IBOutlet UIView *view1;
 
-@property (strong, nonatomic) IBOutlet UILabel *blueLab;
-@property (strong, nonatomic) IBOutlet UILabel *greenLab;
+@property (weak, nonatomic) IBOutlet UIView *view1;
+
+@property (weak, nonatomic) IBOutlet UILabel *blueLab;
+@property (weak, nonatomic) IBOutlet UILabel *greenLab;
 
 @end
 
@@ -26,6 +27,7 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
 }
 - (IBAction)changeBlueLab:(UIButton *)sender {
     [self.blueLab setText:@"更改lab"];
