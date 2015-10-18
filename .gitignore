@@ -1,5 +1,4 @@
-# Xcode
-#
+.DS_Store
 build/
 *.pbxuser
 !default.pbxuser
@@ -16,6 +15,7 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
+<<<<<<< HEAD
 
 # CocoaPods
 #
@@ -26,3 +26,5 @@ DerivedData
 #Pods/
 
 .DS_Store
+=======
+>>>>>>> blighli/master
