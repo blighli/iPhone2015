@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4A8292F1BBD1C3D00295C6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A8292E1BBD1C3D00295C6C /* main.m */; };
+		D4A829321BBD1C3D00295C6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A829311BBD1C3D00295C6C /* AppDelegate.m */; };
+		D4A829351BBD1C3D00295C6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A829341BBD1C3D00295C6C /* ViewController.m */; };
+		D4A829381BBD1C3D00295C6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A829361BBD1C3D00295C6C /* Main.storyboard */; };
+		D4A8293A1BBD1C3D00295C6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4A829391BBD1C3D00295C6C /* Assets.xcassets */; };
+		D4A8293D1BBD1C3D00295C6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A8293B1BBD1C3D00295C6C /* LaunchScreen.storyboard */; };
+		D4A829481BBD1C3D00295C6C /* MachismoBetaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A829471BBD1C3D00295C6C /* MachismoBetaTests.m */; };
+		D4A829531BBD1C3D00295C6C /* MachismoBetaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A829521BBD1C3D00295C6C /* MachismoBetaUITests.m */; };
+		D4A829631BBD1C7F00295C6C /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A829621BBD1C7F00295C6C /* Card.m */; settings = {ASSET_TAGS = (); }; };
+		D4A829661BBD261300295C6C /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A829651BBD261300295C6C /* Deck.m */; settings = {ASSET_TAGS = (); }; };
+		D4A829691BBD2AF200295C6C /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A829681BBD2AF200295C6C /* PlayingCard.m */; settings = {ASSET_TAGS = (); }; };
+		D4A8296C1BBD32F700295C6C /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A8296B1BBD32F700295C6C /* PlayingCardDeck.m */; settings = {ASSET_TAGS = (); }; };
+		D4A8296F1BBD6B3800295C6C /* cardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A8296E1BBD6B3800295C6C /* cardMatchingGame.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4A829441BBD1C3D00295C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4A829221BBD1C3D00295C6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4A829291BBD1C3D00295C6C;
+			remoteInfo = MachismoBeta;
+		};
+		D4A8294F1BBD1C3D00295C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4A829221BBD1C3D00295C6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4A829291BBD1C3D00295C6C;
+			remoteInfo = MachismoBeta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4A8292A1BBD1C3D00295C6C /* MachismoBeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MachismoBeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A8292E1BBD1C3D00295C6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4A829301BBD1C3D00295C6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4A829311BBD1C3D00295C6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4A829331BBD1C3D00295C6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4A829341BBD1C3D00295C6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4A829371BBD1C3D00295C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4A829391BBD1C3D00295C6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4A8293C1BBD1C3D00295C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4A8293E1BBD1C3D00295C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4A829431BBD1C3D00295C6C /* MachismoBetaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MachismoBetaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A829471BBD1C3D00295C6C /* MachismoBetaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MachismoBetaTests.m; sourceTree = "<group>"; };
+		D4A829491BBD1C3D00295C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4A8294E1BBD1C3D00295C6C /* MachismoBetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MachismoBetaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A829521BBD1C3D00295C6C /* MachismoBetaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MachismoBetaUITests.m; sourceTree = "<group>"; };
+		D4A829541BBD1C3D00295C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4A829611BBD1C7F00295C6C /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
+		D4A829621BBD1C7F00295C6C /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		D4A829641BBD261300295C6C /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
+		D4A829651BBD261300295C6C /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
+		D4A829671BBD2AF200295C6C /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = Model/PlayingCard.h; sourceTree = "<group>"; };
+		D4A829681BBD2AF200295C6C /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Model/PlayingCard.m; sourceTree = "<group>"; };
+		D4A8296A1BBD32F700295C6C /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Model/PlayingCardDeck.h; sourceTree = "<group>"; };
+		D4A8296B1BBD32F700295C6C /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
+		D4A8296D1BBD6B3800295C6C /* cardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cardMatchingGame.h; path = Model/cardMatchingGame.h; sourceTree = "<group>"; };
+		D4A8296E1BBD6B3800295C6C /* cardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = cardMatchingGame.m; path = Model/cardMatchingGame.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4A829271BBD1C3D00295C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A829401BBD1C3D00295C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A8294B1BBD1C3D00295C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4A829211BBD1C3D00295C6C = {
+			isa = PBXGroup;
+			children = (
+				D4A8292C1BBD1C3D00295C6C /* MachismoBeta */,
+				D4A829461BBD1C3D00295C6C /* MachismoBetaTests */,
+				D4A829511BBD1C3D00295C6C /* MachismoBetaUITests */,
+				D4A8292B1BBD1C3D00295C6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4A8292B1BBD1C3D00295C6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4A8292A1BBD1C3D00295C6C /* MachismoBeta.app */,
+				D4A829431BBD1C3D00295C6C /* MachismoBetaTests.xctest */,
+				D4A8294E1BBD1C3D00295C6C /* MachismoBetaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4A8292C1BBD1C3D00295C6C /* MachismoBeta */ = {
+			isa = PBXGroup;
+			children = (
+				D4A829601BBD1C6200295C6C /* Model */,
+				D4A829331BBD1C3D00295C6C /* ViewController.h */,
+				D4A829341BBD1C3D00295C6C /* ViewController.m */,
+				D4A829361BBD1C3D00295C6C /* Main.storyboard */,
+				D4A829391BBD1C3D00295C6C /* Assets.xcassets */,
+				D4A8292D1BBD1C3D00295C6C /* Supporting Files */,
+			);
+			path = MachismoBeta;
+			sourceTree = "<group>";
+		};
+		D4A8292D1BBD1C3D00295C6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4A8293E1BBD1C3D00295C6C /* Info.plist */,
+				D4A8293B1BBD1C3D00295C6C /* LaunchScreen.storyboard */,
+				D4A829311BBD1C3D00295C6C /* AppDelegate.m */,
+				D4A829301BBD1C3D00295C6C /* AppDelegate.h */,
+				D4A8292E1BBD1C3D00295C6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4A829461BBD1C3D00295C6C /* MachismoBetaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4A829471BBD1C3D00295C6C /* MachismoBetaTests.m */,
+				D4A829491BBD1C3D00295C6C /* Info.plist */,
+			);
+			path = MachismoBetaTests;
+			sourceTree = "<group>";
+		};
+		D4A829511BBD1C3D00295C6C /* MachismoBetaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4A829521BBD1C3D00295C6C /* MachismoBetaUITests.m */,
+				D4A829541BBD1C3D00295C6C /* Info.plist */,
+			);
+			path = MachismoBetaUITests;
+			sourceTree = "<group>";
+		};
+		D4A829601BBD1C6200295C6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4A829611BBD1C7F00295C6C /* Card.h */,
+				D4A829621BBD1C7F00295C6C /* Card.m */,
+				D4A829641BBD261300295C6C /* Deck.h */,
+				D4A829651BBD261300295C6C /* Deck.m */,
+				D4A829671BBD2AF200295C6C /* PlayingCard.h */,
+				D4A829681BBD2AF200295C6C /* PlayingCard.m */,
+				D4A8296A1BBD32F700295C6C /* PlayingCardDeck.h */,
+				D4A8296B1BBD32F700295C6C /* PlayingCardDeck.m */,
+				D4A8296D1BBD6B3800295C6C /* cardMatchingGame.h */,
+				D4A8296E1BBD6B3800295C6C /* cardMatchingGame.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4A829291BBD1C3D00295C6C /* MachismoBeta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A829571BBD1C3D00295C6C /* Build configuration list for PBXNativeTarget "MachismoBeta" */;
+			buildPhases = (
+				D4A829261BBD1C3D00295C6C /* Sources */,
+				D4A829271BBD1C3D00295C6C /* Frameworks */,
+				D4A829281BBD1C3D00295C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MachismoBeta;
+			productName = MachismoBeta;
+			productReference = D4A8292A1BBD1C3D00295C6C /* MachismoBeta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4A829421BBD1C3D00295C6C /* MachismoBetaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A8295A1BBD1C3D00295C6C /* Build configuration list for PBXNativeTarget "MachismoBetaTests" */;
+			buildPhases = (
+				D4A8293F1BBD1C3D00295C6C /* Sources */,
+				D4A829401BBD1C3D00295C6C /* Frameworks */,
+				D4A829411BBD1C3D00295C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4A829451BBD1C3D00295C6C /* PBXTargetDependency */,
+			);
+			name = MachismoBetaTests;
+			productName = MachismoBetaTests;
+			productReference = D4A829431BBD1C3D00295C6C /* MachismoBetaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4A8294D1BBD1C3D00295C6C /* MachismoBetaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A8295D1BBD1C3D00295C6C /* Build configuration list for PBXNativeTarget "MachismoBetaUITests" */;
+			buildPhases = (
+				D4A8294A1BBD1C3D00295C6C /* Sources */,
+				D4A8294B1BBD1C3D00295C6C /* Frameworks */,
+				D4A8294C1BBD1C3D00295C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4A829501BBD1C3D00295C6C /* PBXTargetDependency */,
+			);
+			name = MachismoBetaUITests;
+			productName = MachismoBetaUITests;
+			productReference = D4A8294E1BBD1C3D00295C6C /* MachismoBetaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4A829221BBD1C3D00295C6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = wanghaobo;
+				TargetAttributes = {
+					D4A829291BBD1C3D00295C6C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D4A829421BBD1C3D00295C6C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D4A829291BBD1C3D00295C6C;
+					};
+					D4A8294D1BBD1C3D00295C6C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D4A829291BBD1C3D00295C6C;
+					};
+				};
+			};
+			buildConfigurationList = D4A829251BBD1C3D00295C6C /* Build configuration list for PBXProject "MachismoBeta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4A829211BBD1C3D00295C6C;
+			productRefGroup = D4A8292B1BBD1C3D00295C6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4A829291BBD1C3D00295C6C /* MachismoBeta */,
+				D4A829421BBD1C3D00295C6C /* MachismoBetaTests */,
+				D4A8294D1BBD1C3D00295C6C /* MachismoBetaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4A829281BBD1C3D00295C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A8293D1BBD1C3D00295C6C /* LaunchScreen.storyboard in Resources */,
+				D4A8293A1BBD1C3D00295C6C /* Assets.xcassets in Resources */,
+				D4A829381BBD1C3D00295C6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A829411BBD1C3D00295C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A8294C1BBD1C3D00295C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4A829261BBD1C3D00295C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A829691BBD2AF200295C6C /* PlayingCard.m in Sources */,
+				D4A829661BBD261300295C6C /* Deck.m in Sources */,
+				D4A829351BBD1C3D00295C6C /* ViewController.m in Sources */,
+				D4A829321BBD1C3D00295C6C /* AppDelegate.m in Sources */,
+				D4A8296F1BBD6B3800295C6C /* cardMatchingGame.m in Sources */,
+				D4A8296C1BBD32F700295C6C /* PlayingCardDeck.m in Sources */,
+				D4A8292F1BBD1C3D00295C6C /* main.m in Sources */,
+				D4A829631BBD1C7F00295C6C /* Card.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A8293F1BBD1C3D00295C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A829481BBD1C3D00295C6C /* MachismoBetaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A8294A1BBD1C3D00295C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A829531BBD1C3D00295C6C /* MachismoBetaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4A829451BBD1C3D00295C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4A829291BBD1C3D00295C6C /* MachismoBeta */;
+			targetProxy = D4A829441BBD1C3D00295C6C /* PBXContainerItemProxy */;
+		};
+		D4A829501BBD1C3D00295C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4A829291BBD1C3D00295C6C /* MachismoBeta */;
+			targetProxy = D4A8294F1BBD1C3D00295C6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4A829361BBD1C3D00295C6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4A829371BBD1C3D00295C6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4A8293B1BBD1C3D00295C6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4A8293C1BBD1C3D00295C6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4A829551BBD1C3D00295C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4A829561BBD1C3D00295C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4A829581BBD1C3D00295C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MachismoBeta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = monkeydbobo.MachismoBeta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4A829591BBD1C3D00295C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MachismoBeta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = monkeydbobo.MachismoBeta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D4A8295B1BBD1C3D00295C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MachismoBetaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = monkeydbobo.MachismoBetaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MachismoBeta.app/MachismoBeta";
+			};
+			name = Debug;
+		};
+		D4A8295C1BBD1C3D00295C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MachismoBetaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = monkeydbobo.MachismoBetaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MachismoBeta.app/MachismoBeta";
+			};
+			name = Release;
+		};
+		D4A8295E1BBD1C3D00295C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MachismoBetaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = monkeydbobo.MachismoBetaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MachismoBeta;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D4A8295F1BBD1C3D00295C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MachismoBetaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = monkeydbobo.MachismoBetaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MachismoBeta;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4A829251BBD1C3D00295C6C /* Build configuration list for PBXProject "MachismoBeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A829551BBD1C3D00295C6C /* Debug */,
+				D4A829561BBD1C3D00295C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A829571BBD1C3D00295C6C /* Build configuration list for PBXNativeTarget "MachismoBeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A829581BBD1C3D00295C6C /* Debug */,
+				D4A829591BBD1C3D00295C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4A8295A1BBD1C3D00295C6C /* Build configuration list for PBXNativeTarget "MachismoBetaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A8295B1BBD1C3D00295C6C /* Debug */,
+				D4A8295C1BBD1C3D00295C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4A8295D1BBD1C3D00295C6C /* Build configuration list for PBXNativeTarget "MachismoBetaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A8295E1BBD1C3D00295C6C /* Debug */,
+				D4A8295F1BBD1C3D00295C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4A829221BBD1C3D00295C6C /* Project object */;
+}
