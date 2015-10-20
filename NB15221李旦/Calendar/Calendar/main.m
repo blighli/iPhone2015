@@ -66,7 +66,7 @@ NSString* getResultMonth(NSUInteger weekday,NSUInteger monthLenth,NSString* mont
     }
     for (int i = 1; i<= monthLenth; i ++)
     {
-        str = [NSString stringWithFormat:@"%-3d",i];
+        str = [NSString stringWithFormat:@"%2d ",i];
         [result appendString:str];
         if ((weekday + i)%7 == 0)
         {
