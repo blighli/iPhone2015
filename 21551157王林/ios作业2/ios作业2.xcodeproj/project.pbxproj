@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C20FEC351BD660690057710B /* CheckInput.m in Sources */ = {isa = PBXBuildFile; fileRef = C20FEC341BD660690057710B /* CheckInput.m */; settings = {ASSET_TAGS = (); }; };
+		C212C9B91BD619A2006BCFC0 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = C212C9B81BD619A2006BCFC0 /* Makefile */; settings = {ASSET_TAGS = (); }; };
+		C212C9BC1BD62F83006BCFC0 /* MyCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = C212C9BB1BD62F83006BCFC0 /* MyCalendar.m */; settings = {ASSET_TAGS = (); }; };
+		C28EDF1E1BD5183000AF8D21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C28EDF1D1BD5183000AF8D21 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C28EDF181BD5183000AF8D21 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C20FEC331BD660690057710B /* CheckInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckInput.h; sourceTree = "<group>"; };
+		C20FEC341BD660690057710B /* CheckInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckInput.m; sourceTree = "<group>"; };
+		C212C9B81BD619A2006BCFC0 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		C212C9BA1BD62F83006BCFC0 /* MyCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCalendar.h; sourceTree = "<group>"; };
+		C212C9BB1BD62F83006BCFC0 /* MyCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCalendar.m; sourceTree = "<group>"; };
+		C28EDF1A1BD5183000AF8D21 /* ios作业2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ios作业2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28EDF1D1BD5183000AF8D21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C28EDF171BD5183000AF8D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C28EDF111BD5183000AF8D21 = {
+			isa = PBXGroup;
+			children = (
+				C28EDF1C1BD5183000AF8D21 /* ios作业2 */,
+				C28EDF1B1BD5183000AF8D21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C28EDF1B1BD5183000AF8D21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C28EDF1A1BD5183000AF8D21 /* ios作业2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C28EDF1C1BD5183000AF8D21 /* ios作业2 */ = {
+			isa = PBXGroup;
+			children = (
+				C212C9B81BD619A2006BCFC0 /* Makefile */,
+				C212C9BA1BD62F83006BCFC0 /* MyCalendar.h */,
+				C212C9BB1BD62F83006BCFC0 /* MyCalendar.m */,
+				C20FEC331BD660690057710B /* CheckInput.h */,
+				C20FEC341BD660690057710B /* CheckInput.m */,
+				C28EDF1D1BD5183000AF8D21 /* main.m */,
+			);
+			path = "ios作业2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C28EDF191BD5183000AF8D21 /* ios作业2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28EDF211BD5183000AF8D21 /* Build configuration list for PBXNativeTarget "ios作业2" */;
+			buildPhases = (
+				C28EDF161BD5183000AF8D21 /* Sources */,
+				C28EDF171BD5183000AF8D21 /* Frameworks */,
+				C28EDF181BD5183000AF8D21 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios作业2";
+			productName = "ios作业2";
+			productReference = C28EDF1A1BD5183000AF8D21 /* ios作业2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C28EDF121BD5183000AF8D21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = sjaiwl;
+				TargetAttributes = {
+					C28EDF191BD5183000AF8D21 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C28EDF151BD5183000AF8D21 /* Build configuration list for PBXProject "ios作业2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C28EDF111BD5183000AF8D21;
+			productRefGroup = C28EDF1B1BD5183000AF8D21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C28EDF191BD5183000AF8D21 /* ios作业2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C28EDF161BD5183000AF8D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C212C9B91BD619A2006BCFC0 /* Makefile in Sources */,
+				C20FEC351BD660690057710B /* CheckInput.m in Sources */,
+				C28EDF1E1BD5183000AF8D21 /* main.m in Sources */,
+				C212C9BC1BD62F83006BCFC0 /* MyCalendar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C28EDF1F1BD5183000AF8D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C28EDF201BD5183000AF8D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C28EDF221BD5183000AF8D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C28EDF231BD5183000AF8D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C28EDF151BD5183000AF8D21 /* Build configuration list for PBXProject "ios作业2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28EDF1F1BD5183000AF8D21 /* Debug */,
+				C28EDF201BD5183000AF8D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C28EDF211BD5183000AF8D21 /* Build configuration list for PBXNativeTarget "ios作业2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28EDF221BD5183000AF8D21 /* Debug */,
+				C28EDF231BD5183000AF8D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C28EDF121BD5183000AF8D21 /* Project object */;
+}
