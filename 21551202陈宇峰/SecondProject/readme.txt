@@ -1,0 +1,1 @@
+注意：本程序可以把目录下的“MyCalendarDemo 2”可执行文件拖入到终端Terminal中直接执行，或者在Xcode中Build之后把Products组下的“MyCalendarDemo”文件拖入到终端中执行。不建议直接在Xcode的控制台中运行程序，可能会造成格式不正确。谢谢！
