@@ -111,47 +111,92 @@ int main(int argc, const char * argv[]) {
         }
         else
         {
-            printBlank(20);
-            printf("%d\n\n", year);
+            printBlank(29);
+            printf("%4d\n\n", year);
             
             NSInteger yearNow = year;
-            
+            NSInteger monNow[3] = {1};
+            NSInteger week[3] = {1};
+            int currMonthDay[12] = {1,1,1,1,1,1,1,1,1,1,1,1};
             //获取当前月份的第一天是一周的第几天
-            for (int monNow=1; monNow<13; monNow++)
+            for (int j=0; j<4; j++)
             {
-                NSDateComponents *compRes2 = getFirstDayComponents(yearNow,monNow);
-                NSInteger week = [compRes2 weekday];
-            
-                //月份输出
-                if(monNow>10)
-                {
-                    printBlank(7);
-                } else {
-                    printBlank(8);
-                }
-                NSLog(@"%@", monthArray_n[monNow-1]);
-                printf("\n");
-                //输出星期数组
-                for(NSString* weekName in weekArray_n)
-                {
-                    NSLog(@"%@ ",weekName);
-                }
-                NSLog(@"\n");
+                NSDateComponents *compRes2_1 = getFirstDayComponents(yearNow,monNow[0]);
+                week[0] = [compRes2_1 weekday];
                 
-                //输出日历
-                BOOL leapYear = isLeapYear(year);
-                if (leapYear == YES && monNow == 2) {
-                    monthArray[1]++;
-                }
-                long blankCount = (week-1)*3;
-                printBlank(blankCount);
-                for(long i=1; i<monthArray[monNow-1]+1; i++){
-                    printf("%2ld ", i);
-                    blankCount+=3;
-                    if((blankCount/3)%7 == 0){
-                        printf("\n");
+                monNow[1] = monNow[0]+1;
+                NSDateComponents *compRes2_2 = getFirstDayComponents(yearNow,monNow[1]);
+                week[1] = [compRes2_2 weekday];
+
+                monNow[2] = monNow[1]+1;
+                NSDateComponents *compRes2_3 = getFirstDayComponents(yearNow,monNow[2]);
+                week[2] = [compRes2_3 weekday];
+                
+                for(int i=0; i<3; i++)
+                {
+                    if(monNow[i]>10)
+                    {
+                        printBlank(7);
+                    } else {
+                        printBlank(8);
+                    }
+                    NSLog(@"%@", monthArray_n[monNow[i]-1]);
+                    if(monNow[i]>10)
+                    {
+                        printBlank(7);
+                    } else {
+                        printBlank(8);
                     }
                 }
+                printf("\n");
+                for (int i = 0; i<2; i++)
+                {
+                    printf("日 一 二 三 四 五 六  ");
+                }
+                printf("日 一 二 三 四 五 六\n");
+                
+                BOOL leapYear = isLeapYear(year);
+                for(int i=0; i<3; i++)
+                {
+                    if (leapYear == YES && monNow[i] == 2) {
+                        monthArray[1]++;
+                    }
+                }
+
+                for(int row=0; row<6; row++)
+                {
+                    for(int i=0; i<3; i++)
+                    {
+                        //保存当前月份的天数
+                        int currMonthDays = monthArray[monNow[i]-1];
+                        if(row == 0)
+                        {
+                            long blankCount = (week[i]-1)*3;
+                            printBlank(blankCount);
+                        }
+                        
+                        for(int k=currMonthDay[j*3+i]; k<43; k++)
+                        {
+                            if (k < currMonthDays)
+                            {
+                                printf("%2d ",k);
+                            } else {
+                                printf("   ");
+                            }
+                            currMonthDay[j*3+i]++;
+                            
+                            if ((k+week[i]-1)%7 == 0)
+                            {
+                                printf(" ");
+                                break;
+                            }
+                            
+                        }
+                        
+                    }
+                    printf("\n");
+                }
+                monNow[0] = monNow[2]+1;
             }
         }
     }
