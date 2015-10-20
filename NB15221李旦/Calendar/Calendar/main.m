@@ -51,7 +51,7 @@ NSString* getResultMonth(NSUInteger weekday,NSUInteger monthLenth,NSString* mont
     NSArray *week = @[@"日",@"一",@"二",@"三",@"四",@"五",@"六"];
     NSArray *monthChs = @[@"一月",@"二月",@"三月",@"四月",@"五月",@"六月",@"七月",@"八月",@"九月",@"十月",@"十一月",@"十二月"];
     NSUInteger year = [Y intValue];
-    NSString *str = [NSString stringWithFormat:@"\n\t%@\t%ld\n",monthChs[[month intValue] - 1],year];
+    NSString *str = [NSString stringWithFormat:@"\n\t%@ %ld\n",monthChs[[month intValue] - 1],year];
     NSMutableString *result = [[NSMutableString alloc]init];
     [result appendString:str];
     for (NSString *day in week)
@@ -97,7 +97,7 @@ void input(char * cmd)
         
         NSUInteger weekday = firstWeekDayInThisMonth(date);
         NSInteger monthLenth =  totalDays(date);
-        getResultMonth(weekday,monthLenth,[NSString stringWithFormat:@"%ld",(long)[comps month]],[NSString stringWithFormat:@"%ld",[comps year]]);
+        NSLog(@"%@",getResultMonth(weekday,monthLenth,[NSString stringWithFormat:@"%ld",(long)[comps month]],[NSString stringWithFormat:@"%ld",[comps year]]));
     }
     else if (arr.count == 2)
     {
