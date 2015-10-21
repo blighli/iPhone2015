@@ -6,14 +6,14 @@
 //  Copyright © 2015年 wxh. All rights reserved.
 //
 
-#ifdef DEBUG
-#define NSLog(FORMAT, ...) fprintf(stderr,"%s",[[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
-#else
-#define NSLog(...)
-#endif
+//#ifdef DEBUG
+//#define NSLog(FORMAT, ...) fprintf(stderr,"%s",[[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+//#else
+//#define NSLog(...)
+//#endif
 
 #import <Foundation/Foundation.h>
-NSString *mon[12]={@"一 月",@"二 月",@"三 月",@"四 月",@"五 月",@"六 月",@"七 月",@"八 月",@"九 月",@"十 月",@"十一月",@"十二月"};
+ NSString *mon[12]={@"一 月",@"二 月",@"三 月",@"四 月",@"五 月",@"六 月",@"七 月",@"八 月",@"九 月",@"十 月",@"十一月",@"十二月"};
 
 
 int isRun(int year){
@@ -26,19 +26,19 @@ int isRun(int year){
 }
 
 void print(int weekday,int day,int remain){
-       NSLog(@"   日  一  二  三  四  五  六\n");
+       printf("日 一 二 三 四 五 六\n");
     int i;
     for(i=0;i<weekday-1;i++)
-        NSLog(@"    ");
+        printf("   ");
     for(i=0;i<day;i++){
         if(i+1<10)
-            NSLog(@" ");
-        NSLog(@"  %d",i+1);
+            printf(" ");
+        printf("%d ",i+1);
         if(i%7==remain)
-            NSLog(@"\n");
+            printf("\n");
     }
     
-    NSLog(@"\n");
+    printf("\n");
 
 }
 
@@ -50,102 +50,102 @@ void printSpec(NSDateComponents *new1,NSDateComponents *new2,
     int day2=a[isRun(new2.year)][new2.month-1];
     int day3=a[isRun(new3.year)][new3.month-1];
     i1=0;i2=0;i3=0;
-    NSLog(@"            %@                               %@                              %@     \n",mon[new1.month-1],mon[new2.month-1],mon[new3.month-1]);
-    NSLog(@"   日  一  二  三  四  五  六");
-    NSLog(@"         ");
-    NSLog(@"   日  一  二  三  四  五  六");
-    NSLog(@"         ");
-    NSLog(@"   日  一  二  三  四  五  六\n");
+    const char *s1 = [mon[new1.month-1] UTF8String];
+    const char *s2 = [mon[new2.month-1] UTF8String];
+    const char *s3 = [mon[new3.month-1] UTF8String];
+   // NSLog(@"%s",s);
+    printf("      %s                    %s                    %s     \n",s1,s2,s3);
+    printf("日 一 二 三 四 五 六");
+    printf("    ");
+    printf("日 一 二 三 四 五 六");
+    printf("    ");
+    printf("日 一 二 三 四 五 六\n");
     
     for(i1=0;i1<new1.weekday-1;i1++)
-        NSLog(@"    ");
+        printf("   ");
     i1=0;
     while(i1<7-new1.weekday+1){
        if(i1+1<10)
-         NSLog(@" ");
-       NSLog(@"  %d",i1+1);
+         printf(" ");
+      printf("%d ",i1+1);
         i1++;
     }
-     NSLog(@"       ");
+     printf("   ");
     
     for(i2=0;i2<new2.weekday-1;i2++)
-        NSLog(@"    ");
+        printf("   ");
     i2=0;
     while(i2<7-new2.weekday+1){
         if(i2+1<10)
-            NSLog(@" ");
-        NSLog(@"  %d",i2+1);
+            printf(" ");
+        printf("%d ",i2+1);
         i2++;
     }
-     NSLog(@"       ");
+     printf("   ");
     
     
     for(i3=0;i3<new3.weekday-1;i3++)
-        NSLog(@"    ");
+        printf("   ");
     i3=0;
     while(i3<7-new3.weekday+1){
         if(i3+1<10)
-            NSLog(@" ");
-        NSLog(@"  %d",i3+1);
+            printf(" ");
+        printf("%d ",i3+1);
         i3++;
     }
     
-      NSLog(@"\n");
+      printf("\n");
     for(i=0;i<5;i++){
        
             for(w=0;w<7;w++){
                if(i1<day1){
                  if(i1+1<10)
-                   NSLog(@" ");
-                 NSLog(@"  %d",i1+1);
+                   printf(" ");
+                 printf("%d ",i1+1);
                 i1++;
                }
                else
-                NSLog(@"    ");
+                printf("   ");
           
            }
-        NSLog(@"       ");
+        printf("   ");
        for(w=0;w<7;w++){
            if(i2<day2){
                 if(i2+1<10)
-                    NSLog(@" ");
-                NSLog(@"  %d",i2+1);
+                    printf(" ");
+                printf("%d ",i2+1);
                 i2++;
              }
            else
-               NSLog(@"    ");
+               printf("   ");
            
         }
-        NSLog(@"       ");
+        printf("   ");
        for(w=0;w<7;w++){
            if(i3<day3){
                 if(i3+1<10)
-                    NSLog(@" ");
-                NSLog(@"  %d",i3+1);
+                    printf(" ");
+                printf("%d ",i3+1);
                 i3++;
                
             }
            else
-               NSLog(@"    ");
+               printf("   ");
            
         }
-        NSLog(@"\n");
+        printf("\n");
     }
  
 }
-
-
-
-
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         int i,w;
         int a[2][12]={{31,28,31,30,31,30,31,31,30,31,30,31},{31,29,31,30,31,30,31,31,30,31,30,31}};
         
        
-        NSCalendar *calendar=[[NSCalendar alloc]initWithCalendarIdentifier:NSGregorianCalendar];
+        NSCalendar *calendar=[[NSCalendar alloc]initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
         
-        unsigned  unitFlags = NSYearCalendarUnit|NSMonthCalendarUnit|NSDayCalendarUnit|NSWeekdayCalendarUnit;//这句是说你要获取日期的元素有哪些。获取年就要写NSYearCalendarUnit，
+        unsigned  unitFlags = NSCalendarUnitYear|NSCalendarUnitMonth|NSCalendarUnitDay|NSCalendarUnitWeekday;//这句是说你要获取日期的元素有哪些。获取年就要写NSYearCalendarUnit，
         // insert code here...
         NSDate *dt=[NSDate date];
         NSDateComponents *comp=[calendar components:unitFlags fromDate:dt];
@@ -161,11 +161,12 @@ int main(int argc, const char * argv[]) {
                 NSDate *dat=[calendar dateFromComponents:compNew];
                 NSDateComponents *compNew2=[calendar components:unitFlags fromDate:dat];
                 int day=a[isRun(compNew2.year)][compNew2.month-1];
-                NSLog(@"           %@ %d\n",mon[compNew2.month-1],compNew2.year);
+                const char *s1 = [mon[compNew2.month-1] UTF8String];
+                 printf("     %s %d\n",s1,(int)compNew2.year);
                 print(compNew2.weekday,day,7-compNew2.weekday);
                 }
                 else
-                    NSLog(@"-bash: %s: command not found",argv[0]);
+                    printf("-bash: %s: command not found",argv[0]);
                 break;
             }
             case 2:{
@@ -186,7 +187,7 @@ int main(int argc, const char * argv[]) {
                 
                 compNew3.year=year;
                 compNew3.day=1;
-                NSLog(@"                                                %d\n\n",compNew1.year);
+                printf("                                   %d\n\n",(int)compNew1.year);
                 for(i=1;i<=12;){
                     compNew1.month=i;
                     compNew2.month=i+1;
@@ -205,7 +206,7 @@ int main(int argc, const char * argv[]) {
                 }
                 }
                 else
-                    NSLog(@"cal: year 0 not in range 1..9999\n");
+                    printf("cal: year 0 not in range 1..9999\n");
                 break;
             
             }
@@ -220,7 +221,7 @@ int main(int argc, const char * argv[]) {
                     int month;
                     sscanf(argv[2],"%d",&month);
                     if(month>12||month<1){
-                        NSLog(@"cal: %d is neither a month number (1..12) nor a name\n",month);
+                        printf("cal: %d is neither a month number (1..12) nor a name\n",month);
                         break;
                         
                     }
@@ -231,7 +232,8 @@ int main(int argc, const char * argv[]) {
                     NSDate *dat=[calendar dateFromComponents:compNew];
                     NSDateComponents *compNew2=[calendar components:unitFlags fromDate:dat];
                     int day=a[isRun(compNew2.year)][compNew2.month-1];
-                    NSLog(@"           %@ %d\n",mon[compNew2.month-1],compNew2.year);
+                    const char *s1 = [mon[compNew2.month-1] UTF8String];
+                    printf("     %s %d\n",s1,(int)compNew2.year);
                     print(compNew2.weekday,day,7-compNew2.weekday);
                     break;
                 }
@@ -241,11 +243,11 @@ int main(int argc, const char * argv[]) {
                 sscanf(argv[1], "%d",&month);
                 sscanf(argv[2], "%d",&year);
                     if(!(month<=12&&month>=1)){
-                        NSLog(@"cal: illegal option -%s\n",argv[1]);
-                        NSLog(@"usage: cal [-jy] [[month] year]\n");
-                        NSLog(@"       cal [-j] [-m month] [year]\n");
-                        NSLog(@"       ncal [-Jjpwy] [-s country_code] [[month] year]\n");
-                        NSLog(@"       ncal [-Jeo] [year]\n");
+                        printf("cal: illegal option -%s\n",argv[1]);
+                        printf("usage: cal [-jy] [[month] year]\n");
+                        printf("       cal [-j] [-m month] [year]\n");
+                        printf("       ncal [-Jjpwy] [-s country_code] [[month] year]\n");
+                        printf("       ncal [-Jeo] [year]\n");
                         break;
                     
                     }
@@ -256,7 +258,8 @@ int main(int argc, const char * argv[]) {
                 NSDateComponents *compNew2=[calendar components:unitFlags fromDate:dat];
                
                 int day=a[isRun(compNew2.year)][compNew2.month-1];
-                 NSLog(@"           %@ %d\n",mon[compNew2.month-1],compNew2.year);
+                  const char *s1 = [mon[compNew2.month-1] UTF8String];
+                 printf("     %s %d\n",s1,(int)compNew2.year);
                  print(compNew2.weekday,day,7-compNew2.weekday);
                 break;
                 }
