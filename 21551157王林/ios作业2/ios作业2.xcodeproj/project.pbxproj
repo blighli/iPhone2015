@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5EEE2AC41BD327A700CBE33A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEE2AC31BD327A700CBE33A /* main.m */; };
-		5EEE2ACD1BD3496100CBE33A /* Cal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEE2ACC1BD3496100CBE33A /* Cal.m */; settings = {ASSET_TAGS = (); }; };
+		C20FEC351BD660690057710B /* CheckInput.m in Sources */ = {isa = PBXBuildFile; fileRef = C20FEC341BD660690057710B /* CheckInput.m */; settings = {ASSET_TAGS = (); }; };
+		C212C9B91BD619A2006BCFC0 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = C212C9B81BD619A2006BCFC0 /* Makefile */; settings = {ASSET_TAGS = (); }; };
+		C212C9BC1BD62F83006BCFC0 /* MyCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = C212C9BB1BD62F83006BCFC0 /* MyCalendar.m */; settings = {ASSET_TAGS = (); }; };
+		C28EDF1E1BD5183000AF8D21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C28EDF1D1BD5183000AF8D21 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5EEE2ABE1BD327A700CBE33A /* CopyFiles */ = {
+		C28EDF181BD5183000AF8D21 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,15 +26,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5EEE2AC01BD327A700CBE33A /* HomeWork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HomeWork; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EEE2AC31BD327A700CBE33A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5EEE2ACA1BD327D700CBE33A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		5EEE2ACB1BD3496100CBE33A /* Cal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cal.h; sourceTree = "<group>"; };
-		5EEE2ACC1BD3496100CBE33A /* Cal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cal.m; sourceTree = "<group>"; };
+		C20FEC331BD660690057710B /* CheckInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckInput.h; sourceTree = "<group>"; };
+		C20FEC341BD660690057710B /* CheckInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckInput.m; sourceTree = "<group>"; };
+		C212C9B81BD619A2006BCFC0 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		C212C9BA1BD62F83006BCFC0 /* MyCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCalendar.h; sourceTree = "<group>"; };
+		C212C9BB1BD62F83006BCFC0 /* MyCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCalendar.m; sourceTree = "<group>"; };
+		C28EDF1A1BD5183000AF8D21 /* ios作业2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ios作业2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28EDF1D1BD5183000AF8D21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5EEE2ABD1BD327A700CBE33A /* Frameworks */ = {
+		C28EDF171BD5183000AF8D21 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,98 +46,102 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5EEE2AB71BD327A700CBE33A = {
+		C28EDF111BD5183000AF8D21 = {
 			isa = PBXGroup;
 			children = (
-				5EEE2AC21BD327A700CBE33A /* HomeWork */,
-				5EEE2AC11BD327A700CBE33A /* Products */,
+				C28EDF1C1BD5183000AF8D21 /* ios作业2 */,
+				C28EDF1B1BD5183000AF8D21 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5EEE2AC11BD327A700CBE33A /* Products */ = {
+		C28EDF1B1BD5183000AF8D21 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5EEE2AC01BD327A700CBE33A /* HomeWork */,
+				C28EDF1A1BD5183000AF8D21 /* ios作业2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5EEE2AC21BD327A700CBE33A /* HomeWork */ = {
+		C28EDF1C1BD5183000AF8D21 /* ios作业2 */ = {
 			isa = PBXGroup;
 			children = (
-				5EEE2AC31BD327A700CBE33A /* main.m */,
-				5EEE2ACA1BD327D700CBE33A /* PrefixHeader.pch */,
-				5EEE2ACB1BD3496100CBE33A /* Cal.h */,
-				5EEE2ACC1BD3496100CBE33A /* Cal.m */,
+				C212C9B81BD619A2006BCFC0 /* Makefile */,
+				C212C9BA1BD62F83006BCFC0 /* MyCalendar.h */,
+				C212C9BB1BD62F83006BCFC0 /* MyCalendar.m */,
+				C20FEC331BD660690057710B /* CheckInput.h */,
+				C20FEC341BD660690057710B /* CheckInput.m */,
+				C28EDF1D1BD5183000AF8D21 /* main.m */,
 			);
-			path = HomeWork;
+			path = "ios作业2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5EEE2ABF1BD327A700CBE33A /* HomeWork */ = {
+		C28EDF191BD5183000AF8D21 /* ios作业2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EEE2AC71BD327A700CBE33A /* Build configuration list for PBXNativeTarget "HomeWork" */;
+			buildConfigurationList = C28EDF211BD5183000AF8D21 /* Build configuration list for PBXNativeTarget "ios作业2" */;
 			buildPhases = (
-				5EEE2ABC1BD327A700CBE33A /* Sources */,
-				5EEE2ABD1BD327A700CBE33A /* Frameworks */,
-				5EEE2ABE1BD327A700CBE33A /* CopyFiles */,
+				C28EDF161BD5183000AF8D21 /* Sources */,
+				C28EDF171BD5183000AF8D21 /* Frameworks */,
+				C28EDF181BD5183000AF8D21 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HomeWork;
-			productName = HomeWork;
-			productReference = 5EEE2AC01BD327A700CBE33A /* HomeWork */;
+			name = "ios作业2";
+			productName = "ios作业2";
+			productReference = C28EDF1A1BD5183000AF8D21 /* ios作业2 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5EEE2AB81BD327A700CBE33A /* Project object */ = {
+		C28EDF121BD5183000AF8D21 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = linbo;
+				ORGANIZATIONNAME = sjaiwl;
 				TargetAttributes = {
-					5EEE2ABF1BD327A700CBE33A = {
+					C28EDF191BD5183000AF8D21 = {
 						CreatedOnToolsVersion = 7.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 5EEE2ABB1BD327A700CBE33A /* Build configuration list for PBXProject "HomeWork" */;
+			buildConfigurationList = C28EDF151BD5183000AF8D21 /* Build configuration list for PBXProject "ios作业2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 5EEE2AB71BD327A700CBE33A;
-			productRefGroup = 5EEE2AC11BD327A700CBE33A /* Products */;
+			mainGroup = C28EDF111BD5183000AF8D21;
+			productRefGroup = C28EDF1B1BD5183000AF8D21 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5EEE2ABF1BD327A700CBE33A /* HomeWork */,
+				C28EDF191BD5183000AF8D21 /* ios作业2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5EEE2ABC1BD327A700CBE33A /* Sources */ = {
+		C28EDF161BD5183000AF8D21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EEE2ACD1BD3496100CBE33A /* Cal.m in Sources */,
-				5EEE2AC41BD327A700CBE33A /* main.m in Sources */,
+				C212C9B91BD619A2006BCFC0 /* Makefile in Sources */,
+				C20FEC351BD660690057710B /* CheckInput.m in Sources */,
+				C28EDF1E1BD5183000AF8D21 /* main.m in Sources */,
+				C212C9BC1BD62F83006BCFC0 /* MyCalendar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5EEE2AC51BD327A700CBE33A /* Debug */ = {
+		C28EDF1F1BD5183000AF8D21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -175,7 +183,7 @@
 			};
 			name = Debug;
 		};
-		5EEE2AC61BD327A700CBE33A /* Release */ = {
+		C28EDF201BD5183000AF8D21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -210,14 +218,14 @@
 			};
 			name = Release;
 		};
-		5EEE2AC81BD327A700CBE33A /* Debug */ = {
+		C28EDF221BD5183000AF8D21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		5EEE2AC91BD327A700CBE33A /* Release */ = {
+		C28EDF231BD5183000AF8D21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -227,24 +235,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5EEE2ABB1BD327A700CBE33A /* Build configuration list for PBXProject "HomeWork" */ = {
+		C28EDF151BD5183000AF8D21 /* Build configuration list for PBXProject "ios作业2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5EEE2AC51BD327A700CBE33A /* Debug */,
-				5EEE2AC61BD327A700CBE33A /* Release */,
+				C28EDF1F1BD5183000AF8D21 /* Debug */,
+				C28EDF201BD5183000AF8D21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EEE2AC71BD327A700CBE33A /* Build configuration list for PBXNativeTarget "HomeWork" */ = {
+		C28EDF211BD5183000AF8D21 /* Build configuration list for PBXNativeTarget "ios作业2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5EEE2AC81BD327A700CBE33A /* Debug */,
-				5EEE2AC91BD327A700CBE33A /* Release */,
+				C28EDF221BD5183000AF8D21 /* Debug */,
+				C28EDF231BD5183000AF8D21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5EEE2AB81BD327A700CBE33A /* Project object */;
+	rootObject = C28EDF121BD5183000AF8D21 /* Project object */;
 }
