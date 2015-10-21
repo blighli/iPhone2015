@@ -15,7 +15,7 @@
 - (void)showCurrentMonthOfThisYear;
 - (void)showYear: (int)year;
 - (void)showMonth: (NSDate *)date;
-
+- (void)showMonthDetail:(int)year andMonth:(int) month;
 - (void)showMonthAndYearTitle: (int)year andMonth: (int)month;
 - (void)showOneWeekTitle;
 - (void)showNextLine;

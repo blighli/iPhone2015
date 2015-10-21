@@ -68,21 +68,22 @@
     //然后就可以从d中获取具体的年月日了；
     int currentYear = (int)[d year];
     int currentMonth =(int)[d month];
-    int currentDay = (int)[d day];
     int dayOfWeek = (int)[d weekday];
-    int totalDay = [Util howManyDaysInThisMonth:currentYear month:currentMonth];
+    NSLog(@"dayOfWeek:%d",dayOfWeek);
+    int totalDay = [Util howManyDaysInThisMonth:currentYear month:(currentMonth)];
+    NSLog(@"total day:%d",totalDay);
     [self showMonthAndYearTitle:currentYear andMonth:currentMonth];
     [self showNextLine];
     [self showOneWeekTitle];
     [self showNextLine];
     int dayOfMonth = 1;
-    for(int i = 0;i < 5;i ++){
+    for(int i = 0;i < 6;i ++){
         for (int j = 0; j < 7; j++) {
             
             if (dayOfMonth > totalDay) {
                 break;
             }
-            if(i == 0 && j <= dayOfWeek){
+            if(i == 0 && j < dayOfWeek){
                 printf("   ");
                 continue;
             }
@@ -91,6 +92,16 @@
         }
         printf("\n");
     }
+}
+
+- (void)showMonthDetail:(int)year andMonth:(int) month{
+    NSCalendar *greCalendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierISO8601];
+    NSDateComponents *components = [[NSDateComponents alloc] init];
+//    [components setDay:1];
+    [components setMonth:month];
+    [components setYear:year];
+    NSDate *dateFromDateComponentsForDate = [greCalendar dateFromComponents:components];
+    [self showMonth:dateFromDateComponentsForDate];
 }
 
 - (void)showMonthAndYearTitle: (int)year andMonth: (int)month{
@@ -110,7 +121,7 @@
 }
 
 - (void)showOneWeekTitle{
-    printf(" 日 一  二 三  四 五 六");
+    printf(" 日 一 二 三 四 五 六");
 }
 - (void)showNextLine{
     printf("\n");

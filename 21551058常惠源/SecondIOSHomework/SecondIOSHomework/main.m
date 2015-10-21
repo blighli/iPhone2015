@@ -35,20 +35,13 @@ int main(int argc, const char * argv[]) {
                 break;
             case 3:{
                 //三个参数: cal 10 2015
-                NSString *yearField = [NSString stringWithFormat:@"%s", argv[1]];
-                NSString *monthField = [NSString stringWithFormat:@"%s", argv[2]];
+                NSString *yearField = [NSString stringWithFormat:@"%s", argv[2]];
+                NSString *monthField = [NSString stringWithFormat:@"%s", argv[1]];
                 int year = [yearField intValue];
+//                NSLog(@"input year:%d",year);
                 int month = [monthField intValue];
                 if ([Util isLegalYear:year andMonth:month]) {
-                    NSDate *date = [NSDate date];
-                    NSString *datestring = [NSString stringWithFormat:@"1999-09-03"];
-                    //想要设置自己想要的格式，可以用nsdateformatter这个类，这里是初始化
-                    NSDateFormatter * dm = [[NSDateFormatter alloc]init];
-                    //指定输出的格式   这里格式必须是和上面定义字符串的格式相同，否则输出空
-                    [dm setDateFormat:@"yyyy-MM-dd"];
-                    //把字符串的时间转换成Date对象，用dateFromString方法
-                    NSDate * newdate = [dm dateFromString:datestring];
-//                    [myCal showMonth:<#(NSDate *)#>];
+                    [myCal showMonthDetail:year andMonth:month];
                 }else{
                     [Util showParamErrorTip];
                 }
