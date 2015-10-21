@@ -26,9 +26,14 @@
 }
 
 - (void)showCurrentMonthOfThisYear{
-        NSDate *date = [NSDate date];//这个是NSDate类型的日期，所要获取的年月日都放在这里；
-    [self showMonth:date];
+    NSDate *date = [NSDate date];//这个是NSDate类型的日期，所要获取的年月日都放在这里；
+    NSCalendar *cal = [NSCalendar currentCalendar];
     
+    unsigned int unitFlags = NSCalendarUnitYear|NSCalendarUnitMonth;
+    NSDateComponents *d = [cal components:unitFlags fromDate:date];
+    int currentYear = (int)[d year];
+    int currentMonth =(int)[d month];
+    [self showMonthDetail:currentYear andMonth:currentMonth];
 }
 
 
@@ -60,15 +65,26 @@
     
 }
 - (void)showMonth: (NSDate *)date{
-    
-    NSCalendar *cal = [NSCalendar currentCalendar];
-    
+    }
+
+- (void)showMonthDetail:(int)year andMonth:(int) month{
+    NSCalendar *greCalendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierISO8601];
+    NSDateComponents *components = [[NSDateComponents alloc] init];
+    [components setDay:1];//为了获取每月一号是周几
+    [components setMonth:month];
+    [components setYear:year];
+    NSDate *dateFromDateComponentsForDate = [greCalendar dateFromComponents:components];
     unsigned int unitFlags = NSCalendarUnitYear|NSCalendarUnitMonth|NSCalendarUnitDay|NSCalendarUnitWeekday;//要获取日期的元素有哪些。获取年就要写NSYearCalendarUnit，获取小时就要写NSHourCalendarUnit，中间用|隔开；
-    NSDateComponents *d = [cal components:unitFlags fromDate:date];//把要从date中获取的unitFlags标示的日期元素存放在NSDateComponents类型的d里面；
+    NSDateComponents *d = [greCalendar components:unitFlags fromDate:dateFromDateComponentsForDate];//把要从date中获取的unitFlags标示的日期元素存放在NSDateComponents类型的d里面；
     //然后就可以从d中获取具体的年月日了；
     int currentYear = (int)[d year];
     int currentMonth =(int)[d month];
+    int currentDay = (int)[d day];
     int dayOfWeek = (int)[d weekday];
+    
+    NSLog(@"year:%d",currentYear);
+    NSLog(@"month:%d",currentMonth);
+    NSLog(@"day:%d",currentDay);
     NSLog(@"dayOfWeek:%d",dayOfWeek);
     int totalDay = [Util howManyDaysInThisMonth:currentYear month:(currentMonth)];
     NSLog(@"total day:%d",totalDay);
@@ -83,7 +99,7 @@
             if (dayOfMonth > totalDay) {
                 break;
             }
-            if(i == 0 && j < dayOfWeek){
+            if(i == 0 && j < dayOfWeek - 1){
                 printf("   ");
                 continue;
             }
@@ -92,16 +108,7 @@
         }
         printf("\n");
     }
-}
 
-- (void)showMonthDetail:(int)year andMonth:(int) month{
-    NSCalendar *greCalendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierISO8601];
-    NSDateComponents *components = [[NSDateComponents alloc] init];
-//    [components setDay:1];
-    [components setMonth:month];
-    [components setYear:year];
-    NSDate *dateFromDateComponentsForDate = [greCalendar dateFromComponents:components];
-    [self showMonth:dateFromDateComponentsForDate];
 }
 
 - (void)showMonthAndYearTitle: (int)year andMonth: (int)month{
