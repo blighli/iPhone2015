@@ -39,28 +39,95 @@
 
 //显示某年一整年的日历信息
 - (void)showYear: (int)year{
+    
+    int howLongEveryMonth[12];
+    int firstWeekdayEveryMonth[12];
+    //每个月的天数
+    for(int i = 0; i < 12 ; i ++){
+        howLongEveryMonth[i] = [Util howManyDaysInThisMonth:year month:(i+1)];
+    }
+    //每个月第一天是周几
+    for (int i = 0; i < 12 ; i ++){
+        NSCalendar *greCalendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierISO8601];
+        NSDateComponents *components = [[NSDateComponents alloc] init];
+        [components setDay:1];
+        [components setMonth:(i + 1)];
+        [components setYear:year];
+        NSDate *dateFromDateComponentsForDate = [greCalendar dateFromComponents:components];
+        unsigned int unitFlags = NSCalendarUnitWeekday;
+        NSDateComponents *d = [greCalendar components:unitFlags fromDate:dateFromDateComponentsForDate];
+        int dayOfWeek = (int)[d weekday];
+        firstWeekdayEveryMonth[i] = dayOfWeek;
+//        NSLog(@"fistDay:%d",dayOfWeek);
+    }
+
     //打印年 某某年
-    for(int i = 0 ; i < 30;i++){
+    for(int i = 0 ; i < 35;i++){
         printf(" ");
     }
     printf("%d",year);
-    for(int i = 0 ; i < 30;i++){
+    for(int i = 0 ; i < 35;i++){
         printf(" ");
     }
     printf("\n");
-    int month = 0;
+    int months = 0;
     //接下来打印 月的标题 周的标题 还有每周的内容
-    for(int i = 0; i < 4; i ++){
-        for(int i = 0 ; i < 5;i++){
-            printf(" ");
-        }
-        NSString *monthString = [monthArray objectAtIndex:(month)];
-        month++;
-        printf("%2s",[[monthString description] UTF8String]);
-        for(int i = 0 ; i < 5;i++){
-            printf(" ");
-        }
+    for (int k = 0; k < 3; k++) {
         
+        //月 行
+        for(int i = 0; i < 4; i ++){
+            for(int i = 0 ; i < 8;i++){
+                printf(" ");
+            }
+            
+            NSString *monthString = [monthArray objectAtIndex:(months)];
+            months++;
+            printf("%2s",[[monthString description] UTF8String]);
+            for(int i = 0 ; i < 10;i++){//多空一个
+                printf(" ");
+            }
+        }
+        printf("\n");
+        //周 行
+        for(int i = 0; i < 4; i ++){
+            [self showOneWeekTitle];
+            printf(" ");
+        }
+        [self showNextLine];
+        //打印具体的日历 需要知道该年每个月的天数 以及 每个月第一天
+        
+        int temp[4];
+        
+        for(int i = 0; i < 4; i++){
+            temp[i] = 1;
+        }
+
+        //最多可能5行
+        for(int m = 0;m <5; m++){
+            
+            
+        //每行四个月
+        for (int p = 0; p < 4; p++) {
+            
+            //一个月的
+//            NSLog(@"cur month date size:%d",k + m * 4);
+//            NSLog(@"temp[p]:%d",temp[k]);
+            for (int j = 0; j < 7; j++) {
+                if (temp[p] > howLongEveryMonth[p + k * 4]) {
+                    printf("   ");
+                    continue;
+                }
+                
+                if(j+1 + m * 7 < firstWeekdayEveryMonth[p+ k * 4]){
+                    printf("   ");
+                     continue;
+                }
+                printf("%3d",temp[p]++);
+            }
+            printf(" ");
+        }
+        [self showNextLine];
+        }
     }
     
 }
@@ -79,15 +146,15 @@
     //然后就可以从d中获取具体的年月日了；
     int currentYear = (int)[d year];
     int currentMonth =(int)[d month];
-    int currentDay = (int)[d day];
+//    int currentDay = (int)[d day];
     int dayOfWeek = (int)[d weekday];
     
-    NSLog(@"year:%d",currentYear);
-    NSLog(@"month:%d",currentMonth);
-    NSLog(@"day:%d",currentDay);
-    NSLog(@"dayOfWeek:%d",dayOfWeek);
+//    NSLog(@"year:%d",currentYear);
+//    NSLog(@"month:%d",currentMonth);
+//    NSLog(@"day:%d",currentDay);
+//    NSLog(@"dayOfWeek:%d",dayOfWeek);
     int totalDay = [Util howManyDaysInThisMonth:currentYear month:(currentMonth)];
-    NSLog(@"total day:%d",totalDay);
+//    NSLog(@"total day:%d",totalDay);
     [self showMonthAndYearTitle:currentYear andMonth:currentMonth];
     [self showNextLine];
     [self showOneWeekTitle];

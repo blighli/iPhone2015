@@ -19,6 +19,7 @@ int main(int argc, const char * argv[]) {
             case 1:
                 //当前月： cal
                 [myCal showCurrentMonthOfThisYear];
+                
                 break;
             case 2:{
                 //显示某年: cal 2015
