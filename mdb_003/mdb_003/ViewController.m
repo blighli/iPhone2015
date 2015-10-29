@@ -62,11 +62,10 @@
     NSLog(@"delet...");
     if (self.tv.editing){
         self.tv.editing = NO;
-        self.item2.target = @"Del";
+        self.item2.title = @"Del";
     }else{
         self.tv.editing = YES;
-        self.item2.target = @"Done";
-        
+        self.item2.title = @"Done";
     }
     
 }
