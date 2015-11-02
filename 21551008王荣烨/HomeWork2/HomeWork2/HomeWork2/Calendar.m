@@ -17,7 +17,7 @@
 }
 //打印日历的头信息
 - (void) printWeekday{
-    printf("日 一 二  三 四  五 六   ");
+    printf("日 一 二 三 四 五 六  ");
 }
 //空行
 - (void) printNextline{
@@ -118,7 +118,7 @@
                         }
                     }
                     //当遇到最后一行的时候判断留空距离
-                    if(m == 5 && currentday[month2] > days[month2])
+                    if(currentday[month2] > days[month2])
                     {
                         printf(" ");
                         for(l = 0;l<7;l++)
@@ -189,6 +189,8 @@
         }
     }
     int year;
+    
+    
     //对切分后的数组根据长度分类
     switch([strArray count]){
         case 1:

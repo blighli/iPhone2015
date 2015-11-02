@@ -14,16 +14,20 @@ int main(int argc, const char * argv[])
     
     @autoreleasepool {
         
+        NSString *inputStr = @"";
+        switch(argc){
+            case 2:
+                inputStr = [NSString stringWithFormat:@"%s",argv[1]];
+                break;
+            case 3:
+                inputStr = [NSString stringWithFormat:@"%s %s",argv[1],argv[2]];
+                break;
+            case 4:
+                inputStr = [NSString stringWithFormat:@"%s %s %s",argv[1],argv[2],argv[3]];
+        }
+        
         // insert code here...
         //NSLog(@"Hello, World!");
-        while(1){
-            NSMutableString *inputStr = [NSMutableString stringWithCapacity:100];
-            char ch;
-            //循环从控制台读取数据，直到按了回车为止
-            while((ch = getc(stdin)) != '\n'){
-                [inputStr appendFormat:@"%c",ch];
-            }
-            
             Calendar *calendar = [[Calendar alloc]init];
             //初始化日期字符串数组
             [calendar initMonthArray];
@@ -55,7 +59,6 @@ int main(int argc, const char * argv[])
                     [calendar printCarlendar:year andMonth:month];
                     break;
             }
-        }
     }
     return 0;
 }
