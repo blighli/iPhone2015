@@ -34,6 +34,9 @@ NSString *docPath()
     
     [self setWindow:the_window];
     
+    //2015-11-02 17:02:05.655 ThirdIOSHomework[54089:2368574] *** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'Application windows are expected to have a root view controller at the end of application launch'
+    //需要提供一个View Controller，不然会报错
+    
     //设置三个UI对象的frame属性
     CGRect table_frame = CGRectMake(0, 80, 320, 380);
     CGRect field_frame = CGRectMake(20, 40, 200, 31);
