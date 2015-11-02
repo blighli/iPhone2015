@@ -8,10 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NSString *docPath(void);
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate, UITableViewDataSource>
+{
+    UITableView *task_table;
+    UITextField *task_field;
+    UIButton *insert_button;
+    NSMutableArray *tasks;
+}
+
+-(void)AddTask:(id)sender;
 
 @property (strong, nonatomic) UIWindow *window;
-
 
 @end
 
