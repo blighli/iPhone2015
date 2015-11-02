@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5336EA771BE7633E00ECCD49 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5336EA761BE7633E00ECCD49 /* MyViewController.m */; };
 		53C6093D1BE0D7A80069B9FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C6093C1BE0D7A80069B9FC /* main.m */; };
 		53C609401BE0D7A80069B9FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C6093F1BE0D7A80069B9FC /* AppDelegate.m */; };
 		53C609481BE0D7A80069B9FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C609471BE0D7A80069B9FC /* Assets.xcassets */; };
@@ -24,6 +25,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5336EA751BE7633E00ECCD49 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		5336EA761BE7633E00ECCD49 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		53C609381BE0D7A80069B9FC /* ThirdIOSHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdIOSHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C6093C1BE0D7A80069B9FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		53C6093E1BE0D7A80069B9FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 				53C609471BE0D7A80069B9FC /* Assets.xcassets */,
 				53C6094C1BE0D7A80069B9FC /* Info.plist */,
 				53C6093B1BE0D7A80069B9FC /* Supporting Files */,
+				5336EA751BE7633E00ECCD49 /* MyViewController.h */,
+				5336EA761BE7633E00ECCD49 /* MyViewController.m */,
 			);
 			path = ThirdIOSHomework;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 				TargetAttributes = {
 					53C609371BE0D7A80069B9FC = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = NPGF3ES2E6;
 					};
 					53C609501BE0D7A80069B9FC = {
 						CreatedOnToolsVersion = 7.1;
@@ -198,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5336EA771BE7633E00ECCD49 /* MyViewController.m in Sources */,
 				53C609401BE0D7A80069B9FC /* AppDelegate.m in Sources */,
 				53C6093D1BE0D7A80069B9FC /* main.m in Sources */,
 			);
@@ -306,10 +313,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ThirdIOSHomework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zju.chy.ThirdIOSHomework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -317,10 +328,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ThirdIOSHomework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zju.chy.ThirdIOSHomework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MyViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -28,6 +29,8 @@ NSString *docPath()
         tasks = [[NSMutableArray alloc] init];
     }
     
+    
+    
     //创建应用程序的主窗口
     CGRect window_frame = [[UIScreen mainScreen] bounds];
     UIWindow *the_window =[[UIWindow alloc] initWithFrame:window_frame];
@@ -36,6 +39,8 @@ NSString *docPath()
     
     //2015-11-02 17:02:05.655 ThirdIOSHomework[54089:2368574] *** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'Application windows are expected to have a root view controller at the end of application launch'
     //需要提供一个View Controller，不然会报错
+    MyViewController *controller = [[MyViewController alloc]init];
+    self.window.rootViewController = controller;
     
     //设置三个UI对象的frame属性
     CGRect table_frame = CGRectMake(0, 80, 320, 380);
@@ -58,9 +63,14 @@ NSString *docPath()
     //为按钮设置回调
     [insert_button addTarget:self action:@selector(AddTask:) forControlEvents:UIControlEventTouchUpInside];
     //将三个UI对象加入UIWindow中
-    [[self window] addSubview:task_table];
-    [[self window] addSubview:task_field];
-    [[self window] addSubview:insert_button];
+    //    [[self window] addSubview:task_table];
+    //    [[self window] addSubview:task_field];
+    //    [[self window] addSubview:insert_button];
+    
+    //先创建UIwindow,再创建控制器，创建控制器的view，然后将控制器的view添加到UIWindow上。
+    [controller.view addSubview:task_field];
+    [controller.view addSubview:insert_button];
+    [controller.view addSubview:task_table];
     
     //实例化一个ViewController的实例，并设置成window的rootViewContrller
     //ViewController *fvc = [[ViewController alloc]init];
@@ -69,7 +79,7 @@ NSString *docPath()
     //设置UIWindow的背景颜色，并放到屏幕上
     [[self window] setBackgroundColor:[UIColor whiteColor]];
     [[self window] makeKeyAndVisible];
-     
+    
     return YES;
 }
 
@@ -77,8 +87,8 @@ NSString *docPath()
     
     if ([tasks count] == 0) {
         [tasks addObject:@"Walk the dogs"];
-        [tasks addObject:@"Feed the hogs"];
-        [tasks addObject:@"Chop the logs"];
+        [tasks addObject:@"Get oil changed"];
+        [tasks addObject:@"Wrangle some cows"];
     }
     return [tasks count];
 }
