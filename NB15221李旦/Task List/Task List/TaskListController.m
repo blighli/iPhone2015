@@ -10,9 +10,7 @@
 #import "UIView+Extension.h"
 
 @interface TaskListController()
-
-@property (nonatomic,strong) NSMutableArray *array;
-@property (nonatomic,strong) UITextField *field;
+@property (nonatomic,weak) UITextField *field;
 @end
 
 @implementation TaskListController
