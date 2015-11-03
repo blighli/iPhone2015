@@ -28,6 +28,9 @@ static NSString * const kRootKey = @"kRootKey";
         IP3ListInfo *ip3List = [unArchiver decodeObjectForKey:kRootKey];
         [unArchiver finishDecoding];
         _listArray = [ip3List.listArray mutableCopy];
+        if (_listArray == nil) {
+            _listArray = [[NSMutableArray alloc] init];
+        }
     }
     return self;
 }
