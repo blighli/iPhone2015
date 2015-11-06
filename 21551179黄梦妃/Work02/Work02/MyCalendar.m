@@ -45,7 +45,7 @@
         [self LogWithMonth:i*3+3];
         
         printf("\n");
-        
+
         [self LogWeek];
         printf("%2s","");
         [self LogWeek];
@@ -60,6 +60,7 @@
                            ];
         [self printCalWithThreeArr:arr];
         
+
         
     }
 }
