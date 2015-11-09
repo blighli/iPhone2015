@@ -15,9 +15,7 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *inputTextField;
 @property (weak, nonatomic) IBOutlet UITableView *taskTableView;
-
 @property(strong,nonatomic) NSMutableArray *taskArray;
-
 @property(strong,nonatomic) NSArray *arr;
 
 @end
@@ -104,8 +102,6 @@
   [self.inputTextField resignFirstResponder];
   
 }
-
-
 
 
 @end
