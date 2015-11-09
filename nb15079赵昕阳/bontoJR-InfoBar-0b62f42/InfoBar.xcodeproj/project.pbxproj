@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B5FB2811311514600719F62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5FB2801311514600719F62 /* UIKit.framework */; };
+		5B5FB2831311514600719F62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5FB2821311514600719F62 /* Foundation.framework */; };
+		5B5FB2851311514600719F62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5FB2841311514600719F62 /* CoreGraphics.framework */; };
+		5B5FB28B1311514600719F62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B5FB2891311514600719F62 /* InfoPlist.strings */; };
+		5B5FB28E1311514600719F62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5FB28D1311514600719F62 /* main.m */; };
+		5B5FB2911311514600719F62 /* InfoBarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5FB2901311514600719F62 /* InfoBarAppDelegate.m */; };
+		5B5FB2941311514600719F62 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B5FB2921311514600719F62 /* MainWindow.xib */; };
+		5B5FB2971311514600719F62 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5FB2961311514600719F62 /* FirstViewController.m */; };
+		5B5FB29A1311514600719F62 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5FB2991311514600719F62 /* SecondViewController.m */; };
+		5B5FB29D1311514600719F62 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B5FB29B1311514600719F62 /* FirstView.xib */; };
+		5B5FB2A01311514600719F62 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B5FB29E1311514600719F62 /* SecondView.xib */; };
+		5B7A0B851311522400FE6193 /* JBInfoBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7A0B841311522400FE6193 /* JBInfoBar.m */; };
+		5B7A0B8D131153F900FE6193 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B7A0B8C131153F900FE6193 /* Icon@2x.png */; };
+		5B7A0B8F1311540100FE6193 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B7A0B8E1311540100FE6193 /* Icon.png */; };
+		79438EEB131E5A880057CEAB /* JBInfoBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79438EEA131E5A880057CEAB /* JBInfoBarManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B5FB27C1311514600719F62 /* InfoBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfoBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5FB2801311514600719F62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B5FB2821311514600719F62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B5FB2841311514600719F62 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B5FB2881311514600719F62 /* InfoBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InfoBar-Info.plist"; sourceTree = "<group>"; };
+		5B5FB28A1311514600719F62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B5FB28C1311514600719F62 /* InfoBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InfoBar-Prefix.pch"; sourceTree = "<group>"; };
+		5B5FB28D1311514600719F62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B5FB28F1311514600719F62 /* InfoBarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoBarAppDelegate.h; sourceTree = "<group>"; };
+		5B5FB2901311514600719F62 /* InfoBarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoBarAppDelegate.m; sourceTree = "<group>"; };
+		5B5FB2931311514600719F62 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5B5FB2951311514600719F62 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		5B5FB2961311514600719F62 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5B5FB2981311514600719F62 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5B5FB2991311514600719F62 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5B5FB29C1311514600719F62 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		5B5FB29F1311514600719F62 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		5B7A0B831311522400FE6193 /* JBInfoBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBInfoBar.h; sourceTree = "<group>"; };
+		5B7A0B841311522400FE6193 /* JBInfoBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBInfoBar.m; sourceTree = "<group>"; };
+		5B7A0B8C131153F900FE6193 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		5B7A0B8E1311540100FE6193 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		79438EE9131E5A880057CEAB /* JBInfoBarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBInfoBarManager.h; sourceTree = "<group>"; };
+		79438EEA131E5A880057CEAB /* JBInfoBarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBInfoBarManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B5FB2791311514600719F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5FB2811311514600719F62 /* UIKit.framework in Frameworks */,
+				5B5FB2831311514600719F62 /* Foundation.framework in Frameworks */,
+				5B5FB2851311514600719F62 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B5FB2711311514600719F62 = {
+			isa = PBXGroup;
+			children = (
+				5B5FB2861311514600719F62 /* InfoBar */,
+				5B5FB27F1311514600719F62 /* Frameworks */,
+				5B5FB27D1311514600719F62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B5FB27D1311514600719F62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B5FB27C1311514600719F62 /* InfoBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B5FB27F1311514600719F62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B5FB2801311514600719F62 /* UIKit.framework */,
+				5B5FB2821311514600719F62 /* Foundation.framework */,
+				5B5FB2841311514600719F62 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B5FB2861311514600719F62 /* InfoBar */ = {
+			isa = PBXGroup;
+			children = (
+				5B7A0B81131151E800FE6193 /* InfoBarView */,
+				5B5FB28F1311514600719F62 /* InfoBarAppDelegate.h */,
+				5B5FB2901311514600719F62 /* InfoBarAppDelegate.m */,
+				5B5FB2921311514600719F62 /* MainWindow.xib */,
+				5B5FB2951311514600719F62 /* FirstViewController.h */,
+				5B5FB2961311514600719F62 /* FirstViewController.m */,
+				5B5FB2981311514600719F62 /* SecondViewController.h */,
+				5B5FB2991311514600719F62 /* SecondViewController.m */,
+				5B5FB29B1311514600719F62 /* FirstView.xib */,
+				5B5FB29E1311514600719F62 /* SecondView.xib */,
+				5B5FB2871311514600719F62 /* Supporting Files */,
+			);
+			path = InfoBar;
+			sourceTree = "<group>";
+		};
+		5B5FB2871311514600719F62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B7A0B8E1311540100FE6193 /* Icon.png */,
+				5B7A0B8C131153F900FE6193 /* Icon@2x.png */,
+				5B5FB2881311514600719F62 /* InfoBar-Info.plist */,
+				5B5FB2891311514600719F62 /* InfoPlist.strings */,
+				5B5FB28C1311514600719F62 /* InfoBar-Prefix.pch */,
+				5B5FB28D1311514600719F62 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B7A0B81131151E800FE6193 /* InfoBarView */ = {
+			isa = PBXGroup;
+			children = (
+				5B7A0B831311522400FE6193 /* JBInfoBar.h */,
+				5B7A0B841311522400FE6193 /* JBInfoBar.m */,
+				79438EE9131E5A880057CEAB /* JBInfoBarManager.h */,
+				79438EEA131E5A880057CEAB /* JBInfoBarManager.m */,
+			);
+			name = InfoBarView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B5FB27B1311514600719F62 /* InfoBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B5FB2A31311514600719F62 /* Build configuration list for PBXNativeTarget "InfoBar" */;
+			buildPhases = (
+				5B5FB2781311514600719F62 /* Sources */,
+				5B5FB2791311514600719F62 /* Frameworks */,
+				5B5FB27A1311514600719F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfoBar;
+			productName = InfoBar;
+			productReference = 5B5FB27C1311514600719F62 /* InfoBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B5FB2731311514600719F62 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5B5FB2761311514600719F62 /* Build configuration list for PBXProject "InfoBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B5FB2711311514600719F62;
+			productRefGroup = 5B5FB27D1311514600719F62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B5FB27B1311514600719F62 /* InfoBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B5FB27A1311514600719F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5FB28B1311514600719F62 /* InfoPlist.strings in Resources */,
+				5B5FB2941311514600719F62 /* MainWindow.xib in Resources */,
+				5B5FB29D1311514600719F62 /* FirstView.xib in Resources */,
+				5B5FB2A01311514600719F62 /* SecondView.xib in Resources */,
+				5B7A0B8D131153F900FE6193 /* Icon@2x.png in Resources */,
+				5B7A0B8F1311540100FE6193 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B5FB2781311514600719F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5FB28E1311514600719F62 /* main.m in Sources */,
+				5B5FB2911311514600719F62 /* InfoBarAppDelegate.m in Sources */,
+				5B5FB2971311514600719F62 /* FirstViewController.m in Sources */,
+				5B5FB29A1311514600719F62 /* SecondViewController.m in Sources */,
+				5B7A0B851311522400FE6193 /* JBInfoBar.m in Sources */,
+				79438EEB131E5A880057CEAB /* JBInfoBarManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B5FB2891311514600719F62 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B5FB28A1311514600719F62 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B5FB2921311514600719F62 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B5FB2931311514600719F62 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5B5FB29B1311514600719F62 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B5FB29C1311514600719F62 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		5B5FB29E1311514600719F62 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B5FB29F1311514600719F62 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B5FB2A11311514600719F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B5FB2A21311514600719F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		5B5FB2A41311514600719F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfoBar/InfoBar-Prefix.pch";
+				INFOPLIST_FILE = "InfoBar/InfoBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B5FB2A51311514600719F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfoBar/InfoBar-Prefix.pch";
+				INFOPLIST_FILE = "InfoBar/InfoBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B5FB2761311514600719F62 /* Build configuration list for PBXProject "InfoBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5FB2A11311514600719F62 /* Debug */,
+				5B5FB2A21311514600719F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B5FB2A31311514600719F62 /* Build configuration list for PBXNativeTarget "InfoBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5FB2A41311514600719F62 /* Debug */,
+				5B5FB2A51311514600719F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B5FB2731311514600719F62 /* Project object */;
+}
