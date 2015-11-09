@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA817B861BEC6E2100ECDE09 /* QCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA817B851BEC6E2100ECDE09 /* QCalendar.m */; };
+		EABE96B41BD3DCF2002EDB0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EABE96B31BD3DCF2002EDB0B /* main.m */; };
+		EABE96BD1BD3ECD5002EDB0B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABE96BC1BD3ECD5002EDB0B /* CoreFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EABE96BF1BD3ECEE002EDB0B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABE96BE1BD3ECEE002EDB0B /* CFNetwork.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EABE96AE1BD3DCF1002EDB0B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA817B841BEC6E2100ECDE09 /* QCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCalendar.h; sourceTree = "<group>"; };
+		EA817B851BEC6E2100ECDE09 /* QCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCalendar.m; sourceTree = "<group>"; };
+		EABE96B01BD3DCF1002EDB0B /* QCalendar */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = QCalendar; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABE96B31BD3DCF2002EDB0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EABE96BC1BD3ECD5002EDB0B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		EABE96BE1BD3ECEE002EDB0B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EABE96AD1BD3DCF1002EDB0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABE96BF1BD3ECEE002EDB0B /* CFNetwork.framework in Frameworks */,
+				EABE96BD1BD3ECD5002EDB0B /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EABE96A71BD3DCF1002EDB0B = {
+			isa = PBXGroup;
+			children = (
+				EABE96BE1BD3ECEE002EDB0B /* CFNetwork.framework */,
+				EABE96BC1BD3ECD5002EDB0B /* CoreFoundation.framework */,
+				EABE96B21BD3DCF2002EDB0B /* QCalendar */,
+				EABE96B11BD3DCF2002EDB0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EABE96B11BD3DCF2002EDB0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EABE96B01BD3DCF1002EDB0B /* QCalendar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EABE96B21BD3DCF2002EDB0B /* QCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				EABE96B31BD3DCF2002EDB0B /* main.m */,
+				EA817B841BEC6E2100ECDE09 /* QCalendar.h */,
+				EA817B851BEC6E2100ECDE09 /* QCalendar.m */,
+			);
+			path = QCalendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EABE96AF1BD3DCF1002EDB0B /* QCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EABE96B71BD3DCF2002EDB0B /* Build configuration list for PBXNativeTarget "QCalendar" */;
+			buildPhases = (
+				EABE96AC1BD3DCF1002EDB0B /* Sources */,
+				EABE96AD1BD3DCF1002EDB0B /* Frameworks */,
+				EABE96AE1BD3DCF1002EDB0B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QCalendar;
+			productName = QCalendar;
+			productReference = EABE96B01BD3DCF1002EDB0B /* QCalendar */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EABE96A81BD3DCF1002EDB0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = hucker;
+				TargetAttributes = {
+					EABE96AF1BD3DCF1002EDB0B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = EABE96AB1BD3DCF1002EDB0B /* Build configuration list for PBXProject "QCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EABE96A71BD3DCF1002EDB0B;
+			productRefGroup = EABE96B11BD3DCF2002EDB0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EABE96AF1BD3DCF1002EDB0B /* QCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EABE96AC1BD3DCF1002EDB0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABE96B41BD3DCF2002EDB0B /* main.m in Sources */,
+				EA817B861BEC6E2100ECDE09 /* QCalendar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EABE96B51BD3DCF2002EDB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx10.10;
+			};
+			name = Debug;
+		};
+		EABE96B61BD3DCF2002EDB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.10;
+			};
+			name = Release;
+		};
+		EABE96B81BD3DCF2002EDB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EABE96B91BD3DCF2002EDB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EABE96AB1BD3DCF1002EDB0B /* Build configuration list for PBXProject "QCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABE96B51BD3DCF2002EDB0B /* Debug */,
+				EABE96B61BD3DCF2002EDB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EABE96B71BD3DCF2002EDB0B /* Build configuration list for PBXNativeTarget "QCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABE96B81BD3DCF2002EDB0B /* Debug */,
+				EABE96B91BD3DCF2002EDB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EABE96A81BD3DCF1002EDB0B /* Project object */;
+}
