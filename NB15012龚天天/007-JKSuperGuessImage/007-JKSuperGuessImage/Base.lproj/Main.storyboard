@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bj" id="kDQ-y0-z4l">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Lsq-QZ-y3h">
+                                <rect key="frame" x="250" y="105" width="70" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="大图" image="icon_img" backgroundImage="btn_right">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="icon_img" backgroundImage="btn_right_highlighted"/>
+                                <connections>
+                                    <action selector="imgBtnChangeOnClick" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JmN-pY-D6L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qvb-AJ-B0b">
+                                <rect key="frame" x="0.0" y="170" width="70" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="帮助" image="icon_help" backgroundImage="btn_left">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="icon_help" backgroundImage="btn_left_highlighted"/>
+                                <connections>
+                                    <action selector="helpBtnOnClick" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VXe-L4-M79"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1/10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rgN-1J-FdD">
+                                <rect key="frame" x="0.0" y="30" width="320" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="恶搞风格大片" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kZh-lD-nvD">
+                                <rect key="frame" x="0.0" y="50" width="320" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yoF-oG-rUR">
+                                <rect key="frame" x="200" y="30" width="110" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="10000" image="coin">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="disabled" image="coin"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Uf3-RA-bJi">
+                                <rect key="frame" x="85" y="80" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
+                                <state key="normal" image="movie_ygbh" backgroundImage="center_img">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="imgBtnChangeOnClick" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ici-0d-rBp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZiI-g3-SyE">
+                                <rect key="frame" x="0.0" y="105" width="70" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="提示" image="icon_tip" backgroundImage="btn_left">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="icon_tip" backgroundImage="btn_left_highlighted"/>
+                                <connections>
+                                    <action selector="TipBtnOnClick" destination="vXZ-lx-hvc" eventType="touchUpInside" id="yGM-Ee-wSg"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" id="ecf-YM-sRZ">
+                                <rect key="frame" x="0.0" y="240" width="320" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="CJS-Th-O8n">
+                                <rect key="frame" x="0.0" y="290" width="320" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="J9z-w1-EBJ">
+                                <rect key="frame" x="250" y="170" width="70" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="下一题" backgroundImage="btn_right">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="btn_right_highlighted"/>
+                                <connections>
+                                    <action selector="nextBtnOnClick" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Oek-s2-ktk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="answerView" destination="ecf-YM-sRZ" id="Uqq-tb-o8j"/>
+                        <outlet property="coinBtn" destination="yoF-oG-rUR" id="WH9-b4-qu0"/>
+                        <outlet property="descLabel" destination="kZh-lD-nvD" id="w5o-L4-EM6"/>
+                        <outlet property="imgInsideBtn" destination="Uf3-RA-bJi" id="AcY-Ty-fU1"/>
+                        <outlet property="nextBtn" destination="J9z-w1-EBJ" id="kSt-CJ-SOD"/>
+                        <outlet property="optionsVIew" destination="CJS-Th-O8n" id="U8R-Do-5WN"/>
+                        <outlet property="topIndexLabel" destination="rgN-1J-FdD" id="hmv-55-e57"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.66666666666666" y="281.16000000000003"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bj" width="320" height="480"/>
+        <image name="btn_left" width="70" height="36"/>
+        <image name="btn_left_highlighted" width="70" height="36"/>
+        <image name="btn_right" width="70" height="36"/>
+        <image name="btn_right_highlighted" width="70" height="36"/>
+        <image name="center_img" width="165" height="212"/>
+        <image name="coin" width="20" height="20"/>
+        <image name="icon_help" width="20" height="20"/>
+        <image name="icon_img" width="20" height="20"/>
+        <image name="icon_tip" width="20" height="20"/>
+        <image name="movie_ygbh" width="640" height="702"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
