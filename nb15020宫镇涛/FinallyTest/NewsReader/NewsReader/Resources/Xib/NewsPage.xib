@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewsPage">
+            <connections>
+                <outlet property="_barBackView" destination="tZ2-av-DTN" id="GLI-Du-dyZ"/>
+                <outlet property="_tableView" destination="QT1-Di-qEd" id="e8I-Sz-D4l"/>
+                <outlet property="view" destination="iN0-l3-epB" id="fiP-Mu-oiz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tZ2-av-DTN">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="36"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ColumnBarLeft.png" translatesAutoresizingMaskIntoConstraints="NO" id="b2B-j6-ccT">
+                            <rect key="frame" x="0.0" y="0.0" width="45" height="36"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ColumnBarRight.png" translatesAutoresizingMaskIntoConstraints="NO" id="ia9-L7-7mu">
+                            <rect key="frame" x="275" y="0.0" width="45" height="36"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="OTf-6U-O3Z"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QT1-Di-qEd" customClass="FxLandscapeTableView">
+                    <rect key="frame" x="0.0" y="36" width="320" height="444"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Ru2-kv-Psg"/>
+                        <outlet property="delegate" destination="-1" id="qBZ-gi-8dC"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="QT1-Di-qEd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6FA-PT-QYH"/>
+                <constraint firstAttribute="trailing" secondItem="QT1-Di-qEd" secondAttribute="trailing" id="9ZH-rQ-BeC"/>
+                <constraint firstItem="QT1-Di-qEd" firstAttribute="top" secondItem="tZ2-av-DTN" secondAttribute="bottom" id="QIP-6C-eRH"/>
+                <constraint firstAttribute="trailing" secondItem="tZ2-av-DTN" secondAttribute="trailing" id="n2e-lO-sWD"/>
+                <constraint firstItem="tZ2-av-DTN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="teb-mc-7nf"/>
+                <constraint firstAttribute="bottom" secondItem="QT1-Di-qEd" secondAttribute="bottom" id="u21-d2-tEf"/>
+                <constraint firstItem="tZ2-av-DTN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vyf-kJ-DuA"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="257" y="333"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ColumnBarLeft.png" width="45" height="36"/>
+        <image name="ColumnBarRight.png" width="45" height="36"/>
+    </resources>
+</document>
