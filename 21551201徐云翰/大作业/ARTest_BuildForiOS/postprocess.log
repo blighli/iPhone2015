@@ -1,0 +1,9 @@
+OnIosPostProcess - Beginning iOS post-processing.
+OnIosPostProcess - Modifying file at /Users/xuyunhan/Downloads/ARTest/ARTest_BuildForiOS/Unity-iPhone.xcodeproj/project.pbxproj
+OnPostProcessBuild - Processed libstdc++.6.dylib
+OnIosPostProcess - Project already contains reference to Accelerate.framework - skipping.
+OnPostProcessBuild - Injected PBXBUILDFILE
+OnPostProcessBuild - Injected PBXFILEREFERENCE
+OnPostProcessBuild - Injected PBXFRAMEWORKSBUILDPHASE
+OnPostProcessBuild - Injected PBXGROUP
+OnIosPostProcess - Ending iOS post-processing successfully.
