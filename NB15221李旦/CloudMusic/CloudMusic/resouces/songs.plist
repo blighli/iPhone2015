@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>songName</key>
+		<string>Let It Go</string>
+		<key>fileName</key>
+		<string>Let It Go.mp3</string>
+		<key>singer</key>
+		<string>黛米·洛瓦托，伊迪娜·门泽尔</string>
+		<key>albumImage</key>
+		<string>song_400.png</string>
+	</dict>
+	<dict>
+		<key>songName</key>
+		<string>小苹果</string>
+		<key>fileName</key>
+		<string>小苹果.mp3</string>
+		<key>singer</key>
+		<string>筷子兄弟</string>
+		<key>albumImage</key>
+		<string>kzxd_400.png</string>
+	</dict>
+	<dict>
+		<key>songName</key>
+		<string>愿得一人心(剧场版)</string>
+		<key>fileName</key>
+		<string>愿得一人心(剧场版).mp3</string>
+		<key>singer</key>
+		<string>李行亮 雨宗林</string>
+		<key>albumImage</key>
+		<string>song_400.png</string>
+	</dict>
+	<dict>
+		<key>songName</key>
+		<string>爱莫忘</string>
+		<key>fileName</key>
+		<string>爱莫忘.mp3</string>
+		<key>singer</key>
+		<string>郑欣宜</string>
+		<key>albumImage</key>
+		<string>zxy_400.png</string>
+	</dict>
+	<dict>
+		<key>songName</key>
+		<string>泡沫</string>
+		<key>fileName</key>
+		<string>泡沫.mp3</string>
+		<key>singer</key>
+		<string>邓紫琪G.E.M</string>
+		<key>albumImage</key>
+		<string>gem_400.png</string>
+	</dict>
+	<dict>
+		<key>songName</key>
+		<string>爸爸去哪儿</string>
+		<key>fileName</key>
+		<string>爸爸去哪儿.mp3</string>
+		<key>singer</key>
+		<string>群星</string>
+		<key>albumImage</key>
+		<string>bbqne_400.png</string>
+	</dict>
+	<dict>
+		<key>songName</key>
+		<string>Butter-Fly -tri.Version-</string>
+		<key>fileName</key>
+		<string>和田光司 - Butter-Fly -tri.Version-.mp3</string>
+		<key>singer</key>
+		<string>和田光司</string>
+		<key>albumImage</key>
+		<string>htgs_400.png</string>
+	</dict>
+	<dict>
+		<key>songName</key>
+		<string>红色高跟鞋</string>
+		<key>fileName</key>
+		<string>蔡健雅 - 红色高跟鞋.mp3</string>
+		<key>singer</key>
+		<string>蔡健雅</string>
+		<key>albumImage</key>
+		<string>cyj_400.png</string>
+	</dict>
+	<dict>
+		<key>songName</key>
+		<string>Somebody That I Used To Know</string>
+		<key>fileName</key>
+		<string>Somebody That I Used To Know.mp3</string>
+		<key>singer</key>
+		<string>Christina Grimmie</string>
+		<key>albumImage</key>
+		<string>voice_400.png</string>
+	</dict>
+	<dict>
+		<key>songName</key>
+		<string>Rather Be</string>
+		<key>fileName</key>
+		<string>Rather Be.mp3</string>
+		<key>singer</key>
+		<string>Clean Bandit,Jess Glynne</string>
+		<key>albumImage</key>
+		<string>rb_400.png</string>
+	</dict>
+	<dict>
+		<key>songName</key>
+		<string>Viva la Vida</string>
+		<key>fileName</key>
+		<string>Coldplay - Viva la Vida.mp3</string>
+		<key>singer</key>
+		<string>Coldplay</string>
+		<key>albumImage</key>
+		<string>viva_400.png</string>
+	</dict>
+	<dict>
+		<key>songName</key>
+		<string>you</string>
+		<key>fileName</key>
+		<string>M.Graveyard - you.mp3</string>
+		<key>singer</key>
+		<string>M.Graveyard</string>
+		<key>albumImage</key>
+		<string>thank.png</string>
+	</dict>
+	<dict>
+		<key>songName</key>
+		<string>unravel</string>
+		<key>fileName</key>
+		<string>unravel.mp3</string>
+		<key>singer</key>
+		<string>TK from 凛として時雨</string>
+		<key>albumImage</key>
+		<string>unravel.png</string>
+	</dict>
+	<dict>
+		<key>songName</key>
+		<string>See You Again</string>
+		<key>fileName</key>
+		<string>See You Again.mp3</string>
+		<key>singer</key>
+		<string>Wiz Khalifa,Charlie Puth</string>
+		<key>albumImage</key>
+		<string>see u again.png</string>
+	</dict>
+</array>
+</plist>

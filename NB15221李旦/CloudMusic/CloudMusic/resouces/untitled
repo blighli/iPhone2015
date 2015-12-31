@@ -1,0 +1,23 @@
+    
+<html>
+    <table id='tb'>
+        <tbody>
+            <tr><td>第一行</td><td>第一行</td></tr>
+            <tr><td>第二行</td><td>第2行</td></tr>
+            <tr><td>第三行</td><td>第3行</td></tr>
+            <tr><td>第4行</td><td>第4行</td></tr>
+            <tr><td>第5行</td><td>第5行</td></tr>
+            <tr><td>第6行</td><td>第6行</td></tr>
+        </tbody>
+    </table>
+       $(function(){
+            var item = $("tr");
+            for(var i=0;i<item.length;i++){
+                if(i%2==0){
+                    item[i].style.backgroundColor="#888";
+                }
+            }
+            //$("#tb tbody tr:even").css("backgroundColor","#888");
+ 
+        });
+        </html>
