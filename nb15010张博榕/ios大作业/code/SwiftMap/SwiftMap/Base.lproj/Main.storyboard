@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftMap" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ptt-ri-Vad">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BAf-zK-mtf">
+                                <rect key="frame" x="280" y="535" width="40" height="40"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="AHW-DZ-IVs"/>
+                                    <constraint firstAttribute="height" constant="40" id="NSX-S6-B9e"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="1"/>
+                                <connections>
+                                    <action selector="btnMenuClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OKQ-2A-mdg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2vr-04-CD9">
+                                <rect key="frame" x="285" y="484" width="30" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.22881136632289401" green="1" blue="0.16985993144916123" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="旅馆">
+                                    <color key="titleColor" red="1" green="0.95084890493300445" blue="0.098972742258083168" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnHotelClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0yh-gC-uX7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xEO-5x-P2V">
+                                <rect key="frame" x="285" y="484" width="30" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.30490655020000001" green="0.18214325000000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="医院">
+                                    <color key="titleColor" red="1" green="0.070817956030140516" blue="0.038683593983477427" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnHospitalClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5UW-qj-ZOJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wY3-zu-4Xp">
+                                <rect key="frame" x="285" y="484" width="30" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.1093577327917592" green="1" blue="0.94432821955087276" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="超市">
+                                    <color key="titleColor" red="0.11820088975346121" green="0.071921399219972759" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSMClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Aq-ku-Nea"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xEO-5x-P2V" firstAttribute="leading" secondItem="wY3-zu-4Xp" secondAttribute="leading" id="1Sa-dr-DgE"/>
+                            <constraint firstItem="ptt-ri-Vad" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="9GL-Nh-41n"/>
+                            <constraint firstItem="ptt-ri-Vad" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="9II-p6-vAc"/>
+                            <constraint firstItem="ptt-ri-Vad" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Nmv-V8-TJ3"/>
+                            <constraint firstItem="wY3-zu-4Xp" firstAttribute="leading" secondItem="2vr-04-CD9" secondAttribute="leading" id="OX0-Cg-oCT"/>
+                            <constraint firstItem="ptt-ri-Vad" firstAttribute="centerX" secondItem="xEO-5x-P2V" secondAttribute="centerX" id="a4X-pg-R5e"/>
+                            <constraint firstItem="wY3-zu-4Xp" firstAttribute="baseline" secondItem="2vr-04-CD9" secondAttribute="baseline" id="jym-3s-VUQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BAf-zK-mtf" secondAttribute="bottom" constant="25" id="pJF-lT-xyt"/>
+                            <constraint firstItem="BAf-zK-mtf" firstAttribute="top" secondItem="wY3-zu-4Xp" secondAttribute="bottom" constant="21" id="pnE-gC-0l2"/>
+                            <constraint firstItem="BAf-zK-mtf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tvx-hl-LcA"/>
+                            <constraint firstItem="2vr-04-CD9" firstAttribute="centerX" secondItem="BAf-zK-mtf" secondAttribute="centerX" id="usw-zF-VuG"/>
+                            <constraint firstItem="wY3-zu-4Xp" firstAttribute="baseline" secondItem="xEO-5x-P2V" secondAttribute="baseline" id="utL-SG-jxb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnHospital" destination="xEO-5x-P2V" id="b26-U7-wsZ"/>
+                        <outlet property="btnHotel" destination="2vr-04-CD9" id="x6v-Vg-mrW"/>
+                        <outlet property="btnMenu" destination="BAf-zK-mtf" id="j2P-OF-kAZ"/>
+                        <outlet property="btnSM" destination="wY3-zu-4Xp" id="kaZ-FZ-8Xb"/>
+                        <outlet property="mapView" destination="ptt-ri-Vad" id="cWr-Rk-nXK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="323"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="512" height="512"/>
+    </resources>
+</document>
