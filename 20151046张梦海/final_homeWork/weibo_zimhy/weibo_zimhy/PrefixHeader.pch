@@ -1,0 +1,39 @@
+//
+//  传智微博.pch
+//  传智微博
+//
+//  Created by apple on 15-3-5.
+//  Copyright (c) 2015年 apple. All rights reserved.
+//
+
+
+#ifdef __OBJC__
+
+#import "UIView+Frame.h"
+#import "UIImage+Image.h"
+#import <UIKit/UIKit.h>
+
+#define ZMHKeyWindow [UIApplication sharedApplication].keyWindow
+
+// ...表示宏定义的可变参数
+// __VA_ARGS__:表示函数里面的可变参数
+#ifdef DEBUG // 调试
+
+#define ZMHLog(...) NSLog(__VA_ARGS__)
+
+#else // 发布
+
+#define ZMHLog(...)
+
+#endif
+
+/*        cell            */
+#define ZMHStatusCellMargin 10
+#define ZMHNameFont [UIFont systemFontOfSize:13]
+#define ZMHTimeFont [UIFont systemFontOfSize:12]
+#define ZMHSourceFont ZMHTimeFont
+#define ZMHTextFont [UIFont systemFontOfSize:15]
+#define ZMHScreenW [UIScreen mainScreen].bounds.size.width
+
+
+#endif
