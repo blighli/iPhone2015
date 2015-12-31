@@ -1,0 +1,21 @@
+//
+//  cbypch.pch
+//  CYNewsDemo
+//
+//  Created by MAX-TECH on 15/12/16.
+//  Copyright © 2015年 fuckcy. All rights reserved.
+//
+
+#ifndef cbypch_pch
+#define cbypch_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* cbypch_pch */
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import<SystemConfiguration/SystemConfiguration.h>
+#import<MobileCoreServices/MobileCoreServices.h>
+#endif
