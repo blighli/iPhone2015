@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Automatic">
+    <entity name="Content" representedClassName="Content" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="customFile" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CustomFile" syncable="YES"/>
+    </entity>
+    <entity name="CustomFile" representedClassName="CustomFile" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="contentSet" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Content" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Content" positionX="-54" positionY="-9" width="128" height="105"/>
+        <element name="CustomFile" positionX="-63" positionY="-18" width="128" height="90"/>
+    </elements>
+</model>
