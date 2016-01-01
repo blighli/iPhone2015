@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="18" height="10" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="XueDiMap" tilewidth="64" tileheight="64">
+  <image source="XueDiMap.png" width="384" height="192"/>
+  <tile id="16">
+   <properties>
+    <property name="buildable" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="18" height="10">
+  <data encoding="base64" compression="gzip">
+   eJzjYGBg4KAC5gFiRiBmAmJmKJ8YjKxHECrGiUYTg7HpgbF5gZiPgLtg7uDHYw4uPj45fObwYgkvdHeg6+XDIkeMXch28hEIS5gafHbBsACVMAsQs1KBBgAm+gdd
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="18" height="10">
+  <object name="Waypoint0" x="-32" y="416"/>
+  <object name="Waypoint1" x="96" y="416"/>
+  <object name="Waypoint2" x="96" y="104"/>
+  <object name="Waypoint3" x="222" y="104"/>
+  <object name="Waypoint4" x="222" y="226"/>
+  <object name="Waypoint5" x="352" y="226"/>
+  <object name="Waypoint6" x="352" y="352"/>
+  <object name="Waypoint7" x="478" y="352"/>
+  <object name="Waypoint8" x="478" y="480"/>
+  <object name="Waypoint9" x="672" y="480"/>
+  <object name="Waypoint10" x="672" y="360"/>
+  <object name="Waypoint11" x="796" y="360"/>
+  <object name="Waypoint12" x="796" y="230"/>
+  <object name="Waypoint13" x="924" y="230"/>
+  <object name="Waypoint14" x="924" y="102"/>
+  <object name="Waypoint15" x="1056" y="102"/>
+  <object name="Waypoint16" x="1056" y="414"/>
+  <object name="Waypoint17" x="1176" y="414"/>
+ </objectgroup>
+ <objectgroup name="PObjects" width="18" height="10">
+  <object name="PWaypoint0" x="-32" y="296"/>
+  <object name="PWaypoint0" x="1190" y="296"/>
+ </objectgroup>
+</map>
