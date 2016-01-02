@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="r9Z-aU-gak">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Zrz-Vl-rc6">
+            <objects>
+                <navigationController id="r9Z-aU-gak" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="a7E-1G-Y2d">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="68u-gh-tAg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NZM-tQ-kwr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-251" y="386"/>
+        </scene>
+        <!--Camera View-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="YXQCameraView" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="53S-6I-GEb" userLabel="OverLayer">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIT-BQ-udY" userLabel="FlashButton">
+                                        <rect key="frame" x="8" y="8" width="38" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="38" id="05s-gr-5gQ"/>
+                                            <constraint firstAttribute="height" constant="38" id="dqi-0g-Zfh"/>
+                                        </constraints>
+                                        <state key="normal" image="flashButton">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOj-yD-7yZ" userLabel="SwitchButton">
+                                        <rect key="frame" x="268" y="8" width="38" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="38" id="BJP-hy-e5l"/>
+                                            <constraint firstAttribute="height" constant="38" id="Vk2-f1-3QL"/>
+                                        </constraints>
+                                        <state key="normal" image="switchCamera">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5fe-m1-Nen" userLabel="Footer">
+                                        <rect key="frame" x="0.0" y="483" width="320" height="85"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dsG-ET-S6R" userLabel="MenuButton">
+                                                <rect key="frame" x="268" y="21" width="44" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="44" id="OEM-uJ-Pna"/>
+                                                    <constraint firstAttribute="width" constant="44" id="sef-iv-EI0"/>
+                                                </constraints>
+                                                <state key="normal" image="handleButton">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jjo-UY-EQe" userLabel="RecordButton">
+                                                <rect key="frame" x="99" y="-18" width="122" height="122"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="68" id="9f6-dL-SHZ"/>
+                                                    <constraint firstAttribute="width" constant="68" id="bay-vd-Psr"/>
+                                                </constraints>
+                                                <state key="normal" image="recordButtonNormal">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KPs-tU-BIv" userLabel="VideoButton">
+                                                <rect key="frame" x="8" y="21" width="44" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="44" id="8BH-TO-8Z2"/>
+                                                    <constraint firstAttribute="height" constant="44" id="oSE-Px-q5s"/>
+                                                </constraints>
+                                                <state key="normal" image="picButton">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="picButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dVm-ai-2bX"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.20000000298023224" green="0.20000000298023224" blue="0.20000000298023224" alpha="0.70000000000000007" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="centerY" secondItem="KPs-tU-BIv" secondAttribute="centerY" id="14Q-xZ-DrB"/>
+                                            <constraint firstItem="KPs-tU-BIv" firstAttribute="leading" secondItem="5fe-m1-Nen" secondAttribute="leading" constant="8" id="SgV-fc-IeJ"/>
+                                            <constraint firstAttribute="centerX" secondItem="Jjo-UY-EQe" secondAttribute="centerX" id="YSD-VZ-KgS"/>
+                                            <constraint firstAttribute="centerY" secondItem="dsG-ET-S6R" secondAttribute="centerY" id="ZW6-qg-7Sv"/>
+                                            <constraint firstAttribute="height" constant="85" id="b1T-Y4-gAB"/>
+                                            <constraint firstAttribute="trailing" secondItem="dsG-ET-S6R" secondAttribute="trailing" constant="8" id="cAN-2G-bkQ"/>
+                                            <constraint firstAttribute="centerY" secondItem="Jjo-UY-EQe" secondAttribute="centerY" id="spB-7B-nnf"/>
+                                        </constraints>
+                                    </view>
+                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="rD6-Zu-Rzc">
+                                        <rect key="frame" x="50" y="418" width="221" height="31"/>
+                                        <color key="tintColor" red="0.75294117647058822" green="0.76078431372549016" blue="0.29411764705882354" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="changePicture:" destination="vXZ-lx-hvc" eventType="valueChanged" id="cRb-Dv-vhk"/>
+                                        </connections>
+                                    </slider>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o0M-Or-d5z">
+                                        <rect key="frame" x="0.0" y="52" width="320" height="366"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="KOj-yD-7yZ" firstAttribute="top" secondItem="53S-6I-GEb" secondAttribute="top" constant="8" id="0f0-Bt-10C"/>
+                                    <constraint firstAttribute="bottom" secondItem="5fe-m1-Nen" secondAttribute="bottom" id="GsJ-7V-bCf"/>
+                                    <constraint firstItem="5fe-m1-Nen" firstAttribute="leading" secondItem="53S-6I-GEb" secondAttribute="leading" id="Jyj-AT-W2D"/>
+                                    <constraint firstAttribute="trailing" secondItem="5fe-m1-Nen" secondAttribute="trailing" id="OJ4-jW-duv"/>
+                                    <constraint firstItem="fIT-BQ-udY" firstAttribute="leading" secondItem="53S-6I-GEb" secondAttribute="leading" constant="8" id="a9h-Cx-vFO"/>
+                                    <constraint firstAttribute="trailing" secondItem="KOj-yD-7yZ" secondAttribute="trailing" constant="8" id="fBN-wm-gFI"/>
+                                    <constraint firstItem="fIT-BQ-udY" firstAttribute="top" secondItem="53S-6I-GEb" secondAttribute="top" constant="8" id="xxe-8w-I9j"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="53S-6I-GEb" secondAttribute="trailing" id="Lan-7G-snx"/>
+                            <constraint firstItem="53S-6I-GEb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Qhc-e4-JRD"/>
+                            <constraint firstItem="53S-6I-GEb" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="10" id="RYa-Xl-301"/>
+                            <constraint firstAttribute="bottom" secondItem="53S-6I-GEb" secondAttribute="bottom" id="srx-1G-7H3"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="DjJ-wC-ktd"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="changeSlider" destination="rD6-Zu-Rzc" id="cXa-nC-PNk"/>
+                        <outlet property="picButton" destination="KPs-tU-BIv" id="mCN-bR-Aro"/>
+                        <outlet property="showSlidePicture" destination="o0M-Or-d5z" id="6J2-nb-eCg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="146" y="386"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="flashButton" width="34" height="48"/>
+        <image name="handleButton" width="80" height="80"/>
+        <image name="picButton" width="79" height="80"/>
+        <image name="recordButtonNormal" width="122" height="122"/>
+        <image name="switchCamera" width="48" height="42"/>
+    </resources>
+</document>
