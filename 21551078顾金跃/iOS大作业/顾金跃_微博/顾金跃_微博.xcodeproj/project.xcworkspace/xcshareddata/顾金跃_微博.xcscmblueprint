@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F82DA6C75081D0E6154BCF21EF7E1E6165CD6ECF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F82DA6C75081D0E6154BCF21EF7E1E6165CD6ECF" : 0,
+    "CB6871A493B84ECC0B9566E4518B6EC693422E46" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9A163BE2-0C43-48A6-B34B-A95A5A2DF1F1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F82DA6C75081D0E6154BCF21EF7E1E6165CD6ECF" : "gujinyue_weibo\/",
+    "CB6871A493B84ECC0B9566E4518B6EC693422E46" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "顾金跃_微博",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "顾金跃_微博\/顾金跃_微博.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gujinyue1010\/iPhone2015.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CB6871A493B84ECC0B9566E4518B6EC693422E46"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gujinyue1010\/gujinyue_weibo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F82DA6C75081D0E6154BCF21EF7E1E6165CD6ECF"
+    }
+  ]
+}
