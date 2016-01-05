@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChooseEndingCellID" rowHeight="150" id="NaS-We-f38">
+            <rect key="frame" x="0.0" y="0.0" width="500" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NaS-We-f38" id="ZPU-oa-Q3R">
+                <rect key="frame" x="0.0" y="0.0" width="500" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Penguin" translatesAutoresizingMaskIntoConstraints="NO" id="kfZ-X0-dtb">
+                        <rect key="frame" x="18" y="8" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="GJj-SS-RN6"/>
+                            <constraint firstAttribute="width" constant="40" id="TUj-dO-gqd"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <real key="value" value="22.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="师傅爱吃炒栗子" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4mF-2r-1rX">
+                        <rect key="frame" x="78" y="8" width="361" height="19.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                        <color key="textColor" red="0.98975419494720962" green="0.42881245649751487" blue="0.39063371678971315" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="字数 2333  阅读 168" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lu3-JU-t9O">
+                        <rect key="frame" x="78" y="31.5" width="361" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.84883814102564104" green="0.84883814102564104" blue="0.84883814102564104" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gls-qR-b7U">
+                        <rect key="frame" x="447" y="8" width="45" height="45"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart_white" translatesAutoresizingMaskIntoConstraints="NO" id="qv2-fU-N06">
+                                <rect key="frame" x="12" y="0.0" width="20" height="20"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="44" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ttj-Dk-j1U">
+                                <rect key="frame" x="0.0" y="28" width="45" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Ttj-Dk-j1U" secondAttribute="bottom" id="1Mj-ey-E6m"/>
+                            <constraint firstAttribute="width" constant="45" id="4BW-zb-9wf"/>
+                            <constraint firstItem="Ttj-Dk-j1U" firstAttribute="centerX" secondItem="Gls-qR-b7U" secondAttribute="centerX" id="Bjm-r6-tEf"/>
+                            <constraint firstAttribute="trailing" secondItem="Ttj-Dk-j1U" secondAttribute="trailing" id="hhm-Cb-4yS"/>
+                            <constraint firstAttribute="height" constant="45" id="nPj-og-pbF"/>
+                            <constraint firstItem="qv2-fU-N06" firstAttribute="top" secondItem="Gls-qR-b7U" secondAttribute="top" id="nX9-a6-GrK"/>
+                            <constraint firstItem="qv2-fU-N06" firstAttribute="centerX" secondItem="Gls-qR-b7U" secondAttribute="centerX" id="rQp-6h-Ku6"/>
+                            <constraint firstItem="Ttj-Dk-j1U" firstAttribute="leading" secondItem="Gls-qR-b7U" secondAttribute="leading" id="wKb-Sx-Dtj"/>
+                        </constraints>
+                    </view>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="对那个女孩来说，在她短暂的生命中能有个如此爱她的人已经非常不容易了...." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tTC-gV-1aX">
+                        <rect key="frame" x="13" y="56" width="479" height="35.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="Gls-qR-b7U" firstAttribute="leading" secondItem="4mF-2r-1rX" secondAttribute="trailing" constant="8" symbolic="YES" id="13x-Hf-Ay0"/>
+                    <constraint firstItem="tTC-gV-1aX" firstAttribute="leading" secondItem="kfZ-X0-dtb" secondAttribute="leading" constant="-5" id="4Lq-aX-0fu"/>
+                    <constraint firstItem="Lu3-JU-t9O" firstAttribute="leading" secondItem="4mF-2r-1rX" secondAttribute="leading" id="K8b-rE-udG"/>
+                    <constraint firstItem="kfZ-X0-dtb" firstAttribute="leading" secondItem="ZPU-oa-Q3R" secondAttribute="leadingMargin" constant="10" id="KlV-E1-Z7r"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="tTC-gV-1aX" secondAttribute="bottom" id="OKp-oD-nqT"/>
+                    <constraint firstItem="tTC-gV-1aX" firstAttribute="top" secondItem="kfZ-X0-dtb" secondAttribute="bottom" constant="8" symbolic="YES" id="OXN-T3-i3t"/>
+                    <constraint firstItem="tTC-gV-1aX" firstAttribute="trailing" secondItem="Gls-qR-b7U" secondAttribute="trailing" id="SDG-QY-Vpe"/>
+                    <constraint firstItem="4mF-2r-1rX" firstAttribute="leading" secondItem="kfZ-X0-dtb" secondAttribute="trailing" constant="20" id="XIZ-4O-YL5"/>
+                    <constraint firstAttribute="topMargin" secondItem="Gls-qR-b7U" secondAttribute="top" id="Y7e-cu-KZc"/>
+                    <constraint firstItem="4mF-2r-1rX" firstAttribute="top" secondItem="kfZ-X0-dtb" secondAttribute="top" id="dU8-5V-hQv"/>
+                    <constraint firstItem="Lu3-JU-t9O" firstAttribute="leading" secondItem="kfZ-X0-dtb" secondAttribute="trailing" constant="8" symbolic="YES" id="ffM-Ms-eTh"/>
+                    <constraint firstItem="Gls-qR-b7U" firstAttribute="leading" secondItem="Lu3-JU-t9O" secondAttribute="trailing" constant="8" symbolic="YES" id="jCh-Bc-Qx7"/>
+                    <constraint firstItem="Lu3-JU-t9O" firstAttribute="top" secondItem="4mF-2r-1rX" secondAttribute="bottom" constant="4" id="qOY-H0-d2w"/>
+                    <constraint firstItem="kfZ-X0-dtb" firstAttribute="top" secondItem="ZPU-oa-Q3R" secondAttribute="topMargin" id="rbo-T2-evm"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Gls-qR-b7U" secondAttribute="trailing" id="wk8-GN-RIm"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="ffM-Ms-eTh"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Penguin" width="45" height="45"/>
+        <image name="heart_white" width="20" height="20"/>
+    </resources>
+</document>
