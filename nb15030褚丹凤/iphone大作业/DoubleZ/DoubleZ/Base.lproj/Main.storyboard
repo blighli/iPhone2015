@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bj" id="ujq-fP-GxV">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1/30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="50h-b7-9AM">
+                                <rect key="frame" x="0.0" y="30" width="320" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哔剥哔剥哔剥" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dSM-Pn-a2E">
+                                <rect key="frame" x="0.0" y="50" width="320" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="R7o-kg-UYo">
+                                <rect key="frame" x="200" y="30" width="100" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="10000" image="coin">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="disabled" image="coin"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="lbq-h2-2Zy">
+                                <rect key="frame" x="85" y="80" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
+                                <state key="normal" backgroundImage="center_img">
+                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="imgBtnChangeOnClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="fXQ-Z8-z1v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2iw-G4-7Qe">
+                                <rect key="frame" x="0.0" y="105" width="70" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="提示" image="icon_tip" backgroundImage="btn_left"/>
+                                <state key="highlighted" image="icon_tip" backgroundImage="btn_left_highlighted"/>
+                                <connections>
+                                    <action selector="TipBtnOnClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="vKn-XL-fKN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="XY0-o0-4uu">
+                                <rect key="frame" x="250" y="105" width="70" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="大图" image="icon_img" backgroundImage="btn_right"/>
+                                <state key="highlighted" image="icon_img" backgroundImage="btn_right_highlighted"/>
+                                <connections>
+                                    <action selector="imgBtnChangeOnClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="Trs-Xo-awC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DH4-hY-dtZ">
+                                <rect key="frame" x="250" y="170" width="70" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="下一题" backgroundImage="btn_right"/>
+                                <state key="highlighted" backgroundImage="btn_right_highlighted"/>
+                                <connections>
+                                    <action selector="nextBtnOnClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="cC2-Ae-uk6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Bos-nI-Ivc">
+                                <rect key="frame" x="0.0" y="170" width="70" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="上一题" backgroundImage="btn_left"/>
+                                <state key="highlighted" backgroundImage="btn_left_highlighted"/>
+                                <connections>
+                                    <action selector="lastBtnOnClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="F7c-iv-k6h"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" id="OXw-F4-N2n">
+                                <rect key="frame" x="0.0" y="290" width="320" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.78107243776321411" green="0.92166715860366821" blue="0.94335418939590454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="ZTA-HB-mBM">
+                                <rect key="frame" x="0.0" y="238" width="320" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.95845729112625122" green="0.11964679509401321" blue="0.043512620031833649" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="answerView" destination="ZTA-HB-mBM" id="ORS-Dz-Pqx"/>
+                        <outlet property="coinBtn" destination="R7o-kg-UYo" id="yU9-u0-MiD"/>
+                        <outlet property="descLabel" destination="dSM-Pn-a2E" id="ur4-2J-xLl"/>
+                        <outlet property="imgInsideBtn" destination="lbq-h2-2Zy" id="O75-Bq-YiR"/>
+                        <outlet property="lastBtn" destination="Bos-nI-Ivc" id="Xdz-PO-14O"/>
+                        <outlet property="nextBtn" destination="DH4-hY-dtZ" id="9Gr-ws-HWI"/>
+                        <outlet property="optionsView" destination="OXw-F4-N2n" id="x8I-4p-80h"/>
+                        <outlet property="topIndexLabel" destination="50h-b7-9AM" id="6QB-uC-lA8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141" y="286"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bj" width="640" height="960"/>
+        <image name="btn_left" width="70" height="36"/>
+        <image name="btn_left_highlighted" width="70" height="36"/>
+        <image name="btn_right" width="70" height="36"/>
+        <image name="btn_right_highlighted" width="70" height="36"/>
+        <image name="center_img" width="165" height="212"/>
+        <image name="coin" width="20" height="20"/>
+        <image name="icon_img" width="20" height="20"/>
+        <image name="icon_tip" width="20" height="20"/>
+    </resources>
+</document>
