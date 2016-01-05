@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14F27" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Folder" representedClassName="Folder" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="incident" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Incident" syncable="YES"/>
+    </entity>
+    <entity name="Incident" representedClassName="Incident" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="folder" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Incident" inverseName="folder" inverseEntity="Incident" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Folder" positionX="-236" positionY="-216" width="128" height="90"/>
+        <element name="Incident" positionX="-54" positionY="9" width="128" height="90"/>
+    </elements>
+</model>
