@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view alpha="0.0" contentMode="scaleToFill" id="iN0-l3-epB" customClass="NavItem">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qAO-Y4-MSh">
+                    <rect key="frame" x="5" y="5" width="1" height="30"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="Wls-gg-ETk"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="美食" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PnV-TW-7oa">
+                    <rect key="frame" x="46" y="1" width="89" height="20.5"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="CRP-hG-l3G"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="川菜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8R-gd-3Pv">
+                    <rect key="frame" x="46" y="19" width="89" height="20"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="7tp-yC-dXt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tYB-HH-sMI">
+                    <rect key="frame" x="6" y="0.0" width="134" height="40"/>
+                    <animations/>
+                    <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" image="icon_category_1"/>
+                    <state key="selected" image="icon_category_1"/>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="v8R-gd-3Pv" firstAttribute="leading" secondItem="qAO-Y4-MSh" secondAttribute="trailing" constant="40" id="3Jj-6L-vtv"/>
+                <constraint firstItem="PnV-TW-7oa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="1" id="55E-WK-Eh6"/>
+                <constraint firstItem="qAO-Y4-MSh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="7hM-GY-ocd"/>
+                <constraint firstItem="tYB-HH-sMI" firstAttribute="leading" secondItem="qAO-Y4-MSh" secondAttribute="trailing" id="8Hb-fn-Y3a"/>
+                <constraint firstItem="PnV-TW-7oa" firstAttribute="leading" secondItem="qAO-Y4-MSh" secondAttribute="trailing" constant="40" id="KXT-i2-SbP"/>
+                <constraint firstAttribute="trailing" secondItem="v8R-gd-3Pv" secondAttribute="trailing" constant="5" id="N6a-nn-4qV"/>
+                <constraint firstAttribute="trailing" secondItem="PnV-TW-7oa" secondAttribute="trailing" constant="5" id="QZ7-WG-qx0"/>
+                <constraint firstAttribute="bottom" secondItem="v8R-gd-3Pv" secondAttribute="bottom" constant="1" id="Sn0-Cr-oA9"/>
+                <constraint firstItem="qAO-Y4-MSh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="b0P-yO-rPR"/>
+                <constraint firstAttribute="trailing" secondItem="tYB-HH-sMI" secondAttribute="trailing" id="c7H-dP-hZF"/>
+                <constraint firstAttribute="bottom" secondItem="tYB-HH-sMI" secondAttribute="bottom" id="fs6-3V-YBp"/>
+                <constraint firstItem="tYB-HH-sMI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gFC-Tp-TFA"/>
+                <constraint firstAttribute="bottom" secondItem="qAO-Y4-MSh" secondAttribute="bottom" constant="5" id="rIa-xg-bvM"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="button" destination="tYB-HH-sMI" id="Bua-RC-wcL"/>
+                <outlet property="subTitle" destination="v8R-gd-3Pv" id="Cs7-ty-T54"/>
+                <outlet property="title" destination="PnV-TW-7oa" id="CKR-c2-jd0"/>
+            </connections>
+            <point key="canvasLocation" x="340" y="202"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_category_1" width="30" height="30"/>
+    </resources>
+</document>
