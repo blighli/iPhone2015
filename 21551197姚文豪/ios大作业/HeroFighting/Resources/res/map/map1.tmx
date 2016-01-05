@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="145" height="32" tilewidth="20" tileheight="20">
+ <tileset firstgid="1" name="20121112112711398" tilewidth="20" tileheight="20">
+  <image source="20121112112711398.jpg" width="1499" height="394"/>
+  <terraintypes>
+   <terrain name="新地形" tile="-1"/>
+  </terraintypes>
+  <tile id="23">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="barrier" width="145" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt2EEKgDAMBED/4MX/v9ST1wpN2kSZgb1KugaUHgcAAAAAAAAA2a5BqNH1nYzm2pHI3Nky5q7us1v0I7NZqfpsf+iwm93n1jkA2XxHiPJ/QpQdIsoOEWWHiHKPRlT1fa5I95wfS3VfM1nh7blPXwAAHdxstT1z
+  </data>
+ </layer>
+ <layer name="background" width="145" height="32">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object name="player" x="104.145" y="356.707" width="22.9741" height="23.975" rotation="1.4679"/>
+  <object name="monster" x="1058" y="407" width="46" height="19"/>
+  <object name="monster" x="2119" y="413" width="30" height="20"/>
+  <object name="boss" x="2845" y="398" width="31" height="27"/>
+ </objectgroup>
+</map>

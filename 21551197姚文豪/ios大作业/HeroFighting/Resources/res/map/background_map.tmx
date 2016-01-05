@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="15" tilewidth="45" tileheight="45">
+ <tileset firstgid="1" name="background" tilewidth="45" tileheight="45">
+  <image source="20121112112711398.jpg" width="1499" height="394"/>
+ </tileset>
+ <layer name="块层 1" width="50" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt1ee7z3Ucx/GfcziHsjMy41gpISt7701klZXsUUj2yt6UrWyVVaQokk0a9t4jhYzszeP8Ae59r4sb5319H3c/3+t56xUVCoUykZksZCUbr5Kd13idHLxBTnKRmzfJQ17ykZ8CvEVBClGYIhSlGMUpQUlKUToUzJWhLOUoTwUqUonKVKEq1ahODWpSi9q8TR3q8g71qE8DGtKId3mPxjShKc1ozvsBdbTgA1rSita0oS3taE8HOtKJD/mIznShKx/TjU/oTg960ove9KEv/ejPAAbyKYMC6hjMEIYyjOGMYCSjGM0YxjKO8UzgMz5nIpOYzBSmMo3pzOALvmQms5jNHOYyj/kBdSzgK77mGxayiMUsYSnf8h3LWM73rOAHfmQlq/iJn1nNGn5hLb+yjvVsYCOb2BxQQ/RtZRu/sZ3f+YM/+Ysd7GQXu9nDXvaxnwMc5BCHOcJRjnGcE5zkFKc5w1n+5hz/BNTxL+e5wEX+4xKXucJV/uca17nBTW5xmzvc5R73ecBDHvE4+gexfIQRTmziEEEkcWMF0xH9TBjhxCYOEUQSl3i8wIvEJwEJSURikpCUl0hGclKQkpdJRWrSkJZ0pOcVMpAxmIxQVChmP2L2I2Y/nnbPej+2BNQRsx/P1348AZi9/GQ=
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object name="player" x="88" y="538" width="90" height="48"/>
+  <object name="monster1" x="315" y="539" width="87" height="44"/>
+  <object name="monster2" x="631" y="541" width="90" height="45"/>
+  <object name="monster3" x="810" y="541" width="91" height="44"/>
+ </objectgroup>
+</map>
