@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xDh-nT-nLC">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="SSH-pa-mYP">
+            <objects>
+                <tabBarController id="xDh-nT-nLC" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="87C-c3-Exq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Ea9-RN-e4S" kind="relationship" relationship="viewControllers" id="WqL-9f-AR1"/>
+                        <segue destination="Cnt-UJ-6sC" kind="relationship" relationship="viewControllers" id="p19-bg-Xng"/>
+                        <segue destination="u7R-Pr-5Di" kind="relationship" relationship="viewControllers" id="64t-Pt-UXn"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H6r-2c-T8A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3895.5" y="-94"/>
+        </scene>
+        <!--stamps-->
+        <scene sceneID="jP3-vV-GCN">
+            <objects>
+                <navigationController id="u7R-Pr-5Di" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="stamps" image="ya.png" id="xYg-3K-bgI"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="llH-GJ-k5D">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="akv-sD-HEO" kind="relationship" relationship="rootViewController" id="IyW-ra-ve3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="74t-YE-qhf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3090" y="533"/>
+        </scene>
+        <!--card-->
+        <scene sceneID="gnN-OL-Coe">
+            <objects>
+                <navigationController id="Cnt-UJ-6sC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="card" image="lengyin.png" id="niS-ZJ-2lK"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="n6G-5H-LZP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="H4Z-fU-I2A" kind="relationship" relationship="rootViewController" id="qFc-9j-LRg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fUa-vd-Z3u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3090" y="93"/>
+        </scene>
+        <!--Card-->
+        <scene sceneID="emo-5b-j9g">
+            <objects>
+                <viewController id="H4Z-fU-I2A" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ym2-5z-2K5"/>
+                        <viewControllerLayoutGuide type="bottom" id="RwF-fc-jMB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6qt-xr-XXX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Card" id="fh3-oa-fHe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="giM-eo-JfH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2380.5" y="113"/>
+        </scene>
+        <!--Stamps-->
+        <scene sceneID="DCu-0M-f2N">
+            <objects>
+                <viewController id="akv-sD-HEO" customClass="ThirdViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f2l-8p-J91"/>
+                        <viewControllerLayoutGuide type="bottom" id="tWb-Fz-ade"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CpO-wR-dZg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Stamps" id="c7B-r8-eDw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dTK-8e-IuC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2376" y="551"/>
+        </scene>
+        <!--today-->
+        <scene sceneID="kvJ-zo-v7Q">
+            <objects>
+                <navigationController id="Ea9-RN-e4S" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="today" image="huapenS.png" id="S0t-38-c4y"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vYJ-3u-bZv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="0q6-xB-dwD" kind="relationship" relationship="rootViewController" id="VKV-c0-eoU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P6K-O4-ihj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3090" y="-354"/>
+        </scene>
+        <!--Today-->
+        <scene sceneID="vsz-Rp-mU9">
+            <objects>
+                <viewController id="0q6-xB-dwD" customClass="FirstViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jcz-i7-Whs"/>
+                        <viewControllerLayoutGuide type="bottom" id="krR-bh-gMy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cY1-aQ-WcB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Today" id="YRD-9E-WxS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6xe-3s-8bd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2373" y="-354"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="huapenS.png" width="32" height="32"/>
+        <image name="lengyin.png" width="32" height="32"/>
+        <image name="ya.png" width="32" height="32"/>
+    </resources>
+</document>
