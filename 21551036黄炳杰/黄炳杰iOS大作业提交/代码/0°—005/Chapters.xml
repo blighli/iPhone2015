@@ -1,0 +1,17 @@
+<Chapters>
+	<Chapter>
+		<Name>平原</Name>
+		<Number>1</Number>
+        <Unlocked>1</Unlocked>
+	</Chapter>
+	<Chapter>
+		<Name>沙漠</Name>
+		<Number>2</Number>
+        <Unlocked>1</Unlocked>
+	</Chapter>
+	<Chapter>
+		<Name>极地</Name>
+		<Number>3</Number>
+        <Unlocked>1</Unlocked>
+	</Chapter>
+</Chapters>

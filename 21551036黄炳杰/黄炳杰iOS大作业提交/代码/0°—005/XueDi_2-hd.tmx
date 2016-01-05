@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="18" height="10" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="XueDiMap" tilewidth="64" tileheight="64">
+  <image source="XueDiMap.png" width="384" height="192"/>
+  <tile id="5">
+   <properties>
+    <property name="buildable" value="1"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="buildable" value="1"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="buildable" value="1"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="buildable" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="18" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NlYGBgBWJOKE0uFoJiTiQ2JRjdHEYgZoJiZiLEcZnDSSKb2ubwAjEfEuYn0RxuKGZDwvjs4MchDjOHnLgRRGILUAlzMUDSEaU0AI2c/6jQAgAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="18" height="10">
+  <object name="Waypoint0" x="160" y="-30"/>
+  <object name="Waypoint1" x="160" y="356"/>
+  <object name="Waypoint2" x="414" y="356"/>
+  <object name="Waypoint3" x="414" y="174"/>
+  <object name="Waypoint4" x="608" y="174"/>
+  <object name="Waypoint5" x="608" y="418"/>
+  <object name="Waypoint6" x="798" y="418"/>
+  <object name="Waypoint7" x="798" y="168"/>
+  <object name="Waypoint8" x="994" y="168"/>
+  <object name="Waypoint9" x="994" y="420"/>
+  <object name="Waypoint10" x="1172" y="420"/>
+ </objectgroup>
+ <objectgroup name="PObjects" width="18" height="10">
+  <object name="PWaypoint0" x="-38" y="292"/>
+  <object name="PWaypoint1" x="1182" y="292"/>
+ </objectgroup>
+</map>

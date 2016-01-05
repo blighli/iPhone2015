@@ -1,0 +1,60 @@
+<Levels>
+	<Level>
+        <Name>Chapter1Level1</Name>
+		<Number>1</Number>
+        <Unlocked>1</Unlocked>
+        <Stars>3</Stars>
+		<Data>Some Chapter 1 Level 1 Data</Data>
+        <LevelClear>0</LevelClear>
+        
+        
+        
+	</Level>
+	<Level>
+        <Name>Chapter1Level2</Name>
+		<Number>2</Number>
+        <Unlocked>1</Unlocked>
+        <Stars>1</Stars>
+		<Data>Some Chapter 1 Level 2 Data</Data>
+        
+        <LevelClear>0</LevelClear>
+        
+        
+        
+	</Level>
+	<Level>
+        <Name>Chapter1Level3</Name>
+		<Number>3</Number>
+        <Unlocked>0</Unlocked>
+        <Stars>2</Stars>
+		<Data>Some Chapter 1 Level 3 Data</Data>
+        
+        <LevelClear>0</LevelClear>
+        
+        
+        
+	</Level>
+	<Level>
+        <Name>Chapter1Level4</Name>
+		<Number>4</Number>
+        <Unlocked>1</Unlocked>
+        <Stars>0</Stars>
+		<Data>Some Chapter 1 Level 4 Data</Data>
+        
+        <LevelClear>0</LevelClear>
+        
+        
+	</Level>
+	<Level>
+        <Name>Chapter1Level5</Name>
+		<Number>5</Number>
+        <Unlocked>1</Unlocked>
+        <Stars>0</Stars>
+		<Data>Some Chapter 1 Level 5 Data</Data>
+        
+        <LevelClear>0</LevelClear>
+        
+        
+        
+	</Level>
+</Levels>

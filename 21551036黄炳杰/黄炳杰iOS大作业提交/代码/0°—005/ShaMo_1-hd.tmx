@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="18" height="10" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="ShaMoMap" tilewidth="64" tileheight="64">
+  <image source="ShaMoMap-hd.png" width="320" height="384"/>
+  <tile id="6">
+   <properties>
+    <property name="buildable" value="1"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="buildable" value="1"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="buildable" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="18" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NhYGBgoQJmB2J+KtBMFGBmJLOItY8fjc8HxBxo8iA2Ix47sZkNMwfdPWw41HMDMQ8OzIvFPbjMIca/yOrw2UsM5gJiTirQ1DADRAMASCkQPNACAAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="18" height="10">
+  <object name="Waypoint0" x="-36" y="164"/>
+  <object name="Waypoint1" x="994" y="164"/>
+  <object name="Waypoint2" x="994" y="354"/>
+  <object name="Waypoint3" x="550" y="354"/>
+  <object name="Waypoint4" x="550" y="294"/>
+  <object name="Waypoint5" x="170" y="294"/>
+  <object name="Waypoint6" x="170" y="480"/>
+  <object name="Waypoint7" x="1178" y="480"/>
+ </objectgroup>
+ <objectgroup name="PObjects" width="18" height="10">
+  <object name="PWaypoint0" x="-48" y="286"/>
+  <object name="PWaypoint1" x="1196" y="286"/>
+ </objectgroup>
+</map>
