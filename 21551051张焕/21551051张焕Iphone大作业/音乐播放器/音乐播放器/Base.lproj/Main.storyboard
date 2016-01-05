@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Xyl-8w-Ey7">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="QgT-YK-KAl">
+            <objects>
+                <navigationController id="Xyl-8w-Ey7" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5dc-n8-WHp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="rLQ-Qu-GXZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="97e-xS-pAP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-277.33333333333331" y="203.53333333333333"/>
+        </scene>
+        <!--Music Player View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LMMusicPlayerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="yt1-v7-kdg">
+                                <rect key="frame" x="0.0" y="-250" width="320" height="748"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5me-cf-uHL">
+                                <rect key="frame" x="0.0" y="64" width="320" height="434"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MusicCell" textLabel="DGO-iF-euf" detailTextLabel="dnE-6m-K8q" style="IBUITableViewCellStyleSubtitle" id="RWh-MP-bnP" customClass="LMMusicCell">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RWh-MP-bnP" id="i4W-Oe-kJ8">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DGO-iF-euf">
+                                                    <rect key="frame" x="15" y="6" width="31.5" height="19.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dnE-6m-K8q">
+                                                    <rect key="frame" x="15" y="25.5" width="40.5" height="13.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="LUb-8A-Hi6"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="UI7-1T-5dm"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ydg-g1-8D8">
+                                <rect key="frame" x="0.0" y="498" width="320" height="70"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="6se-3g-tPS"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="yt1-v7-kdg" secondAttribute="trailing" id="EjB-s5-xNa"/>
+                            <constraint firstItem="5me-cf-uHL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="EuB-bb-0U7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ydg-g1-8D8" secondAttribute="bottom" id="G0y-qd-ONo"/>
+                            <constraint firstItem="5me-cf-uHL" firstAttribute="bottom" secondItem="yt1-v7-kdg" secondAttribute="bottom" id="Iia-iX-sGz"/>
+                            <constraint firstItem="yt1-v7-kdg" firstAttribute="top" relation="lessThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="J8l-Qb-rM8"/>
+                            <constraint firstItem="5me-cf-uHL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Kp5-gi-rKs"/>
+                            <constraint firstAttribute="trailing" secondItem="Ydg-g1-8D8" secondAttribute="trailing" id="cDX-Wn-Tbb"/>
+                            <constraint firstItem="Ydg-g1-8D8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ljc-rA-isq"/>
+                            <constraint firstAttribute="trailing" secondItem="5me-cf-uHL" secondAttribute="trailing" id="pnJ-D2-jzu"/>
+                            <constraint firstItem="Ydg-g1-8D8" firstAttribute="top" secondItem="yt1-v7-kdg" secondAttribute="bottom" id="rKL-Yl-Lgc"/>
+                            <constraint firstItem="yt1-v7-kdg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sZT-KH-FrZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="cb2-Ht-QH0"/>
+                    <connections>
+                        <outlet property="bottomView" destination="Ydg-g1-8D8" id="tBI-dj-HIj"/>
+                        <outlet property="tableView" destination="5me-cf-uHL" id="kqt-XY-YXv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="222" y="203"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backgroundImage" width="1024" height="748"/>
+    </resources>
+</document>
