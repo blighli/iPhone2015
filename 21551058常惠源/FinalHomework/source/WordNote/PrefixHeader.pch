@@ -1,0 +1,35 @@
+//
+//  WordNote.pch
+//  WordNote
+//
+//  Created by 常惠源 on 12/22/15.
+//  Copyright © 2015 ZJU. All rights reserved.
+//
+
+#ifndef WordNote_WordNote_pch
+#define WordNote_WordNote_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// 系统框架
+#import <sqlite3.h>
+
+// 宏定义头文件
+#import "WordNoteMacro.h"
+
+// 第三方组件
+#import "MBProgressHUD.h"
+#import "HUDHelper.h"
+#import "YTKKeyValueStore.h"
+
+//颜色
+#define k_InterfaceColor colorWithRed:255 / 255.0 green:255 / 255.0 blue:224 / 255.0 alpha:1
+
+// 控制器
+#import "MainListCollectionViewController.h"
+
+// 封装
+#import "DataBaseMananger.h"
+
+#endif
