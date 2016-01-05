@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD6E6049D7ACD712DCF9F423 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6A31D927876739FC8E256A /* libPods.a */; };
+		EE9436151C269D6300C39E47 /* ZXNetUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9436141C269D6300C39E47 /* ZXNetUtils.m */; };
+		EE9436181C281A1800C39E47 /* ZXCommentNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9436171C281A1800C39E47 /* ZXCommentNavigationViewController.m */; };
+		EE94361B1C281A3300C39E47 /* ZXCommentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE94361A1C281A3300C39E47 /* ZXCommentTableViewController.m */; };
+		EE94361F1C2824C000C39E47 /* ZXCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE94361D1C2824C000C39E47 /* ZXCommentTableViewCell.m */; };
+		EE9436201C2824C000C39E47 /* ZXCommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE94361E1C2824C000C39E47 /* ZXCommentTableViewCell.xib */; };
+		EE9436241C2829C500C39E47 /* ZXComment.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9436231C2829C500C39E47 /* ZXComment.m */; };
+		EE9436271C282EB500C39E47 /* ZXCommentFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9436261C282EB500C39E47 /* ZXCommentFrame.m */; };
+		EE94362B1C283DDB00C39E47 /* ZXSendCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9436291C283DDB00C39E47 /* ZXSendCommentViewController.m */; };
+		EE94362C1C283DDB00C39E47 /* ZXSendCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE94362A1C283DDB00C39E47 /* ZXSendCommentViewController.xib */; };
+		EEDDB3DB1C2116F10089120D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDDB3DA1C2116F10089120D /* main.m */; };
+		EEDDB3DE1C2116F10089120D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDDB3DD1C2116F10089120D /* AppDelegate.m */; };
+		EEDDB3E61C2116F10089120D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDDB3E51C2116F10089120D /* Assets.xcassets */; };
+		EEDDB3E91C2116F10089120D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDDB3E71C2116F10089120D /* LaunchScreen.storyboard */; };
+		EEDDB3F51C2118EA0089120D /* ZXNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDDB3F41C2118EA0089120D /* ZXNavigationViewController.m */; };
+		EEDDB3F81C21190F0089120D /* ZXTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDDB3F71C21190F0089120D /* ZXTabBarViewController.m */; };
+		EEDDB3FC1C2119650089120D /* ZXTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDDB3FA1C2119650089120D /* ZXTableViewController.m */; };
+		EEDDB3FD1C2119650089120D /* ZXTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEDDB3FB1C2119650089120D /* ZXTableViewController.xib */; };
+		EEDDB4011C2119A50089120D /* ZXMyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDDB3FF1C2119A50089120D /* ZXMyInfoViewController.m */; };
+		EEDDB4021C2119A50089120D /* ZXMyInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEDDB4001C2119A50089120D /* ZXMyInfoViewController.xib */; };
+		EEDDB4061C2119BF0089120D /* ZXLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDDB4041C2119BF0089120D /* ZXLoginViewController.m */; };
+		EEDDB4071C2119BF0089120D /* ZXLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEDDB4051C2119BF0089120D /* ZXLoginViewController.xib */; };
+		EEDDB40B1C2119CD0089120D /* ZXRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDDB4091C2119CD0089120D /* ZXRegisterViewController.m */; };
+		EEDDB40C1C2119CD0089120D /* ZXRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEDDB40A1C2119CD0089120D /* ZXRegisterViewController.xib */; };
+		EEDDB40F1C211C820089120D /* ZXLoginNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDDB40E1C211C820089120D /* ZXLoginNavigationViewController.m */; };
+		EEDDB4151C2129E10089120D /* ZXWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDDB4141C2129E10089120D /* ZXWeibo.m */; };
+		EEDDB41B1C212ACF0089120D /* ZXWeiboTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDDB4191C212ACF0089120D /* ZXWeiboTableViewCell.m */; };
+		EEDDB41C1C212ACF0089120D /* ZXWeiboTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEDDB41A1C212ACF0089120D /* ZXWeiboTableViewCell.xib */; };
+		EEDDB41F1C212B050089120D /* ZXWeiboFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDDB41E1C212B050089120D /* ZXWeiboFrame.m */; };
+		EEDDB4221C212E820089120D /* ZXUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDDB4211C212E820089120D /* ZXUser.m */; };
+		EEDDB4271C2137FC0089120D /* ZXSendWeiboViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDDB4251C2137FC0089120D /* ZXSendWeiboViewController.m */; };
+		EEDDB4281C2137FC0089120D /* ZXSendWeiboViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEDDB4261C2137FC0089120D /* ZXSendWeiboViewController.xib */; };
+		EEDDB42F1C218FA30089120D /* ZXTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDDB42D1C218FA30089120D /* ZXTestViewController.m */; };
+		EEDDB4301C218FA30089120D /* ZXTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEDDB42E1C218FA30089120D /* ZXTestViewController.xib */; };
+		EEDDB4331C2190D10089120D /* ZXUploadImgNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDDB4321C2190D10089120D /* ZXUploadImgNavigationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		246109AB34041758195DB76A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5A6A31D927876739FC8E256A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19F31A076518C00F02B9A5A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EE9436131C269D6300C39E47 /* ZXNetUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXNetUtils.h; sourceTree = "<group>"; };
+		EE9436141C269D6300C39E47 /* ZXNetUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXNetUtils.m; sourceTree = "<group>"; };
+		EE9436161C281A1800C39E47 /* ZXCommentNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCommentNavigationViewController.h; sourceTree = "<group>"; };
+		EE9436171C281A1800C39E47 /* ZXCommentNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCommentNavigationViewController.m; sourceTree = "<group>"; };
+		EE9436191C281A3300C39E47 /* ZXCommentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCommentTableViewController.h; sourceTree = "<group>"; };
+		EE94361A1C281A3300C39E47 /* ZXCommentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCommentTableViewController.m; sourceTree = "<group>"; };
+		EE94361C1C2824C000C39E47 /* ZXCommentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCommentTableViewCell.h; sourceTree = "<group>"; };
+		EE94361D1C2824C000C39E47 /* ZXCommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCommentTableViewCell.m; sourceTree = "<group>"; };
+		EE94361E1C2824C000C39E47 /* ZXCommentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXCommentTableViewCell.xib; sourceTree = "<group>"; };
+		EE9436221C2829C500C39E47 /* ZXComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXComment.h; sourceTree = "<group>"; };
+		EE9436231C2829C500C39E47 /* ZXComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXComment.m; sourceTree = "<group>"; };
+		EE9436251C282EB500C39E47 /* ZXCommentFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCommentFrame.h; sourceTree = "<group>"; };
+		EE9436261C282EB500C39E47 /* ZXCommentFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCommentFrame.m; sourceTree = "<group>"; };
+		EE9436281C283DDB00C39E47 /* ZXSendCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXSendCommentViewController.h; sourceTree = "<group>"; };
+		EE9436291C283DDB00C39E47 /* ZXSendCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXSendCommentViewController.m; sourceTree = "<group>"; };
+		EE94362A1C283DDB00C39E47 /* ZXSendCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXSendCommentViewController.xib; sourceTree = "<group>"; };
+		EEDDB3D61C2116F10089120D /* Weibo_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weibo_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDDB3DA1C2116F10089120D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEDDB3DC1C2116F10089120D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEDDB3DD1C2116F10089120D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEDDB3E51C2116F10089120D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEDDB3E81C2116F10089120D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEDDB3EA1C2116F10089120D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEDDB3F31C2118EA0089120D /* ZXNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXNavigationViewController.h; sourceTree = "<group>"; };
+		EEDDB3F41C2118EA0089120D /* ZXNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXNavigationViewController.m; sourceTree = "<group>"; };
+		EEDDB3F61C21190F0089120D /* ZXTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXTabBarViewController.h; path = ../ZXTabBarViewController.h; sourceTree = "<group>"; };
+		EEDDB3F71C21190F0089120D /* ZXTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXTabBarViewController.m; path = ../ZXTabBarViewController.m; sourceTree = "<group>"; };
+		EEDDB3F91C2119650089120D /* ZXTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXTableViewController.h; sourceTree = "<group>"; };
+		EEDDB3FA1C2119650089120D /* ZXTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXTableViewController.m; sourceTree = "<group>"; };
+		EEDDB3FB1C2119650089120D /* ZXTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXTableViewController.xib; sourceTree = "<group>"; };
+		EEDDB3FE1C2119A50089120D /* ZXMyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXMyInfoViewController.h; sourceTree = "<group>"; };
+		EEDDB3FF1C2119A50089120D /* ZXMyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXMyInfoViewController.m; sourceTree = "<group>"; };
+		EEDDB4001C2119A50089120D /* ZXMyInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXMyInfoViewController.xib; sourceTree = "<group>"; };
+		EEDDB4031C2119BF0089120D /* ZXLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLoginViewController.h; sourceTree = "<group>"; };
+		EEDDB4041C2119BF0089120D /* ZXLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLoginViewController.m; sourceTree = "<group>"; };
+		EEDDB4051C2119BF0089120D /* ZXLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXLoginViewController.xib; sourceTree = "<group>"; };
+		EEDDB4081C2119CD0089120D /* ZXRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXRegisterViewController.h; sourceTree = "<group>"; };
+		EEDDB4091C2119CD0089120D /* ZXRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXRegisterViewController.m; sourceTree = "<group>"; };
+		EEDDB40A1C2119CD0089120D /* ZXRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXRegisterViewController.xib; sourceTree = "<group>"; };
+		EEDDB40D1C211C820089120D /* ZXLoginNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLoginNavigationViewController.h; sourceTree = "<group>"; };
+		EEDDB40E1C211C820089120D /* ZXLoginNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLoginNavigationViewController.m; sourceTree = "<group>"; };
+		EEDDB4131C2129E10089120D /* ZXWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWeibo.h; sourceTree = "<group>"; };
+		EEDDB4141C2129E10089120D /* ZXWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWeibo.m; sourceTree = "<group>"; };
+		EEDDB4181C212ACF0089120D /* ZXWeiboTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWeiboTableViewCell.h; sourceTree = "<group>"; };
+		EEDDB4191C212ACF0089120D /* ZXWeiboTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWeiboTableViewCell.m; sourceTree = "<group>"; };
+		EEDDB41A1C212ACF0089120D /* ZXWeiboTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXWeiboTableViewCell.xib; sourceTree = "<group>"; };
+		EEDDB41D1C212B050089120D /* ZXWeiboFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWeiboFrame.h; sourceTree = "<group>"; };
+		EEDDB41E1C212B050089120D /* ZXWeiboFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWeiboFrame.m; sourceTree = "<group>"; };
+		EEDDB4201C212E820089120D /* ZXUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXUser.h; sourceTree = "<group>"; };
+		EEDDB4211C212E820089120D /* ZXUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXUser.m; sourceTree = "<group>"; };
+		EEDDB4241C2137FC0089120D /* ZXSendWeiboViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXSendWeiboViewController.h; sourceTree = "<group>"; };
+		EEDDB4251C2137FC0089120D /* ZXSendWeiboViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXSendWeiboViewController.m; sourceTree = "<group>"; };
+		EEDDB4261C2137FC0089120D /* ZXSendWeiboViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXSendWeiboViewController.xib; sourceTree = "<group>"; };
+		EEDDB42C1C218FA30089120D /* ZXTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXTestViewController.h; sourceTree = "<group>"; };
+		EEDDB42D1C218FA30089120D /* ZXTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXTestViewController.m; sourceTree = "<group>"; };
+		EEDDB42E1C218FA30089120D /* ZXTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXTestViewController.xib; sourceTree = "<group>"; };
+		EEDDB4311C2190D10089120D /* ZXUploadImgNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXUploadImgNavigationViewController.h; sourceTree = "<group>"; };
+		EEDDB4321C2190D10089120D /* ZXUploadImgNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXUploadImgNavigationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEDDB3D31C2116F10089120D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6E6049D7ACD712DCF9F423 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF4EF2DB025003CA418B5DBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A6A31D927876739FC8E256A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1C659767022B46278880C68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				246109AB34041758195DB76A /* Pods.debug.xcconfig */,
+				E19F31A076518C00F02B9A5A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE9436211C28294B00C39E47 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				EEDDB3F91C2119650089120D /* ZXTableViewController.h */,
+				EEDDB3FA1C2119650089120D /* ZXTableViewController.m */,
+				EEDDB3FB1C2119650089120D /* ZXTableViewController.xib */,
+				EE9436191C281A3300C39E47 /* ZXCommentTableViewController.h */,
+				EE94361A1C281A3300C39E47 /* ZXCommentTableViewController.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		EEDDB3CD1C2116F10089120D = {
+			isa = PBXGroup;
+			children = (
+				EEDDB3D81C2116F10089120D /* Weibo_1 */,
+				EEDDB3D71C2116F10089120D /* Products */,
+				B1C659767022B46278880C68 /* Pods */,
+				AF4EF2DB025003CA418B5DBC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EEDDB3D71C2116F10089120D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEDDB3D61C2116F10089120D /* Weibo_1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEDDB3D81C2116F10089120D /* Weibo_1 */ = {
+			isa = PBXGroup;
+			children = (
+				EEDDB3F21C2117EC0089120D /* Model */,
+				EEDDB3F11C21177E0089120D /* View */,
+				EEDDB3F01C2117730089120D /* Controller */,
+				EEDDB3DC1C2116F10089120D /* AppDelegate.h */,
+				EEDDB3DD1C2116F10089120D /* AppDelegate.m */,
+				EEDDB3E51C2116F10089120D /* Assets.xcassets */,
+				EEDDB3E71C2116F10089120D /* LaunchScreen.storyboard */,
+				EEDDB3EA1C2116F10089120D /* Info.plist */,
+				EEDDB3D91C2116F10089120D /* Supporting Files */,
+				EE9436131C269D6300C39E47 /* ZXNetUtils.h */,
+				EE9436141C269D6300C39E47 /* ZXNetUtils.m */,
+			);
+			path = Weibo_1;
+			sourceTree = "<group>";
+		};
+		EEDDB3D91C2116F10089120D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEDDB3DA1C2116F10089120D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEDDB3F01C2117730089120D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EEDDB4231C2134C30089120D /* View */,
+				EEDDB4171C212A650089120D /* Navigation */,
+				EEDDB4161C212A3F0089120D /* TabBar */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EEDDB3F11C21177E0089120D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEDDB4181C212ACF0089120D /* ZXWeiboTableViewCell.h */,
+				EEDDB4191C212ACF0089120D /* ZXWeiboTableViewCell.m */,
+				EEDDB41A1C212ACF0089120D /* ZXWeiboTableViewCell.xib */,
+				EE94361C1C2824C000C39E47 /* ZXCommentTableViewCell.h */,
+				EE94361D1C2824C000C39E47 /* ZXCommentTableViewCell.m */,
+				EE94361E1C2824C000C39E47 /* ZXCommentTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EEDDB3F21C2117EC0089120D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEDDB4131C2129E10089120D /* ZXWeibo.h */,
+				EEDDB4141C2129E10089120D /* ZXWeibo.m */,
+				EEDDB41D1C212B050089120D /* ZXWeiboFrame.h */,
+				EEDDB41E1C212B050089120D /* ZXWeiboFrame.m */,
+				EEDDB4201C212E820089120D /* ZXUser.h */,
+				EEDDB4211C212E820089120D /* ZXUser.m */,
+				EE9436221C2829C500C39E47 /* ZXComment.h */,
+				EE9436231C2829C500C39E47 /* ZXComment.m */,
+				EE9436251C282EB500C39E47 /* ZXCommentFrame.h */,
+				EE9436261C282EB500C39E47 /* ZXCommentFrame.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EEDDB4161C212A3F0089120D /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				EEDDB3F61C21190F0089120D /* ZXTabBarViewController.h */,
+				EEDDB3F71C21190F0089120D /* ZXTabBarViewController.m */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		EEDDB4171C212A650089120D /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				EEDDB3F31C2118EA0089120D /* ZXNavigationViewController.h */,
+				EEDDB3F41C2118EA0089120D /* ZXNavigationViewController.m */,
+				EEDDB40D1C211C820089120D /* ZXLoginNavigationViewController.h */,
+				EEDDB40E1C211C820089120D /* ZXLoginNavigationViewController.m */,
+				EEDDB4311C2190D10089120D /* ZXUploadImgNavigationViewController.h */,
+				EEDDB4321C2190D10089120D /* ZXUploadImgNavigationViewController.m */,
+				EE9436161C281A1800C39E47 /* ZXCommentNavigationViewController.h */,
+				EE9436171C281A1800C39E47 /* ZXCommentNavigationViewController.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		EEDDB4231C2134C30089120D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE9436211C28294B00C39E47 /* TableView */,
+				EEDDB3FE1C2119A50089120D /* ZXMyInfoViewController.h */,
+				EEDDB3FF1C2119A50089120D /* ZXMyInfoViewController.m */,
+				EEDDB4001C2119A50089120D /* ZXMyInfoViewController.xib */,
+				EEDDB4031C2119BF0089120D /* ZXLoginViewController.h */,
+				EEDDB4041C2119BF0089120D /* ZXLoginViewController.m */,
+				EEDDB4051C2119BF0089120D /* ZXLoginViewController.xib */,
+				EEDDB4081C2119CD0089120D /* ZXRegisterViewController.h */,
+				EEDDB4091C2119CD0089120D /* ZXRegisterViewController.m */,
+				EEDDB40A1C2119CD0089120D /* ZXRegisterViewController.xib */,
+				EEDDB4241C2137FC0089120D /* ZXSendWeiboViewController.h */,
+				EEDDB4251C2137FC0089120D /* ZXSendWeiboViewController.m */,
+				EEDDB4261C2137FC0089120D /* ZXSendWeiboViewController.xib */,
+				EEDDB42C1C218FA30089120D /* ZXTestViewController.h */,
+				EEDDB42D1C218FA30089120D /* ZXTestViewController.m */,
+				EEDDB42E1C218FA30089120D /* ZXTestViewController.xib */,
+				EE9436281C283DDB00C39E47 /* ZXSendCommentViewController.h */,
+				EE9436291C283DDB00C39E47 /* ZXSendCommentViewController.m */,
+				EE94362A1C283DDB00C39E47 /* ZXSendCommentViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEDDB3D51C2116F10089120D /* Weibo_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEDDB3ED1C2116F10089120D /* Build configuration list for PBXNativeTarget "Weibo_1" */;
+			buildPhases = (
+				72A48470A4BF5E6B64A69E4F /* Check Pods Manifest.lock */,
+				EEDDB3D21C2116F10089120D /* Sources */,
+				EEDDB3D31C2116F10089120D /* Frameworks */,
+				EEDDB3D41C2116F10089120D /* Resources */,
+				182A0AE1EFCB7A5BE71738E0 /* Embed Pods Frameworks */,
+				E2A5C3333E77C65AB640D229 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weibo_1;
+			productName = Weibo_1;
+			productReference = EEDDB3D61C2116F10089120D /* Weibo_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEDDB3CE1C2116F10089120D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZX;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Zheng Xiang";
+				TargetAttributes = {
+					EEDDB3D51C2116F10089120D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EEDDB3D11C2116F10089120D /* Build configuration list for PBXProject "Weibo_1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEDDB3CD1C2116F10089120D;
+			productRefGroup = EEDDB3D71C2116F10089120D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEDDB3D51C2116F10089120D /* Weibo_1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEDDB3D41C2116F10089120D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDDB3FD1C2119650089120D /* ZXTableViewController.xib in Resources */,
+				EE9436201C2824C000C39E47 /* ZXCommentTableViewCell.xib in Resources */,
+				EEDDB4071C2119BF0089120D /* ZXLoginViewController.xib in Resources */,
+				EEDDB3E91C2116F10089120D /* LaunchScreen.storyboard in Resources */,
+				EEDDB4301C218FA30089120D /* ZXTestViewController.xib in Resources */,
+				EEDDB4021C2119A50089120D /* ZXMyInfoViewController.xib in Resources */,
+				EE94362C1C283DDB00C39E47 /* ZXSendCommentViewController.xib in Resources */,
+				EEDDB3E61C2116F10089120D /* Assets.xcassets in Resources */,
+				EEDDB40C1C2119CD0089120D /* ZXRegisterViewController.xib in Resources */,
+				EEDDB41C1C212ACF0089120D /* ZXWeiboTableViewCell.xib in Resources */,
+				EEDDB4281C2137FC0089120D /* ZXSendWeiboViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		182A0AE1EFCB7A5BE71738E0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72A48470A4BF5E6B64A69E4F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2A5C3333E77C65AB640D229 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEDDB3D21C2116F10089120D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDDB41F1C212B050089120D /* ZXWeiboFrame.m in Sources */,
+				EEDDB41B1C212ACF0089120D /* ZXWeiboTableViewCell.m in Sources */,
+				EEDDB3FC1C2119650089120D /* ZXTableViewController.m in Sources */,
+				EEDDB4331C2190D10089120D /* ZXUploadImgNavigationViewController.m in Sources */,
+				EE9436181C281A1800C39E47 /* ZXCommentNavigationViewController.m in Sources */,
+				EEDDB4221C212E820089120D /* ZXUser.m in Sources */,
+				EEDDB4061C2119BF0089120D /* ZXLoginViewController.m in Sources */,
+				EE94361F1C2824C000C39E47 /* ZXCommentTableViewCell.m in Sources */,
+				EE94361B1C281A3300C39E47 /* ZXCommentTableViewController.m in Sources */,
+				EEDDB4271C2137FC0089120D /* ZXSendWeiboViewController.m in Sources */,
+				EEDDB3F81C21190F0089120D /* ZXTabBarViewController.m in Sources */,
+				EE94362B1C283DDB00C39E47 /* ZXSendCommentViewController.m in Sources */,
+				EEDDB42F1C218FA30089120D /* ZXTestViewController.m in Sources */,
+				EE9436241C2829C500C39E47 /* ZXComment.m in Sources */,
+				EEDDB40B1C2119CD0089120D /* ZXRegisterViewController.m in Sources */,
+				EE9436271C282EB500C39E47 /* ZXCommentFrame.m in Sources */,
+				EEDDB4151C2129E10089120D /* ZXWeibo.m in Sources */,
+				EEDDB3DE1C2116F10089120D /* AppDelegate.m in Sources */,
+				EEDDB3DB1C2116F10089120D /* main.m in Sources */,
+				EEDDB4011C2119A50089120D /* ZXMyInfoViewController.m in Sources */,
+				EEDDB3F51C2118EA0089120D /* ZXNavigationViewController.m in Sources */,
+				EEDDB40F1C211C820089120D /* ZXLoginNavigationViewController.m in Sources */,
+				EE9436151C269D6300C39E47 /* ZXNetUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEDDB3E71C2116F10089120D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEDDB3E81C2116F10089120D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEDDB3EB1C2116F10089120D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEDDB3EC1C2116F10089120D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEDDB3EE1C2116F10089120D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 246109AB34041758195DB76A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Weibo_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.zhengxiang.Weibo-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEDDB3EF1C2116F10089120D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E19F31A076518C00F02B9A5A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Weibo_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.zhengxiang.Weibo-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEDDB3D11C2116F10089120D /* Build configuration list for PBXProject "Weibo_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDDB3EB1C2116F10089120D /* Debug */,
+				EEDDB3EC1C2116F10089120D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEDDB3ED1C2116F10089120D /* Build configuration list for PBXNativeTarget "Weibo_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDDB3EE1C2116F10089120D /* Debug */,
+				EEDDB3EF1C2116F10089120D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEDDB3CE1C2116F10089120D /* Project object */;
+}
