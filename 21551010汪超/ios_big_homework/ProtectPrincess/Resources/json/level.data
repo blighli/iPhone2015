@@ -1,0 +1,8 @@
+{
+    "count":3,
+    "levels":[
+		{"number": 1,"bg":"level1.png","data":"1.data"},
+        {"number": 2,"bg":"level2.png","data":"2.data"},
+        {"number": 3,"bg":"level3.png","data":"3.data"}
+    ]
+}

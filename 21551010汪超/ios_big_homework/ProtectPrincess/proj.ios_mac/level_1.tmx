@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="background" tilewidth="32" tileheight="32">
+  <image source="desert.png" width="960" height="640"/>
+ </tileset>
+ <tileset firstgid="601" name="level_1" tilewidth="32" tileheight="32">
+  <image source="levelResource.png" width="1280" height="640"/>
+ </tileset>
+ <tileset firstgid="1401" name="collidablesTileSet" tilewidth="32" tileheight="32">
+  <image source="collidablesTileSet.png" width="192" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="collidable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyd1VOwWFcYBtB7Y9u2bTa2nca21di2Gtt12sa20di2GltdmdynvnSme86ab87s2f83s8/DCQwICAhGcEIQklCEJgxhCUd4IhCRSEQmClGJRnRiEJNYxCYOcYlHfBKQkEQkJglJSUZyUpCSVKQmDWlJR3oykJFMZCYLWclGdnKQk1zkJg95yUd+ClCQbyhEYYpQlGIUpwQlKUVpylCWcpSnAhWpRGWqUJVqVKcGNalFbb6lDnWpR30a0JBGNKYJTWlGc1rQkla0pg1taUd7OtCRTnSmC13pRnd68B096UVv+tCXfvRnAAMZxGCGMJRhDGcEIxnFaMYwlnGMZwITmcRkpjCV75nGdGYwk1nMZg5zmcd8FrCQRSxmCUtZxnJW8AM/8hM/8wu/8hsr+Z0/+JNVrGYNa1nHejawkU1sZgtb2cZ2drCTXexmD3vZx34OcJBDHOYIRwO+rmMc5wQnOcVpznCWc5znAhe5xGWucJVrXOcGN7nFbe5wl3vc5wEPeRTU+5gnPOUZz3nBS17xmje85R3v+cBHPvH5y5BAD8EITghCEorQhCEs4Qgf+LU3ooxEZKIQlWhEJwYxiUVs4hCXeMQnAQlJRGKSkJRkJCcFKUlFatKQNqg3vcxARjKRmSxkJRvZyUFOcpGbPOQlX9CM/7PKOFuWcpSnAhWpRGWqUJVqVKcGNalF7aDeOrIu9ahPAxrSiMY0oSnNaE4LWtKK1rShLe1oTwc60onOdKEr3ehOj6DenrIXvelDX/rRnwEMZBCDGcJQhjGcEYxkFKMZw1jGMZ4JTGQSk5nC1KDeaXI6M5jJLGYzh7nMYz4LWMgiFrOEpSxjOSv+47ut/Nf+Ku+rWcNa1rGeDWxkE5vZwla2sZ0d7GQXu9nDXvaxnwMc5BCHOcJR/uIYxznBSU5xmjOc5RznucBFLnGZK1zlGte5wU1ucZs73OUe93nAQx7xN495wlOe8ZwXvOQVr3nDW97xng985BOfv9ydH38gwQhOCEISitCEISzhCE8EIhKJyEQhKtGITgxiEovYxCEu8YhPAhKSiMQkISnJSE4KUpKK1KQhLelITwYykonMZCEr2chODnKSi9zkIS/5yE8BCvINhShMEYpSjOKUoCSlKE0ZylKO8lSgIpWoTBWqUo3q1KAmtajNP/zZAjk=
+  </data>
+ </layer>
+ <layer name="firstLayer" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy9lUtOAkEURQuKjnPAPQkuwzBX0C2g7ICfW+ATQpgoQT4bcKAyBwYKW1BOh5CQtqqparq4yRl0/W73e69fCWGushTiEZ6gIo+vv06ZjV/xnIN8Sr2nhVcbOtA18DXVLV53UISSwvcDr0/4gnmMvlW8alCHhsL3F68/34+5hGI+GK+JJs7B8RHPbzAO2ROmsHi9JIV4hWHy/z7bunkPnBEWrwVrl7BS+J5aN1Hj5apufPV4jz4MItSNK19T3bC3YEk/Bt/ewTm2xOHrf7fn2XHh7c4oks8S3MODYS3Fkas6Xg1owrM8X67GeE1gCjN5vlx94/UDa9jIaLnaS3efqfpgmvkMZOHyxH9W159d3Z976fqzyz7oS9efXfZBW20BIqF3cQ==
+  </data>
+ </layer>
+ <objectgroup name="monsterObject">
+  <object name="monster" x="84" y="451"/>
+ </objectgroup>
+ <objectgroup name="princessObject">
+  <object name="princess" x="879" y="145"/>
+ </objectgroup>
+ <layer name="secondLayer" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUkAp4mBkYeIGYj5m+9poA7TMFYjM62zsKRiZIGKB0NlD2joJRQE0AAD5ZAZ8=
+  </data>
+ </layer>
+ <layer name="collidable" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyrZGVgqBzFo3gQ46phZjclAN2coWQvNcJtsNhLapgNlL3kgoFK49Syl1JzBsregQ43ets73DEA6rntvQ==
+  </data>
+ </layer>
+</map>
