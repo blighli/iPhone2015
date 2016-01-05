@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MTRegionViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yq9-5X-hHx" userLabel="切换城市的标题">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0w-XO-xok">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                            <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="切换城市" image="btn_changeCity">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="btn_changeCity_selected"/>
+                            <connections>
+                                <action selector="changeCity" destination="-1" eventType="touchUpInside" id="ydY-Rs-BD0"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_cell_rightArrow" translatesAutoresizingMaskIntoConstraints="NO" id="3gH-57-ev7">
+                            <rect key="frame" x="573" y="14" width="17" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="17" id="Dfi-ao-rgf"/>
+                                <constraint firstAttribute="height" constant="17" id="ZbM-E5-QTu"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="x0w-XO-xok" firstAttribute="top" secondItem="Yq9-5X-hHx" secondAttribute="top" id="11R-5o-pnz"/>
+                        <constraint firstAttribute="trailing" secondItem="3gH-57-ev7" secondAttribute="trailing" constant="10" id="Aoe-LX-9DP"/>
+                        <constraint firstAttribute="height" constant="44" id="BcH-DV-eJS"/>
+                        <constraint firstAttribute="trailing" secondItem="x0w-XO-xok" secondAttribute="trailing" id="MRF-Ce-Oab"/>
+                        <constraint firstAttribute="bottom" secondItem="x0w-XO-xok" secondAttribute="bottom" id="RIf-PY-K2g"/>
+                        <constraint firstItem="x0w-XO-xok" firstAttribute="leading" secondItem="Yq9-5X-hHx" secondAttribute="leading" id="S4B-2h-xgU"/>
+                        <constraint firstAttribute="centerY" secondItem="3gH-57-ev7" secondAttribute="centerY" id="qpu-K8-emX"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Yq9-5X-hHx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="4Yf-RD-4dd"/>
+                <constraint firstAttribute="trailing" secondItem="Yq9-5X-hHx" secondAttribute="trailing" id="Y6X-QD-mxd"/>
+                <constraint firstItem="Yq9-5X-hHx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="vVX-0e-2Hw"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="328" y="345"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_changeCity" width="30" height="30"/>
+        <image name="btn_changeCity_selected" width="30" height="30"/>
+        <image name="icon_cell_rightArrow" width="17" height="17"/>
+    </resources>
+</document>
