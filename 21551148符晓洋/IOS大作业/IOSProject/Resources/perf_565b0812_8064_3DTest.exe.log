@@ -1,0 +1,1162 @@
+Freq:2500000000
+Bias:                0.17ms of 10000 times
+
+thread(0) id:2904
+                              :      Self Time       ms,      Full Time       ms,      Self Avg Time   ms,      Full Avg Time   ms,      Full Max Time   ms
+          ImeInquire(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        IsSystemUser(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        IsInSafeMode(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+         InitRuntime(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     InitMemSharable(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      InitVersionReg(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          Correcting(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     InitUserManager(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          InitProcEx(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     InitCrushReport(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          InitUserId(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+            InitEnv0(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        InitPingback(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+         InitUserEnv(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      InitUserSwitch(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+             InitEnv(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           AddUiFunc(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+            LoadDict(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          LoadPlugin(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           InitTimer(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+               ForBD(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      InitQuickInput(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  DelayCreateProcess(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     InitSkinPreview(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+         InitKeyStat(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          InitPlugin(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       InitUsageStat(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        InitObserver(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      InitUiResource(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       InitComponent(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           ImeSelect(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ ImeSetActiveContext(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        ImeToAsciiEx(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       ImeProcessKey(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           NotifyIME(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          ImeSelect1(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          ImeSelect2(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      ImeProcessKey1(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      ImeProcessKey2(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      ImeProcessKey3(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      ImeProcessKey4(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      ImeProcessKey5(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      ImeProcessKey6(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      ImeProcessKey7(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      ImeProcessKey8(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     ImeProcessKey11(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     ImeProcessKey12(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     ImeProcessKey31(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     ImeProcessKey32(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     ImeProcessKey33(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     ImeProcessKey41(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     ImeProcessKey42(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+    ImeProcessKey311(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+    ImeProcessKey312(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       DataImc_Reset(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      DataImc_Reset1(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      DataImc_Reset2(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      DataImc_Reset3(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      DataImc_Reset4(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      DataImc_Reset5(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      GetDataFromImc(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ GetDataFromImc_Lock(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ GetDataFromImc_Comp(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ GetDataFromImc_Cand(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+GetDataFromImc_Private(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ GetDataFromImc_Core(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+GetDataFromImc_Unlock(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        SetDataToImc(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+   SetDataToImc_Lock(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+   SetDataToImc_Comp(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+   SetDataToImc_Cand(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+SetDataToImc_Private(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+   SetDataToImc_Core(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ SetDataToImc_Unlock(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+   GetCurrentUserId1(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+   GetCurrentUserId2(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+   GetCurrentUserId3(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+            UiSelect(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           UiContext(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          MakeupCand(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          SelectCand(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           ConvertPy(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           ConvertBh(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     ConvertBhFilter(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      ConvertDigital(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           OutResult(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+         ImeTurnPage(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+            MoveComp(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        UpdateStatus(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+            PaintTop(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+         UpdateLayer(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           MoveComp1(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           MoveComp2(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           MoveComp3(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           MoveComp4(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           MoveComp5(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           MoveComp6(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          MoveComp21(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          MoveComp22(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          MoveComp23(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          MoveComp24(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          MoveComp25(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          MoveComp26(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          MoveComp61(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          MoveComp62(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          MoveComp63(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          MoveComp64(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          MoveComp65(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          MoveComp66(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+         MoveComp621(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+         MoveComp622(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           PaintTop1(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           PaintTop2(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           PaintTop3(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           PaintTop4(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           PaintTop5(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           PaintTop6(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        Paint_Image1(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        Paint_Image2(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        Paint_Frame1(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        Paint_Frame2(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+    Paint_CandString(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      Paint_CandPage(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     Paint_CompAlpha(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     Paint_CompBlank(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      Paint_CompText(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      Paint_RichHint(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+            Paint_Bk(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        Paint_Layout(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          Paint_Line(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ Paint_Layout_Render(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+    Paint_Layout_Wnd(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Paint_SuggestionStringItem(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Paint_SuggestionOptionItem(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Paint_SuggestionConfigItem(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+GetSuggestionVisible(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          Paint_Comp(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          Paint_Cand(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      Paint_CompRich(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          Paint_Text(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     Paint_Rectangle(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      Paint_Gradient(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       Paint_BtnPage(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      Paint_BtnPage1(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      Paint_BtnPage2(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+         ParseConfig(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        ParseDefault(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          LoadConfig(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+             ResetUi(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+             envLoad(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+            envStore(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+                Lock(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+              Unlock(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+         CreateMutex(       4):                 0.03 ms,                 0.04 ms,                 0.01 ms,                 0.01 ms,                 0.02 ms
+        CreateMutex2(       1):                 0.00 ms,                 0.00 ms,                 0.00 ms,                 0.00 ms,                 0.00 ms
+        CreateMutex3(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      CreateShareble(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+             initLog(       1):                 0.00 ms,                 0.00 ms,                 0.00 ms,                 0.00 ms,                 0.00 ms
+          CreateLock(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       CreateVersion(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+            LoadGDIP(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       CreateTempEnv(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+              InitUi(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+         CheckUpdate(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          UiRegClass(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          LoadPlugin(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          ReadConfig(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+         WriteConfig(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+            SyncData(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+            SyncSkin(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       WM_IME_SELECT(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+   WM_IME_SETCONTEXT(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     WM_IME_NOTIFY_2(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     WM_IME_NOTIFY_3(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+SoPY_Status_WM_PAINT(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  SoPY_Comp_WM_PAINT(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          CreateComp(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        CreateStatus(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       OnDelayRedraw(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+OnDelayRedraw_CompFull(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+OnDelayRedraw_Status(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+OnDelayRedraw_CompSep(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          CompOnMove(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+         CompOnMove1(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+         CompOnMove2(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        DESTROY_Comp(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        DESTROY_Cand(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       DESTROY_Comp2(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      DESTROY_Status(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        DelayRedraw1(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        DelayRedraw2(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        DelayRedraw3(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        DelayRedraw4(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           SyncSkin2(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           StartSnap(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+             EndSnap(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       RotateByCheck(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       RotateByCheck(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+         SuggGetHIMC(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+SuggGetImmDataImcPtr(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+SuggInnerGetSuggVisible(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+SuggGetShowingSuggestion(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       SuggRetIsTrue(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           SuggDoCmd(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+    FocusInSearchBar(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ InnerGetSuggVisible(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     fi_checkversion(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+    fi_checkexpindex(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+   fi_checksearchbar(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+    fi_startfromhwnd(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+fi_checkinsearchpage(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+fi_parseelementproperty(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+fi_checkelementproperty(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  fi_checksearchbar2(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+   fi_getwindowstext(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ Image_Fixed_NoAlpha(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Image_Stretched_NoAlpha(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Image_GenRegion_Alpha(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Image_GenRegion_Fixed(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Image_RenderFixed_BkAlpha(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Image_RenderFixed_Alpha(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Image_RenderStretched_BkAlpha(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Image_RenderStretched_Alpha_HDC(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Image_RenderStretched_Alpha(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+    Image_GenHitMask(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      RegisterPlugin(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     RegisterPlugin1(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     RegisterPlugin2(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     RegisterPlugin3(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Cloud_SetTextExtInfo(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+    Cloud_SetIsCloud(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Cloud_DrawCandString(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Cloud_MeasureCandString(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Cloud_TimerCandString(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  Cloud_RelayoutComp(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      Cloud_ShowMenu(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Cloud_TimerCompRichItem(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+    Cloud_Unserilize(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       Cloud_Request(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        Cloud_Cancel(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  Cloud_SignalToStop(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          Cloud_Send(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      Cloud_StubInit(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  Cloud_GetCandEntry(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+         Cloud_Reset(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  Cloud_StubAyncInit(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          Cloud_Stop(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      Cloud_CloseJob(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+    Cloud_ReleaseJob(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  Cloud_RequestCloud(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+         Cloud_Shade(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       Cloud_Connect(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ Cloud_CloseAllPipes(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Cloud_FillPrimaryEntry(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Cloud_FillMorePraseEntry(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       Cloud_Convert(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     Cloud_kpRequest(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Cloud_CondConfirmCand(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+   Cloud_ConfirmCand(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        Cloud_Escape(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+    Cloud_ReadResult(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+   Cloud_IsCandReady(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+   Cloud_IsHintReady(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  Cloud_GetReslutBuf(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  Cloud_GetKernelBuf(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+   Cloud_kpConstruct(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+   Cloud_kpInnerProc(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+AsyncRequest_Construct(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  DelayRequest_Enter(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  buf_CreateInstance(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        buf_Destruct(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           buf_Write(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+            buf_Read(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           buf_Reset(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       buf_MakFailed(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           ConvertPy(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ConvertPy_FindPysWord(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ConvertPy_SubmitCandLast(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ConvertPy_UpdateData(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ ConvertPy_DoConvert(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ConvertPy_SmartFuzzy(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ConvertPy_ShadeCloud(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+convertpy_setremotefreq(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+DoConvert_UpdateData(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+DoConvert_SetParamsForCA(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+DoConvert_pyconvertor(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      AdjustUsrEntry(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      AdjustSysEntry(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+RemoteLearnDely_OnConfirmCand(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       ImeToAsciiEx2(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     ImeToAsciiEx2_1(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       ImeToAsciiEx3(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       ImeToAsciiEx4(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       ImeToAsciiEx5(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       ImeToAsciiEx6(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       ImeToAsciiEx7(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ImeToAsciiEx7_candchange(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ImeToAsciiEx7_focuschange(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ImeToAsciiEx7_previous(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  ImeToAsciiEx7_next(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ImeToAsciiEx7_compchanged(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+             Convert(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       Convert_Fuzzy(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+       Convert_Split(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  Convert_UpdateHint(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Convert_RequestHolidayInfo(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+InsertCandsWithCloud(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+   t_keyMap_CBUpdate(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  UpdateData_abbrMap(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ UpdateData_CellDict(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  UpdateData_FixDict(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ UpdateData_UserDict(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+   UpdateData_KeyMap(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     ReadCloudResult(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      CheckSignature(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           CheckSig1(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           CheckSig2(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           CheckSig3(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           CheckSig4(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           CheckSig5(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           CheckSig6(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           CheckSig7(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           CheckSig8(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           CheckSig9(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          CheckSig10(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+            Com_Init(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Com_Init_CheckVersion(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Com_Init_ReloadBundles(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+Com_Init_ReloadAndRemove(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+CL_ClearComponentInfos(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+   CL_SetMaxPagesize(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           CL_AddCmd(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     CL_SetDataToImc(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+            CL_DoCmd(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+   CL_LockIMCWithLog(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+    CL_SetDataToIMCC(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ CL_SetDataToContext(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ CL_UnlockIMCWithLog(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        CL_CMDS_SORT(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          CL_CMDS_DO(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        InitPCConfig(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  imeselect_longdict(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+UpdateData_RemoteDict(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        Init_UsrZone(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      Init_PriviDict(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+           PriviDict(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+ImcWrapImplShell_UsrZone(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+        UsrZone_Save(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+         UsrZone_Add(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+UpdateData_PriviDict(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  UpdateData_UsrZone(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      loaddict_inner(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+loaddict_cloudcache_puncture(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  loaddict_usrdictv2(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+loaddict_quickinputdict(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+    loaddict_sysdict(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+   loaddict_sysbhbsh(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      loaddict_syshz(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      loaddict_syspy(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+usrzone_cbupdate_env(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+      loaddict_other(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+t_winStatus_showwindow(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+     loaddict_exturl(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+initruntime_safemode(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  initruntime_sysusr(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+initruntime_installpath(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+initruntime_TempPath(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+initruntime_VistaIE7(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+initruntime_DataPath(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+initruntime_ProfilePath(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+initruntime_SetBuildNo(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+initruntime_SetCommandLine(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+initruntime_SetProcessShortName(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+initruntime_CheckMetro(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+initruntime_CheckConfig(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+initruntime_CheckCorrectFullShape(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+initruntime_CheckIgnoreCancel(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+UiResourceWrap_CREATE(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+  InitSkin_SendUIRes(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+          stack_show(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+         stack_show1(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+         stack_show2(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+         stack_show3(       0):                 0.00 ms,                 0.00 ms,              not use   ,              not use   ,                 0.00 ms
+
+
+Call Graph Direct:
+ImeInquire:
+IsSystemUser:
+IsInSafeMode:
+InitRuntime:
+InitMemSharable:
+InitVersionReg:
+Correcting:
+InitUserManager:
+InitProcEx:
+InitCrushReport:
+InitUserId:
+InitEnv0:
+InitPingback:
+InitUserEnv:
+InitUserSwitch:
+InitEnv:
+AddUiFunc:
+LoadDict:
+LoadPlugin:
+InitTimer:
+ForBD:
+InitQuickInput:
+DelayCreateProcess:
+InitSkinPreview:
+InitKeyStat:
+InitPlugin:
+InitUsageStat:
+InitObserver:
+InitUiResource:
+InitComponent:
+ImeSelect:
+ImeSetActiveContext:
+ImeToAsciiEx:
+ImeProcessKey:
+NotifyIME:
+ImeSelect1:
+ImeSelect2:
+ImeProcessKey1:
+ImeProcessKey2:
+ImeProcessKey3:
+ImeProcessKey4:
+ImeProcessKey5:
+ImeProcessKey6:
+ImeProcessKey7:
+ImeProcessKey8:
+ImeProcessKey11:
+ImeProcessKey12:
+ImeProcessKey31:
+ImeProcessKey32:
+ImeProcessKey33:
+ImeProcessKey41:
+ImeProcessKey42:
+ImeProcessKey311:
+ImeProcessKey312:
+DataImc_Reset:
+DataImc_Reset1:
+DataImc_Reset2:
+DataImc_Reset3:
+DataImc_Reset4:
+DataImc_Reset5:
+GetDataFromImc:
+GetDataFromImc_Lock:
+GetDataFromImc_Comp:
+GetDataFromImc_Cand:
+GetDataFromImc_Private:
+GetDataFromImc_Core:
+GetDataFromImc_Unlock:
+SetDataToImc:
+SetDataToImc_Lock:
+SetDataToImc_Comp:
+SetDataToImc_Cand:
+SetDataToImc_Private:
+SetDataToImc_Core:
+SetDataToImc_Unlock:
+GetCurrentUserId1:
+GetCurrentUserId2:
+GetCurrentUserId3:
+UiSelect:
+UiContext:
+MakeupCand:
+SelectCand:
+ConvertPy:
+ConvertBh:
+ConvertBhFilter:
+ConvertDigital:
+OutResult:
+ImeTurnPage:
+MoveComp:
+UpdateStatus:
+PaintTop:
+UpdateLayer:
+MoveComp1:
+MoveComp2:
+MoveComp3:
+MoveComp4:
+MoveComp5:
+MoveComp6:
+MoveComp21:
+MoveComp22:
+MoveComp23:
+MoveComp24:
+MoveComp25:
+MoveComp26:
+MoveComp61:
+MoveComp62:
+MoveComp63:
+MoveComp64:
+MoveComp65:
+MoveComp66:
+MoveComp621:
+MoveComp622:
+PaintTop1:
+PaintTop2:
+PaintTop3:
+PaintTop4:
+PaintTop5:
+PaintTop6:
+Paint_Image1:
+Paint_Image2:
+Paint_Frame1:
+Paint_Frame2:
+Paint_CandString:
+Paint_CandPage:
+Paint_CompAlpha:
+Paint_CompBlank:
+Paint_CompText:
+Paint_RichHint:
+Paint_Bk:
+Paint_Layout:
+Paint_Line:
+Paint_Layout_Render:
+Paint_Layout_Wnd:
+Paint_SuggestionStringItem:
+Paint_SuggestionOptionItem:
+Paint_SuggestionConfigItem:
+GetSuggestionVisible:
+Paint_Comp:
+Paint_Cand:
+Paint_CompRich:
+Paint_Text:
+Paint_Rectangle:
+Paint_Gradient:
+Paint_BtnPage:
+Paint_BtnPage1:
+Paint_BtnPage2:
+ParseConfig:
+ParseDefault:
+LoadConfig:
+ResetUi:
+envLoad:
+envStore:
+Lock:
+Unlock:
+CreateMutex:
+    CreateMutex2                            :    1
+CreateMutex2:
+CreateMutex3:
+CreateShareble:
+initLog:
+CreateLock:
+CreateVersion:
+LoadGDIP:
+CreateTempEnv:
+InitUi:
+CheckUpdate:
+UiRegClass:
+LoadPlugin:
+ReadConfig:
+WriteConfig:
+SyncData:
+SyncSkin:
+WM_IME_SELECT:
+WM_IME_SETCONTEXT:
+WM_IME_NOTIFY_2:
+WM_IME_NOTIFY_3:
+SoPY_Status_WM_PAINT:
+SoPY_Comp_WM_PAINT:
+CreateComp:
+CreateStatus:
+OnDelayRedraw:
+OnDelayRedraw_CompFull:
+OnDelayRedraw_Status:
+OnDelayRedraw_CompSep:
+CompOnMove:
+CompOnMove1:
+CompOnMove2:
+DESTROY_Comp:
+DESTROY_Cand:
+DESTROY_Comp2:
+DESTROY_Status:
+DelayRedraw1:
+DelayRedraw2:
+DelayRedraw3:
+DelayRedraw4:
+SyncSkin2:
+StartSnap:
+EndSnap:
+RotateByCheck:
+RotateByCheck:
+SuggGetHIMC:
+SuggGetImmDataImcPtr:
+SuggInnerGetSuggVisible:
+SuggGetShowingSuggestion:
+SuggRetIsTrue:
+SuggDoCmd:
+FocusInSearchBar:
+InnerGetSuggVisible:
+fi_checkversion:
+fi_checkexpindex:
+fi_checksearchbar:
+fi_startfromhwnd:
+fi_checkinsearchpage:
+fi_parseelementproperty:
+fi_checkelementproperty:
+fi_checksearchbar2:
+fi_getwindowstext:
+Image_Fixed_NoAlpha:
+Image_Stretched_NoAlpha:
+Image_GenRegion_Alpha:
+Image_GenRegion_Fixed:
+Image_RenderFixed_BkAlpha:
+Image_RenderFixed_Alpha:
+Image_RenderStretched_BkAlpha:
+Image_RenderStretched_Alpha_HDC:
+Image_RenderStretched_Alpha:
+Image_GenHitMask:
+RegisterPlugin:
+RegisterPlugin1:
+RegisterPlugin2:
+RegisterPlugin3:
+Cloud_SetTextExtInfo:
+Cloud_SetIsCloud:
+Cloud_DrawCandString:
+Cloud_MeasureCandString:
+Cloud_TimerCandString:
+Cloud_RelayoutComp:
+Cloud_ShowMenu:
+Cloud_TimerCompRichItem:
+Cloud_Unserilize:
+Cloud_Request:
+Cloud_Cancel:
+Cloud_SignalToStop:
+Cloud_Send:
+Cloud_StubInit:
+Cloud_GetCandEntry:
+Cloud_Reset:
+Cloud_StubAyncInit:
+Cloud_Stop:
+Cloud_CloseJob:
+Cloud_ReleaseJob:
+Cloud_RequestCloud:
+Cloud_Shade:
+Cloud_Connect:
+Cloud_CloseAllPipes:
+Cloud_FillPrimaryEntry:
+Cloud_FillMorePraseEntry:
+Cloud_Convert:
+Cloud_kpRequest:
+Cloud_CondConfirmCand:
+Cloud_ConfirmCand:
+Cloud_Escape:
+Cloud_ReadResult:
+Cloud_IsCandReady:
+Cloud_IsHintReady:
+Cloud_GetReslutBuf:
+Cloud_GetKernelBuf:
+Cloud_kpConstruct:
+Cloud_kpInnerProc:
+AsyncRequest_Construct:
+DelayRequest_Enter:
+buf_CreateInstance:
+buf_Destruct:
+buf_Write:
+buf_Read:
+buf_Reset:
+buf_MakFailed:
+ConvertPy:
+ConvertPy_FindPysWord:
+ConvertPy_SubmitCandLast:
+ConvertPy_UpdateData:
+ConvertPy_DoConvert:
+ConvertPy_SmartFuzzy:
+ConvertPy_ShadeCloud:
+convertpy_setremotefreq:
+DoConvert_UpdateData:
+DoConvert_SetParamsForCA:
+DoConvert_pyconvertor:
+AdjustUsrEntry:
+AdjustSysEntry:
+RemoteLearnDely_OnConfirmCand:
+ImeToAsciiEx2:
+ImeToAsciiEx2_1:
+ImeToAsciiEx3:
+ImeToAsciiEx4:
+ImeToAsciiEx5:
+ImeToAsciiEx6:
+ImeToAsciiEx7:
+ImeToAsciiEx7_candchange:
+ImeToAsciiEx7_focuschange:
+ImeToAsciiEx7_previous:
+ImeToAsciiEx7_next:
+ImeToAsciiEx7_compchanged:
+Convert:
+Convert_Fuzzy:
+Convert_Split:
+Convert_UpdateHint:
+Convert_RequestHolidayInfo:
+InsertCandsWithCloud:
+t_keyMap_CBUpdate:
+UpdateData_abbrMap:
+UpdateData_CellDict:
+UpdateData_FixDict:
+UpdateData_UserDict:
+UpdateData_KeyMap:
+ReadCloudResult:
+CheckSignature:
+CheckSig1:
+CheckSig2:
+CheckSig3:
+CheckSig4:
+CheckSig5:
+CheckSig6:
+CheckSig7:
+CheckSig8:
+CheckSig9:
+CheckSig10:
+Com_Init:
+Com_Init_CheckVersion:
+Com_Init_ReloadBundles:
+Com_Init_ReloadAndRemove:
+CL_ClearComponentInfos:
+CL_SetMaxPagesize:
+CL_AddCmd:
+CL_SetDataToImc:
+CL_DoCmd:
+CL_LockIMCWithLog:
+CL_SetDataToIMCC:
+CL_SetDataToContext:
+CL_UnlockIMCWithLog:
+CL_CMDS_SORT:
+CL_CMDS_DO:
+InitPCConfig:
+imeselect_longdict:
+UpdateData_RemoteDict:
+Init_UsrZone:
+Init_PriviDict:
+PriviDict:
+ImcWrapImplShell_UsrZone:
+UsrZone_Save:
+UsrZone_Add:
+UpdateData_PriviDict:
+UpdateData_UsrZone:
+loaddict_inner:
+loaddict_cloudcache_puncture:
+loaddict_usrdictv2:
+loaddict_quickinputdict:
+loaddict_sysdict:
+loaddict_sysbhbsh:
+loaddict_syshz:
+loaddict_syspy:
+usrzone_cbupdate_env:
+loaddict_other:
+t_winStatus_showwindow:
+loaddict_exturl:
+initruntime_safemode:
+initruntime_sysusr:
+initruntime_installpath:
+initruntime_TempPath:
+initruntime_VistaIE7:
+initruntime_DataPath:
+initruntime_ProfilePath:
+initruntime_SetBuildNo:
+initruntime_SetCommandLine:
+initruntime_SetProcessShortName:
+initruntime_CheckMetro:
+initruntime_CheckConfig:
+initruntime_CheckCorrectFullShape:
+initruntime_CheckIgnoreCancel:
+UiResourceWrap_CREATE:
+InitSkin_SendUIRes:
+stack_show:
+stack_show1:
+stack_show2:
+stack_show3:
+
+
+Call Graph All:
+ImeInquire:
+IsSystemUser:
+IsInSafeMode:
+InitRuntime:
+InitMemSharable:
+InitVersionReg:
+Correcting:
+InitUserManager:
+InitProcEx:
+InitCrushReport:
+InitUserId:
+InitEnv0:
+InitPingback:
+InitUserEnv:
+InitUserSwitch:
+InitEnv:
+AddUiFunc:
+LoadDict:
+LoadPlugin:
+InitTimer:
+ForBD:
+InitQuickInput:
+DelayCreateProcess:
+InitSkinPreview:
+InitKeyStat:
+InitPlugin:
+InitUsageStat:
+InitObserver:
+InitUiResource:
+InitComponent:
+ImeSelect:
+ImeSetActiveContext:
+ImeToAsciiEx:
+ImeProcessKey:
+NotifyIME:
+ImeSelect1:
+ImeSelect2:
+ImeProcessKey1:
+ImeProcessKey2:
+ImeProcessKey3:
+ImeProcessKey4:
+ImeProcessKey5:
+ImeProcessKey6:
+ImeProcessKey7:
+ImeProcessKey8:
+ImeProcessKey11:
+ImeProcessKey12:
+ImeProcessKey31:
+ImeProcessKey32:
+ImeProcessKey33:
+ImeProcessKey41:
+ImeProcessKey42:
+ImeProcessKey311:
+ImeProcessKey312:
+DataImc_Reset:
+DataImc_Reset1:
+DataImc_Reset2:
+DataImc_Reset3:
+DataImc_Reset4:
+DataImc_Reset5:
+GetDataFromImc:
+GetDataFromImc_Lock:
+GetDataFromImc_Comp:
+GetDataFromImc_Cand:
+GetDataFromImc_Private:
+GetDataFromImc_Core:
+GetDataFromImc_Unlock:
+SetDataToImc:
+SetDataToImc_Lock:
+SetDataToImc_Comp:
+SetDataToImc_Cand:
+SetDataToImc_Private:
+SetDataToImc_Core:
+SetDataToImc_Unlock:
+GetCurrentUserId1:
+GetCurrentUserId2:
+GetCurrentUserId3:
+UiSelect:
+UiContext:
+MakeupCand:
+SelectCand:
+ConvertPy:
+ConvertBh:
+ConvertBhFilter:
+ConvertDigital:
+OutResult:
+ImeTurnPage:
+MoveComp:
+UpdateStatus:
+PaintTop:
+UpdateLayer:
+MoveComp1:
+MoveComp2:
+MoveComp3:
+MoveComp4:
+MoveComp5:
+MoveComp6:
+MoveComp21:
+MoveComp22:
+MoveComp23:
+MoveComp24:
+MoveComp25:
+MoveComp26:
+MoveComp61:
+MoveComp62:
+MoveComp63:
+MoveComp64:
+MoveComp65:
+MoveComp66:
+MoveComp621:
+MoveComp622:
+PaintTop1:
+PaintTop2:
+PaintTop3:
+PaintTop4:
+PaintTop5:
+PaintTop6:
+Paint_Image1:
+Paint_Image2:
+Paint_Frame1:
+Paint_Frame2:
+Paint_CandString:
+Paint_CandPage:
+Paint_CompAlpha:
+Paint_CompBlank:
+Paint_CompText:
+Paint_RichHint:
+Paint_Bk:
+Paint_Layout:
+Paint_Line:
+Paint_Layout_Render:
+Paint_Layout_Wnd:
+Paint_SuggestionStringItem:
+Paint_SuggestionOptionItem:
+Paint_SuggestionConfigItem:
+GetSuggestionVisible:
+Paint_Comp:
+Paint_Cand:
+Paint_CompRich:
+Paint_Text:
+Paint_Rectangle:
+Paint_Gradient:
+Paint_BtnPage:
+Paint_BtnPage1:
+Paint_BtnPage2:
+ParseConfig:
+ParseDefault:
+LoadConfig:
+ResetUi:
+envLoad:
+envStore:
+Lock:
+Unlock:
+CreateMutex:
+    CreateMutex2                            :    1
+CreateMutex2:
+CreateMutex3:
+CreateShareble:
+initLog:
+CreateLock:
+CreateVersion:
+LoadGDIP:
+CreateTempEnv:
+InitUi:
+CheckUpdate:
+UiRegClass:
+LoadPlugin:
+ReadConfig:
+WriteConfig:
+SyncData:
+SyncSkin:
+WM_IME_SELECT:
+WM_IME_SETCONTEXT:
+WM_IME_NOTIFY_2:
+WM_IME_NOTIFY_3:
+SoPY_Status_WM_PAINT:
+SoPY_Comp_WM_PAINT:
+CreateComp:
+CreateStatus:
+OnDelayRedraw:
+OnDelayRedraw_CompFull:
+OnDelayRedraw_Status:
+OnDelayRedraw_CompSep:
+CompOnMove:
+CompOnMove1:
+CompOnMove2:
+DESTROY_Comp:
+DESTROY_Cand:
+DESTROY_Comp2:
+DESTROY_Status:
+DelayRedraw1:
+DelayRedraw2:
+DelayRedraw3:
+DelayRedraw4:
+SyncSkin2:
+StartSnap:
+EndSnap:
+RotateByCheck:
+RotateByCheck:
+SuggGetHIMC:
+SuggGetImmDataImcPtr:
+SuggInnerGetSuggVisible:
+SuggGetShowingSuggestion:
+SuggRetIsTrue:
+SuggDoCmd:
+FocusInSearchBar:
+InnerGetSuggVisible:
+fi_checkversion:
+fi_checkexpindex:
+fi_checksearchbar:
+fi_startfromhwnd:
+fi_checkinsearchpage:
+fi_parseelementproperty:
+fi_checkelementproperty:
+fi_checksearchbar2:
+fi_getwindowstext:
+Image_Fixed_NoAlpha:
+Image_Stretched_NoAlpha:
+Image_GenRegion_Alpha:
+Image_GenRegion_Fixed:
+Image_RenderFixed_BkAlpha:
+Image_RenderFixed_Alpha:
+Image_RenderStretched_BkAlpha:
+Image_RenderStretched_Alpha_HDC:
+Image_RenderStretched_Alpha:
+Image_GenHitMask:
+RegisterPlugin:
+RegisterPlugin1:
+RegisterPlugin2:
+RegisterPlugin3:
+Cloud_SetTextExtInfo:
+Cloud_SetIsCloud:
+Cloud_DrawCandString:
+Cloud_MeasureCandString:
+Cloud_TimerCandString:
+Cloud_RelayoutComp:
+Cloud_ShowMenu:
+Cloud_TimerCompRichItem:
+Cloud_Unserilize:
+Cloud_Request:
+Cloud_Cancel:
+Cloud_SignalToStop:
+Cloud_Send:
+Cloud_StubInit:
+Cloud_GetCandEntry:
+Cloud_Reset:
+Cloud_StubAyncInit:
+Cloud_Stop:
+Cloud_CloseJob:
+Cloud_ReleaseJob:
+Cloud_RequestCloud:
+Cloud_Shade:
+Cloud_Connect:
+Cloud_CloseAllPipes:
+Cloud_FillPrimaryEntry:
+Cloud_FillMorePraseEntry:
+Cloud_Convert:
+Cloud_kpRequest:
+Cloud_CondConfirmCand:
+Cloud_ConfirmCand:
+Cloud_Escape:
+Cloud_ReadResult:
+Cloud_IsCandReady:
+Cloud_IsHintReady:
+Cloud_GetReslutBuf:
+Cloud_GetKernelBuf:
+Cloud_kpConstruct:
+Cloud_kpInnerProc:
+AsyncRequest_Construct:
+DelayRequest_Enter:
+buf_CreateInstance:
+buf_Destruct:
+buf_Write:
+buf_Read:
+buf_Reset:
+buf_MakFailed:
+ConvertPy:
+ConvertPy_FindPysWord:
+ConvertPy_SubmitCandLast:
+ConvertPy_UpdateData:
+ConvertPy_DoConvert:
+ConvertPy_SmartFuzzy:
+ConvertPy_ShadeCloud:
+convertpy_setremotefreq:
+DoConvert_UpdateData:
+DoConvert_SetParamsForCA:
+DoConvert_pyconvertor:
+AdjustUsrEntry:
+AdjustSysEntry:
+RemoteLearnDely_OnConfirmCand:
+ImeToAsciiEx2:
+ImeToAsciiEx2_1:
+ImeToAsciiEx3:
+ImeToAsciiEx4:
+ImeToAsciiEx5:
+ImeToAsciiEx6:
+ImeToAsciiEx7:
+ImeToAsciiEx7_candchange:
+ImeToAsciiEx7_focuschange:
+ImeToAsciiEx7_previous:
+ImeToAsciiEx7_next:
+ImeToAsciiEx7_compchanged:
+Convert:
+Convert_Fuzzy:
+Convert_Split:
+Convert_UpdateHint:
+Convert_RequestHolidayInfo:
+InsertCandsWithCloud:
+t_keyMap_CBUpdate:
+UpdateData_abbrMap:
+UpdateData_CellDict:
+UpdateData_FixDict:
+UpdateData_UserDict:
+UpdateData_KeyMap:
+ReadCloudResult:
+CheckSignature:
+CheckSig1:
+CheckSig2:
+CheckSig3:
+CheckSig4:
+CheckSig5:
+CheckSig6:
+CheckSig7:
+CheckSig8:
+CheckSig9:
+CheckSig10:
+Com_Init:
+Com_Init_CheckVersion:
+Com_Init_ReloadBundles:
+Com_Init_ReloadAndRemove:
+CL_ClearComponentInfos:
+CL_SetMaxPagesize:
+CL_AddCmd:
+CL_SetDataToImc:
+CL_DoCmd:
+CL_LockIMCWithLog:
+CL_SetDataToIMCC:
+CL_SetDataToContext:
+CL_UnlockIMCWithLog:
+CL_CMDS_SORT:
+CL_CMDS_DO:
+InitPCConfig:
+imeselect_longdict:
+UpdateData_RemoteDict:
+Init_UsrZone:
+Init_PriviDict:
+PriviDict:
+ImcWrapImplShell_UsrZone:
+UsrZone_Save:
+UsrZone_Add:
+UpdateData_PriviDict:
+UpdateData_UsrZone:
+loaddict_inner:
+loaddict_cloudcache_puncture:
+loaddict_usrdictv2:
+loaddict_quickinputdict:
+loaddict_sysdict:
+loaddict_sysbhbsh:
+loaddict_syshz:
+loaddict_syspy:
+usrzone_cbupdate_env:
+loaddict_other:
+t_winStatus_showwindow:
+loaddict_exturl:
+initruntime_safemode:
+initruntime_sysusr:
+initruntime_installpath:
+initruntime_TempPath:
+initruntime_VistaIE7:
+initruntime_DataPath:
+initruntime_ProfilePath:
+initruntime_SetBuildNo:
+initruntime_SetCommandLine:
+initruntime_SetProcessShortName:
+initruntime_CheckMetro:
+initruntime_CheckConfig:
+initruntime_CheckCorrectFullShape:
+initruntime_CheckIgnoreCancel:
+UiResourceWrap_CREATE:
+InitSkin_SendUIRes:
+stack_show:
+stack_show1:
+stack_show2:
+stack_show3:
