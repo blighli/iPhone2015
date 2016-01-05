@@ -1,0 +1,18 @@
+//
+//  ALZhihuDaily-Prefix.h
+//  ALZhihuDaily
+//
+//  Created by alezai on 16/1/1.
+//  Copyright © 2016年 alezai. All rights reserved.
+//
+
+#ifndef ALZhihuDaily_Prefix_h
+#define ALZhihuDaily_Prefix_h
+
+#define kWeakSelf(weakSelf) __weak __typeof(self) weakSelf = self;
+
+#import <MJExtension.h>
+#import <AFNetworking.h>
+#import <Masonry.h>
+
+#endif /* ALZhihuDaily_Prefix_h */
