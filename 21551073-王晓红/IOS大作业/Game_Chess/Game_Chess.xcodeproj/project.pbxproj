@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181CD4591C390EB200EE30E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD4581C390EB200EE30E5 /* main.m */; };
+		181CD45C1C390EB200EE30E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD45B1C390EB200EE30E5 /* AppDelegate.m */; };
+		181CD45F1C390EB200EE30E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD45E1C390EB200EE30E5 /* ViewController.m */; };
+		181CD4621C390EB200EE30E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181CD4601C390EB200EE30E5 /* Main.storyboard */; };
+		181CD4641C390EB200EE30E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181CD4631C390EB200EE30E5 /* Assets.xcassets */; };
+		181CD4671C390EB200EE30E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181CD4651C390EB200EE30E5 /* LaunchScreen.storyboard */; };
+		181CD4721C390EB200EE30E5 /* Game_ChessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD4711C390EB200EE30E5 /* Game_ChessTests.m */; };
+		181CD47D1C390EB200EE30E5 /* Game_ChessUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD47C1C390EB200EE30E5 /* Game_ChessUITests.m */; };
+		18DECFEF1C390F540025BC58 /* WXHGameAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DECFEE1C390F540025BC58 /* WXHGameAreaView.m */; settings = {ASSET_TAGS = (); }; };
+		18DED00A1C390FA00025BC58 /* WXHNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DECFF11C390FA00025BC58 /* WXHNode.m */; settings = {ASSET_TAGS = (); }; };
+		18DED00B1C390FA00025BC58 /* WXHParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DECFF41C390FA00025BC58 /* WXHParent.m */; settings = {ASSET_TAGS = (); }; };
+		18DED00C1C390FA00025BC58 /* WXHUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DECFF61C390FA00025BC58 /* WXHUtils.m */; settings = {ASSET_TAGS = (); }; };
+		18DED00D1C390FA00025BC58 /* WXHPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DECFFB1C390FA00025BC58 /* WXHPlayer.m */; settings = {ASSET_TAGS = (); }; };
+		18DED00E1C390FA00025BC58 /* WXHAIComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DECFFD1C390FA00025BC58 /* WXHAIComputer.m */; settings = {ASSET_TAGS = (); }; };
+		18DED00F1C390FA00025BC58 /* WXHMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DED0001C390FA00025BC58 /* WXHMainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		18DED0101C390FA00025BC58 /* WXHMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DED0011C390FA00025BC58 /* WXHMainViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		18DED0111C390FA00025BC58 /* WXHGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DED0031C390FA00025BC58 /* WXHGameViewController.m */; settings = {ASSET_TAGS = (); }; };
+		18DED0121C390FA00025BC58 /* WXHGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DED0041C390FA00025BC58 /* WXHGameViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		18DED0131C390FA00025BC58 /* WXHGameSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DED0061C390FA00025BC58 /* WXHGameSettingViewController.m */; settings = {ASSET_TAGS = (); }; };
+		18DED0141C390FA00025BC58 /* WXHGameSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DED0071C390FA00025BC58 /* WXHGameSettingViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		18DED0161C3917F30025BC58 /* sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18DED0151C3917F30025BC58 /* sound.wav */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181CD46E1C390EB200EE30E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181CD44C1C390EB200EE30E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181CD4531C390EB200EE30E5;
+			remoteInfo = Game_Chess;
+		};
+		181CD4791C390EB200EE30E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181CD44C1C390EB200EE30E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181CD4531C390EB200EE30E5;
+			remoteInfo = Game_Chess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181CD4541C390EB200EE30E5 /* Game_Chess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game_Chess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181CD4581C390EB200EE30E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181CD45A1C390EB200EE30E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		181CD45B1C390EB200EE30E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		181CD45D1C390EB200EE30E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		181CD45E1C390EB200EE30E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		181CD4611C390EB200EE30E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181CD4631C390EB200EE30E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181CD4661C390EB200EE30E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181CD4681C390EB200EE30E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181CD46D1C390EB200EE30E5 /* Game_ChessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Game_ChessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181CD4711C390EB200EE30E5 /* Game_ChessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Game_ChessTests.m; sourceTree = "<group>"; };
+		181CD4731C390EB200EE30E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181CD4781C390EB200EE30E5 /* Game_ChessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Game_ChessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181CD47C1C390EB200EE30E5 /* Game_ChessUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Game_ChessUITests.m; sourceTree = "<group>"; };
+		181CD47E1C390EB200EE30E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DECFED1C390F540025BC58 /* WXHGameAreaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXHGameAreaView.h; sourceTree = "<group>"; };
+		18DECFEE1C390F540025BC58 /* WXHGameAreaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXHGameAreaView.m; sourceTree = "<group>"; };
+		18DECFF01C390FA00025BC58 /* WXHNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXHNode.h; sourceTree = "<group>"; };
+		18DECFF11C390FA00025BC58 /* WXHNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXHNode.m; sourceTree = "<group>"; };
+		18DECFF31C390FA00025BC58 /* WXHParent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXHParent.h; sourceTree = "<group>"; };
+		18DECFF41C390FA00025BC58 /* WXHParent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXHParent.m; sourceTree = "<group>"; };
+		18DECFF51C390FA00025BC58 /* WXHUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXHUtils.h; sourceTree = "<group>"; };
+		18DECFF61C390FA00025BC58 /* WXHUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXHUtils.m; sourceTree = "<group>"; };
+		18DECFF71C390FA00025BC58 /* WXHDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXHDefines.h; sourceTree = "<group>"; };
+		18DECFF81C390FA00025BC58 /* WXHEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXHEnum.h; sourceTree = "<group>"; };
+		18DECFF91C390FA00025BC58 /* WXHDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXHDefine.h; sourceTree = "<group>"; };
+		18DECFFA1C390FA00025BC58 /* WXHPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXHPlayer.h; sourceTree = "<group>"; };
+		18DECFFB1C390FA00025BC58 /* WXHPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXHPlayer.m; sourceTree = "<group>"; };
+		18DECFFC1C390FA00025BC58 /* WXHAIComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXHAIComputer.h; sourceTree = "<group>"; };
+		18DECFFD1C390FA00025BC58 /* WXHAIComputer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXHAIComputer.m; sourceTree = "<group>"; };
+		18DECFFF1C390FA00025BC58 /* WXHMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXHMainViewController.h; sourceTree = "<group>"; };
+		18DED0001C390FA00025BC58 /* WXHMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXHMainViewController.m; sourceTree = "<group>"; };
+		18DED0011C390FA00025BC58 /* WXHMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WXHMainViewController.xib; sourceTree = "<group>"; };
+		18DED0021C390FA00025BC58 /* WXHGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXHGameViewController.h; sourceTree = "<group>"; };
+		18DED0031C390FA00025BC58 /* WXHGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXHGameViewController.m; sourceTree = "<group>"; };
+		18DED0041C390FA00025BC58 /* WXHGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WXHGameViewController.xib; sourceTree = "<group>"; };
+		18DED0051C390FA00025BC58 /* WXHGameSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXHGameSettingViewController.h; sourceTree = "<group>"; };
+		18DED0061C390FA00025BC58 /* WXHGameSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXHGameSettingViewController.m; sourceTree = "<group>"; };
+		18DED0071C390FA00025BC58 /* WXHGameSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WXHGameSettingViewController.xib; sourceTree = "<group>"; };
+		18DED0151C3917F30025BC58 /* sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181CD4511C390EB200EE30E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181CD46A1C390EB200EE30E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181CD4751C390EB200EE30E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181CD44B1C390EB200EE30E5 = {
+			isa = PBXGroup;
+			children = (
+				181CD4561C390EB200EE30E5 /* Game_Chess */,
+				181CD4701C390EB200EE30E5 /* Game_ChessTests */,
+				181CD47B1C390EB200EE30E5 /* Game_ChessUITests */,
+				181CD4551C390EB200EE30E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181CD4551C390EB200EE30E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181CD4541C390EB200EE30E5 /* Game_Chess.app */,
+				181CD46D1C390EB200EE30E5 /* Game_ChessTests.xctest */,
+				181CD4781C390EB200EE30E5 /* Game_ChessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181CD4561C390EB200EE30E5 /* Game_Chess */ = {
+			isa = PBXGroup;
+			children = (
+				18DED0091C390FA00025BC58 /* Classes */,
+				18DECFE91C390F1A0025BC58 /* Views */,
+				181CD45A1C390EB200EE30E5 /* AppDelegate.h */,
+				181CD45B1C390EB200EE30E5 /* AppDelegate.m */,
+				181CD45D1C390EB200EE30E5 /* ViewController.h */,
+				181CD45E1C390EB200EE30E5 /* ViewController.m */,
+				181CD4601C390EB200EE30E5 /* Main.storyboard */,
+				181CD4631C390EB200EE30E5 /* Assets.xcassets */,
+				181CD4651C390EB200EE30E5 /* LaunchScreen.storyboard */,
+				181CD4681C390EB200EE30E5 /* Info.plist */,
+				181CD4571C390EB200EE30E5 /* Supporting Files */,
+			);
+			path = Game_Chess;
+			sourceTree = "<group>";
+		};
+		181CD4571C390EB200EE30E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181CD4581C390EB200EE30E5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181CD4701C390EB200EE30E5 /* Game_ChessTests */ = {
+			isa = PBXGroup;
+			children = (
+				181CD4711C390EB200EE30E5 /* Game_ChessTests.m */,
+				181CD4731C390EB200EE30E5 /* Info.plist */,
+			);
+			path = Game_ChessTests;
+			sourceTree = "<group>";
+		};
+		181CD47B1C390EB200EE30E5 /* Game_ChessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				181CD47C1C390EB200EE30E5 /* Game_ChessUITests.m */,
+				181CD47E1C390EB200EE30E5 /* Info.plist */,
+			);
+			path = Game_ChessUITests;
+			sourceTree = "<group>";
+		};
+		18DECFE91C390F1A0025BC58 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18DECFED1C390F540025BC58 /* WXHGameAreaView.h */,
+				18DECFEE1C390F540025BC58 /* WXHGameAreaView.m */,
+				18DED0151C3917F30025BC58 /* sound.wav */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		18DECFF21C390FA00025BC58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18DECFF01C390FA00025BC58 /* WXHNode.h */,
+				18DECFF11C390FA00025BC58 /* WXHNode.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		18DECFFE1C390FA00025BC58 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				18DECFF31C390FA00025BC58 /* WXHParent.h */,
+				18DECFF41C390FA00025BC58 /* WXHParent.m */,
+				18DECFF51C390FA00025BC58 /* WXHUtils.h */,
+				18DECFF61C390FA00025BC58 /* WXHUtils.m */,
+				18DECFF71C390FA00025BC58 /* WXHDefines.h */,
+				18DECFF81C390FA00025BC58 /* WXHEnum.h */,
+				18DECFF91C390FA00025BC58 /* WXHDefine.h */,
+				18DECFFA1C390FA00025BC58 /* WXHPlayer.h */,
+				18DECFFB1C390FA00025BC58 /* WXHPlayer.m */,
+				18DECFFC1C390FA00025BC58 /* WXHAIComputer.h */,
+				18DECFFD1C390FA00025BC58 /* WXHAIComputer.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		18DED0081C390FA00025BC58 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18DECFFF1C390FA00025BC58 /* WXHMainViewController.h */,
+				18DED0001C390FA00025BC58 /* WXHMainViewController.m */,
+				18DED0011C390FA00025BC58 /* WXHMainViewController.xib */,
+				18DED0021C390FA00025BC58 /* WXHGameViewController.h */,
+				18DED0031C390FA00025BC58 /* WXHGameViewController.m */,
+				18DED0041C390FA00025BC58 /* WXHGameViewController.xib */,
+				18DED0051C390FA00025BC58 /* WXHGameSettingViewController.h */,
+				18DED0061C390FA00025BC58 /* WXHGameSettingViewController.m */,
+				18DED0071C390FA00025BC58 /* WXHGameSettingViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		18DED0091C390FA00025BC58 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18DECFF21C390FA00025BC58 /* Models */,
+				18DECFFE1C390FA00025BC58 /* Tools */,
+				18DED0081C390FA00025BC58 /* Controllers */,
+			);
+			name = Classes;
+			path = ../../Game_WQ/Game_WQ;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181CD4531C390EB200EE30E5 /* Game_Chess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181CD4811C390EB200EE30E5 /* Build configuration list for PBXNativeTarget "Game_Chess" */;
+			buildPhases = (
+				181CD4501C390EB200EE30E5 /* Sources */,
+				181CD4511C390EB200EE30E5 /* Frameworks */,
+				181CD4521C390EB200EE30E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Game_Chess;
+			productName = Game_Chess;
+			productReference = 181CD4541C390EB200EE30E5 /* Game_Chess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181CD46C1C390EB200EE30E5 /* Game_ChessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181CD4841C390EB200EE30E5 /* Build configuration list for PBXNativeTarget "Game_ChessTests" */;
+			buildPhases = (
+				181CD4691C390EB200EE30E5 /* Sources */,
+				181CD46A1C390EB200EE30E5 /* Frameworks */,
+				181CD46B1C390EB200EE30E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181CD46F1C390EB200EE30E5 /* PBXTargetDependency */,
+			);
+			name = Game_ChessTests;
+			productName = Game_ChessTests;
+			productReference = 181CD46D1C390EB200EE30E5 /* Game_ChessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		181CD4771C390EB200EE30E5 /* Game_ChessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181CD4871C390EB200EE30E5 /* Build configuration list for PBXNativeTarget "Game_ChessUITests" */;
+			buildPhases = (
+				181CD4741C390EB200EE30E5 /* Sources */,
+				181CD4751C390EB200EE30E5 /* Frameworks */,
+				181CD4761C390EB200EE30E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181CD47A1C390EB200EE30E5 /* PBXTargetDependency */,
+			);
+			name = Game_ChessUITests;
+			productName = Game_ChessUITests;
+			productReference = 181CD4781C390EB200EE30E5 /* Game_ChessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181CD44C1C390EB200EE30E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = wxh;
+				TargetAttributes = {
+					181CD4531C390EB200EE30E5 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					181CD46C1C390EB200EE30E5 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 181CD4531C390EB200EE30E5;
+					};
+					181CD4771C390EB200EE30E5 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 181CD4531C390EB200EE30E5;
+					};
+				};
+			};
+			buildConfigurationList = 181CD44F1C390EB200EE30E5 /* Build configuration list for PBXProject "Game_Chess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181CD44B1C390EB200EE30E5;
+			productRefGroup = 181CD4551C390EB200EE30E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181CD4531C390EB200EE30E5 /* Game_Chess */,
+				181CD46C1C390EB200EE30E5 /* Game_ChessTests */,
+				181CD4771C390EB200EE30E5 /* Game_ChessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181CD4521C390EB200EE30E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181CD4671C390EB200EE30E5 /* LaunchScreen.storyboard in Resources */,
+				18DED0101C390FA00025BC58 /* WXHMainViewController.xib in Resources */,
+				18DED0161C3917F30025BC58 /* sound.wav in Resources */,
+				181CD4641C390EB200EE30E5 /* Assets.xcassets in Resources */,
+				18DED0121C390FA00025BC58 /* WXHGameViewController.xib in Resources */,
+				18DED0141C390FA00025BC58 /* WXHGameSettingViewController.xib in Resources */,
+				181CD4621C390EB200EE30E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181CD46B1C390EB200EE30E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181CD4761C390EB200EE30E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181CD4501C390EB200EE30E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DED00A1C390FA00025BC58 /* WXHNode.m in Sources */,
+				18DED00B1C390FA00025BC58 /* WXHParent.m in Sources */,
+				18DED00D1C390FA00025BC58 /* WXHPlayer.m in Sources */,
+				181CD45F1C390EB200EE30E5 /* ViewController.m in Sources */,
+				18DED00E1C390FA00025BC58 /* WXHAIComputer.m in Sources */,
+				18DECFEF1C390F540025BC58 /* WXHGameAreaView.m in Sources */,
+				18DED00C1C390FA00025BC58 /* WXHUtils.m in Sources */,
+				18DED0111C390FA00025BC58 /* WXHGameViewController.m in Sources */,
+				18DED00F1C390FA00025BC58 /* WXHMainViewController.m in Sources */,
+				181CD45C1C390EB200EE30E5 /* AppDelegate.m in Sources */,
+				181CD4591C390EB200EE30E5 /* main.m in Sources */,
+				18DED0131C390FA00025BC58 /* WXHGameSettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181CD4691C390EB200EE30E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181CD4721C390EB200EE30E5 /* Game_ChessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181CD4741C390EB200EE30E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181CD47D1C390EB200EE30E5 /* Game_ChessUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181CD46F1C390EB200EE30E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181CD4531C390EB200EE30E5 /* Game_Chess */;
+			targetProxy = 181CD46E1C390EB200EE30E5 /* PBXContainerItemProxy */;
+		};
+		181CD47A1C390EB200EE30E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181CD4531C390EB200EE30E5 /* Game_Chess */;
+			targetProxy = 181CD4791C390EB200EE30E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181CD4601C390EB200EE30E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181CD4611C390EB200EE30E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		181CD4651C390EB200EE30E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181CD4661C390EB200EE30E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181CD47F1C390EB200EE30E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		181CD4801C390EB200EE30E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181CD4821C390EB200EE30E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Game_Chess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wxh.Game-Chess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		181CD4831C390EB200EE30E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Game_Chess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wxh.Game-Chess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		181CD4851C390EB200EE30E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Game_ChessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wxh.Game-ChessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Game_Chess.app/Game_Chess";
+			};
+			name = Debug;
+		};
+		181CD4861C390EB200EE30E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Game_ChessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wxh.Game-ChessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Game_Chess.app/Game_Chess";
+			};
+			name = Release;
+		};
+		181CD4881C390EB200EE30E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Game_ChessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wxh.Game-ChessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Game_Chess;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		181CD4891C390EB200EE30E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Game_ChessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wxh.Game-ChessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Game_Chess;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181CD44F1C390EB200EE30E5 /* Build configuration list for PBXProject "Game_Chess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181CD47F1C390EB200EE30E5 /* Debug */,
+				181CD4801C390EB200EE30E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181CD4811C390EB200EE30E5 /* Build configuration list for PBXNativeTarget "Game_Chess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181CD4821C390EB200EE30E5 /* Debug */,
+				181CD4831C390EB200EE30E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181CD4841C390EB200EE30E5 /* Build configuration list for PBXNativeTarget "Game_ChessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181CD4851C390EB200EE30E5 /* Debug */,
+				181CD4861C390EB200EE30E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181CD4871C390EB200EE30E5 /* Build configuration list for PBXNativeTarget "Game_ChessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181CD4881C390EB200EE30E5 /* Debug */,
+				181CD4891C390EB200EE30E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181CD44C1C390EB200EE30E5 /* Project object */;
+}
