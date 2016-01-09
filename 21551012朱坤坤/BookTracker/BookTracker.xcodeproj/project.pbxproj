@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		672285DE1C4158B400FD87D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 672285DD1C4158B400FD87D2 /* Assets.xcassets */; };
 		6730DAD61C398A1E00C15FBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6730DAD51C398A1E00C15FBC /* AppDelegate.swift */; };
 		6730DAE01C398A1E00C15FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6730DADE1C398A1E00C15FBC /* LaunchScreen.storyboard */; };
 		6730DAEB1C398A1E00C15FBC /* BookTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6730DAEA1C398A1E00C15FBC /* BookTrackerTests.swift */; };
-		6730DB011C398B0000C15FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6730DB001C398B0000C15FBC /* Assets.xcassets */; };
 		6730DB031C3A2BF300C15FBC /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6730DB021C3A2BF300C15FBC /* BookViewController.swift */; };
 		6730DB051C3A2C7F00C15FBC /* BookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6730DB041C3A2C7F00C15FBC /* BookTableViewController.swift */; };
 		6730DB091C3A2C8700C15FBC /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6730DB061C3A2C8700C15FBC /* Book.swift */; };
@@ -30,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		672285DD1C4158B400FD87D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6730DAD21C398A1E00C15FBC /* BookTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6730DAD51C398A1E00C15FBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6730DADF1C398A1E00C15FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		6730DAE61C398A1E00C15FBC /* BookTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6730DAEA1C398A1E00C15FBC /* BookTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTrackerTests.swift; sourceTree = "<group>"; };
 		6730DAEC1C398A1E00C15FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6730DB001C398B0000C15FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../../Downloads/Start-Dev-iOS-Apps-08/FoodTracker - Implement Navigation/FoodTracker/Assets.xcassets"; sourceTree = "<group>"; };
 		6730DB021C3A2BF300C15FBC /* BookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		6730DB041C3A2C7F00C15FBC /* BookTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewController.swift; sourceTree = "<group>"; };
 		6730DB061C3A2C8700C15FBC /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 				6730DAD51C398A1E00C15FBC /* AppDelegate.swift */,
 				6730DB021C3A2BF300C15FBC /* BookViewController.swift */,
 				6730DB0C1C3A2CD000C15FBC /* Main.storyboard */,
-				6730DB001C398B0000C15FBC /* Assets.xcassets */,
+				672285DD1C4158B400FD87D2 /* Assets.xcassets */,
 				6730DB041C3A2C7F00C15FBC /* BookTableViewController.swift */,
 				6730DB061C3A2C8700C15FBC /* Book.swift */,
 				6730DB071C3A2C8700C15FBC /* BookTableViewCell.swift */,
@@ -191,7 +191,7 @@
 			files = (
 				6730DB0D1C3A2CD000C15FBC /* Main.storyboard in Resources */,
 				6730DAE01C398A1E00C15FBC /* LaunchScreen.storyboard in Resources */,
-				6730DB011C398B0000C15FBC /* Assets.xcassets in Resources */,
+				672285DE1C4158B400FD87D2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
